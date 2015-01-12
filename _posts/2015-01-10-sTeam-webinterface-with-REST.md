@@ -2,6 +2,9 @@
 title: Rebuild the webinterface for the sTeam collaboration platform using a REST api
 layout: index
 ---
+Frontend Webapplication Design and Development
+
+
 Rebuild the webinterface for the sTeam collaboration platform using a REST api
 
 

@@ -2,6 +2,9 @@
 title: Redesign and improve the process of importing Fedora packages into Foresight Linux
 layout: index
 ---
+Linux Distribution Management
+
+
 Redesign and improve the process of importing Fedora packages into Foresight Linux
 
 

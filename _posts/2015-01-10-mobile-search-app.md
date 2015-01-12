@@ -2,6 +2,9 @@
 title: Create a mobile application for offline text search
 layout: index
 ---
+Mobile Application Development
+
+
 Create a mobile application for offline text search
 
 This application is to enable the user to research a set of books or texts,

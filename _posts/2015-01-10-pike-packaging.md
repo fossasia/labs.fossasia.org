@@ -2,6 +2,8 @@
 title: Package Pike 8.0 for all Linux distributions
 layout: index
 ---
+Linux Packaging
+
 Package Pike 8.0 for all Linux distributions
 
 The Pike Programming Language is nearing its 8.0 release.

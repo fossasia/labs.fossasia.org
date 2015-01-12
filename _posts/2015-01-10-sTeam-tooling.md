@@ -2,6 +2,8 @@
 title: Improve the tooling for the sTeam collaboration platform
 layout: index
 ---
+Developer Tools Development
+
 Improve the tooling for the sTeam collaboration platform
 
 Open sTeam is a collaboration platform developed at the University of Paderborn in germany.

@@ -2,6 +2,8 @@
 title: Create a file editor and asset manager solution with smalltalk
 layout: index
 ---
+Smalltalk Developer Tools Development
+
 Create a file editor and asset manager solution with smalltalk
 
 
