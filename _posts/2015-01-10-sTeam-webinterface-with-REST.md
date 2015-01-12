@@ -1,5 +1,6 @@
 ---
 title: Rebuild the webinterface for the sTeam collaboration platform using a REST api
+layout: index
 ---
 Rebuild the webinterface for the sTeam collaboration platform using a REST api
 

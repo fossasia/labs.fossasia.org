@@ -1,5 +1,6 @@
 ---
 title: Create search functions and import pattern functions for Valentina
+layout: index
 ---
 Open Design Projects, Garments, Knitting
 

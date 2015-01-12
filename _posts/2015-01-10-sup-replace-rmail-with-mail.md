@@ -1,5 +1,6 @@
 ---
 title: Replace the rmail library in the sup email client with mail
+layout: index
 ---
 Replace the rmail library in the sup email client with mail
 

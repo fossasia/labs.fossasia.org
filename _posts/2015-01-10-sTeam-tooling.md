@@ -1,5 +1,6 @@
 ---
 title: Improve the tooling for the sTeam collaboration platform
+layout: index
 ---
 Improve the tooling for the sTeam collaboration platform
 

@@ -1,5 +1,6 @@
 ---
 title: OpenCoin Digital Cash App
+layout: index
 ---
 Peer to Peer Technologies and Cryptography
 

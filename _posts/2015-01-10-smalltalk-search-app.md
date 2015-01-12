@@ -1,5 +1,6 @@
 ---
 title: Create a smalltalk application for offline text search
+layout: index
 ---
 Create a smalltalk application for offline text search
 

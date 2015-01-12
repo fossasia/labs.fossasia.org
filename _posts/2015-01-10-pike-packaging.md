@@ -1,5 +1,6 @@
 ---
 title: Package Pike 8.0 for all Linux distributions
+layout: index
 ---
 Package Pike 8.0 for all Linux distributions
 

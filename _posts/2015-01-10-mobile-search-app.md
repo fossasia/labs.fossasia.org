@@ -1,5 +1,6 @@
 ---
 title: Create a mobile application for offline text search
+layout: index
 ---
 Create a mobile application for offline text search
 

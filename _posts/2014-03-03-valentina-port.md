@@ -1,5 +1,6 @@
 ---
 title: Port Valentina to different platforms, build packages and refactor code
+layout: index
 ---
 Port Valentina to different platforms, build packages and refactor code
 

@@ -1,5 +1,6 @@
 ---
 title: Redesign and improve the process of importing Fedora packages into Foresight Linux
+layout: index
 ---
 Redesign and improve the process of importing Fedora packages into Foresight Linux
 

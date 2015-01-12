@@ -1,5 +1,6 @@
 ---
 title: Rebuild the website for the Beijing GNU/Linux User Group with sTeam
+layout: index
 ---
 Rebuild the website for the Beijing GNU/Linux User Group with sTeam
 
