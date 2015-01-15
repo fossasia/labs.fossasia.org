@@ -1,6 +1,7 @@
 ---
 title: Add Design items and Measurement Tables for Patternshare
 layout: index
+desc: Open Design Projects, Garments, Knitting
 ---
 Open Design Projects, Garments, Knitting
 
@@ -15,8 +16,10 @@ Project: https://github.com/sconklin/tmtp-patternshare
 
 Website: http://www.taumeta.org
 
-Skill Level: Medium
+* * *
 
-Usefull skills: Implementation of Mathematical Algorithms, Javascript, Fabric,js, Rafael.js, HTML, vector graphics
+Skill Level: **Medium**
 
-Mentors: Hong Phuc Dang to be announced
+Usefull skills: **Implementation of Mathematical Algorithms, Javascript, Fabric,js, Rafael.js, HTML, vector graphics**
+
+Mentors: **Hong Phuc Dang to be announced**

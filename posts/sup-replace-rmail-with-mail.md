@@ -1,6 +1,7 @@
 ---
 title: Replace the rmail library in the sup email client with mail
 layout: index
+desc: Ruby Application Development
 ---
 Ruby Application Development
 
@@ -21,6 +22,10 @@ the point that sup developers can base their official releases on your work.
 Project: http://supmua.org/
 Mailing list: supmua@googlegroups.com
 
-Skill level: medium
-Useful skills: ruby
-Mentors: Martin Bähr, sup developers
+* * *
+
+Skill level: **medium**
+
+Useful skills: **ruby**
+
+Mentors: **Martin Bähr, sup developers**

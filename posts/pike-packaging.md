@@ -1,6 +1,7 @@
 ---
 title: Package Pike 8.0 for all Linux distributions
 layout: index
+desc: Linux Packaging
 ---
 Linux Packaging
 
@@ -16,6 +17,10 @@ It is probably best to use the openSUSE build service, however care needs to be
 taken that the resulting packages satisfy the various distributions
 requirements for acceptance.
 
-Skill Level: low
-Useful skills: familiarity with Linux packaging and compiling
-Mentors: Martin Bähr
+* * *
+
+Skill Level: **low**
+
+Useful skills: **familiarity with Linux packaging and compiling**
+
+Mentors: **Martin Bähr**

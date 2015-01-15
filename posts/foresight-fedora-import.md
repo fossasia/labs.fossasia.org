@@ -1,6 +1,7 @@
 ---
 title: Redesign and improve the process of importing Fedora packages into Foresight Linux
 layout: index
+desc: Linux Distribution Management
 ---
 Linux Distribution Management
 
@@ -25,6 +26,10 @@ to use conary tools to generate a dependency graph. Using this graph you will
 sort the fedora packages according to importance and update the import scripts
 to import packages in that order.
 
-Skill level: medium
-Usefil skills: python
-Mentors: Martin Bähr, Bretts
+* * *
+
+Skill level: **medium**
+
+Usefil skills: **python**
+
+Mentors: **Martin Bähr, Bretts**

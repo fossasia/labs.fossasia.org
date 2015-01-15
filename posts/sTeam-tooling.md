@@ -1,6 +1,7 @@
 ---
 title: Improve the tooling for the sTeam collaboration platform
 layout: index
+desc: Developer Tools Development
 ---
 Developer Tools Development
 
@@ -24,6 +25,10 @@ sTeam is written in Pike, a programming language similar to Java and python.
 Pike is not hard to learn so you will have no trouble writing pike code within
 a few days.
 
-Skill level: medium
-Useful skills: familiarity with a language like python, ruby, java...
-Mentors: Martin Bähr
+* * *
+
+Skill level: **medium**
+
+Useful skills: **familiarity with a language like python, ruby, java...**
+
+Mentors: **Martin Bähr**

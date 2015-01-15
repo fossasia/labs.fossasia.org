@@ -1,6 +1,7 @@
 ---
 title: Rebuild the website for the Beijing GNU/Linux User Group with sTeam
 layout: index
+desc: Website Design and Development
 ---
 Website Design and Development
 
@@ -28,6 +29,10 @@ content from the old site should be imported to the new site were possible
 
 The design may be copied or changed at your disgression.
 
-Skill level: medium
-Useful Skills: webdesign, javascript, angular.js, REST
-Mentors: Martin Bähr
+* * *
+
+Skill level: **medium**
+
+Useful Skills: **webdesign, javascript, angular.js, REST**
+
+Mentors: **Martin Bähr**

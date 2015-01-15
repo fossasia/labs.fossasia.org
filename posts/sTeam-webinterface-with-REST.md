@@ -1,6 +1,7 @@
 ---
 title: Rebuild the webinterface for the sTeam collaboration platform using a REST api
 layout: index
+desc: Frontend Webapplication Design and Development
 ---
 Frontend Webapplication Design and Development
 
@@ -21,6 +22,10 @@ admin interface.
 You may also need to extend the RESTful API to support functionality not
 available yet.
 
-Skill level: medium
-Useful skills: javascript, angular.js, user interface design, RESTful APIs.
-Mentors: Martin Bähr
+* * *
+
+Skill level: **medium**
+
+Useful skills: **javascript, angular.js, user interface design, RESTful APIs.**
+
+Mentors: **Martin Bähr**

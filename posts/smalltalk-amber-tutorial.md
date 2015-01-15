@@ -1,9 +1,9 @@
 ---
 title: document how to build a website using the amber smalltalk framework
 layout: index
+desc: Frontend Webapplication Development and Documentation
 ---
 Frontend Webapplication Development and Documentation
-
 
 amber ( http://amber-lang.net/ ) is an implementation of smalltalk that compiles to javascript, similar to coffeescript and other languages.
 
@@ -17,6 +17,10 @@ both versions should integrate with a RESTful backend, which is being created in
 
 License: your code from this task and your weblog post should be published under the following licenses: CC-BY-SA, GNU FDL, GNU GPL v2 or later.
 
-Skill level: medium
-Useful skills: smalltalk, javascript, angular.js, user interface design, REST
-Mentors: Martin Bähr
+* * *
+
+Skill level: **medium**
+
+Useful skills: **smalltalk, javascript, angular.js, user interface design, REST**
+
+Mentors: **Martin Bähr**
