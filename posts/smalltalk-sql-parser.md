@@ -1,6 +1,7 @@
 ---
 title: Smalltalk SQL Parser & Evaluator
 layout: index
+desc: Using PetitParser, take SQL and evaluate it in Smalltalk.
 ---
 Using PetitParser, take SQL and evaluate it in Smalltalk.
 
@@ -9,8 +10,10 @@ for SQL and translate SQL queries into requests for Smalltalk objects.
 This would give a good overview of parsers, compilers, and of database query
 optimization.
 
-Skill level: medium to advanced
+* * *
 
-Useful Skills: SQL, Smalltalk
+Skill level: **medium to advanced**
 
-Mentor: James Foster
+Useful Skills: **SQL, Smalltalk**
+
+Mentor: **James Foster**

@@ -1,6 +1,7 @@
 ---
 title: Create a file editor and asset manager solution with smalltalk
 layout: index
+desc: Smalltalk Developer Tools Development
 ---
 Smalltalk Developer Tools Development
 
@@ -20,6 +21,10 @@ working on the application.
 
 Resources: http://pharo.org/
 
-Skill Level: medium
-Useful skills: user interface design, smalltalk
-Mentors: Martin Bähr
+* * *
+
+Skill Level: **medium**
+
+Useful skills: **user interface design, smalltalk**
+
+Mentors: **Martin Bähr**

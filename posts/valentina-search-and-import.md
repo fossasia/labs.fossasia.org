@@ -1,6 +1,7 @@
 ---
 title: Create search functions and import pattern functions for Valentina
 layout: index
+desc: Open Design Projects, Garments, Knitting
 ---
 Open Design Projects, Garments, Knitting
 
@@ -18,8 +19,10 @@ Project: Valentina Patternmaking Project
 
 Website: http://www.valentina-project.org
 
-Skill Level: Medium
+* * *
 
-Usefull skills: Vector graphics, C++, Qt5, basic knowledge of garment patterns, basic knowledge of generating patterns from formulas
+Skill Level: **Medium**
 
-Mentors: Hong Phuc Dang to be announced
+Usefull skills: **Vector graphics, C++, Qt5, basic knowledge of garment patterns, basic knowledge of generating patterns from formulas**
+
+Mentors: **Hong Phuc Dang to be announced**

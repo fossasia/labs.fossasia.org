@@ -1,6 +1,7 @@
 ---
 title: create a weblog frontend for the sTeam collaboration platform
 layout: index
+desc: Frontend Webapplication Design and Development
 ---
 Frontend Webapplication Design and Development
 
@@ -12,7 +13,10 @@ In this project you will create a weblog frontend using the RESTful api. Using t
 
 License: this application should be licensed as "GPLv2 or later" or any compatible license.
 
+* * *
 
-Skill level: medium
-Useful skills: javascript, angular.js, user interface design, RESTful APIs.
-Mentors: Martin Bähr
+Skill level: **medium**
+
+Useful skills: **javascript, angular.js, user interface design, RESTful APIs.**
+
+Mentors: **Martin Bähr**
