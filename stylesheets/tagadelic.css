@@ -1,0 +1,46 @@
+/* Tagadelic default example stylesheet **/
+
+.tag-cloud {
+  text-align : justify;
+}
+
+#content ul.tag-cloud,
+#content ul.tag-cloud li,
+ul.tag-cloud,
+ul.tag-cloud li {
+  display: inline;
+  margin:0;
+  padding:0 0.25em 0 0;
+}
+
+.level1 {
+  font-size : 1em;
+}
+.level2 {
+  font-size : 1.2em;
+}
+.level3 {
+  font-size : 1.4em;
+}
+.level4 {
+  font-size : 1.6em;
+}
+.level5 {
+  font-size : 1.8em;
+}
+.level6 {
+  font-size : 2em;
+}
+.level7 {
+  font-size : 2.2em;
+}
+.level8 {
+  font-size : 2.4em;
+}
+.level9 {
+  font-size : 2.6em;
+}
+.level10 {
+  font-size : 2.8em;
+}
+

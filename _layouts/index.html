@@ -10,41 +10,35 @@
 <link rel="canonical" href="{{ page.url }}" />
 <meta name="FOSSASIA Labs" content="FOSSASIA Labs (http://fossasia.org)" />
 <title> {{ page.title }} | FOSSASIA Labs | Open Source Technnology Community in Asia </title>
-  <style type="text/css" media="all">
-@import url("http://blog.fossasia.org/modules/system/system.base.css?nhzc07");
-@import url("http://blog.fossasia.org/modules/system/system.menus.css?nhzc07");
-@import url("http://blog.fossasia.org/modules/system/system.messages.css?nhzc07");
-@import url("http://blog.fossasia.org/modules/system/system.theme.css?nhzc07");
-</style>
 <style type="text/css" media="all">
-@import url("http://blog.fossasia.org/modules/field/theme/field.css?nhzc07");
-@import url("http://blog.fossasia.org/modules/node/node.css?nhzc07");
-@import url("http://blog.fossasia.org/modules/user/user.css?nhzc07");
-</style>
-<style type="text/css" media="all">
-@import url("http://blog.fossasia.org/sites/all/modules/dhtml_menu/dhtml_menu.css?nhzc07");
-@import url("http://blog.fossasia.org/sites/all/modules/tagadelic/tagadelic.css?nhzc07");
-</style>
-<style type="text/css" media="all">
-@import url("http://blog.fossasia.org/themes/bartik/css/layout.css?nhzc07");
-@import url("http://blog.fossasia.org/themes/bartik/css/style.css?nhzc07");
-@import url("http://blog.fossasia.org/sites/default/files/color/bartik-826edd1b/colors.css?nhzc07");
+@import url("{{ site.baseurl }}/stylesheets/system.css");
+@import url("{{ site.baseurl }}/stylesheets/system.menus.css");
+@import url("{{ site.baseurl }}/stylesheets/system.messages.css");
+@import url("{{ site.baseurl }}/stylesheets/system.theme.css");
+@import url("{{ site.baseurl }}/stylesheets/field.css");
+@import url("{{ site.baseurl }}/stylesheets/node.css");
+@import url("{{ site.baseurl }}/stylesheets/user.css");
+@import url("{{ site.baseurl }}/stylesheets/dhtml.css");
+@import url("{{ site.baseurl }}/stylesheets/tagadelic.css");
+@import url("{{ site.baseurl }}/stylesheets/layout.css");
+@import url("{{ site.baseurl }}/stylesheets/style.css");
+@import url("{{ site.baseurl }}/stylesheets/colors.css");
 </style>
 <style type="text/css" media="print">
-@import url("http://blog.fossasia.org/themes/bartik/css/print.css?nhzc07");
+@import url("{{ site.baseurl }}/stylesheets/print.css");
 </style>
 
 <!--[if lte IE 7]>
-<link type="text/css" rel="stylesheet" href="http://blog.fossasia.org/themes/bartik/css/ie.css?nhzc07" media="all" />
+<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/stylesheets/ie.css" media="all" />
 <![endif]-->
 
 <!--[if IE 6]>
-<link type="text/css" rel="stylesheet" href="http://blog.fossasia.org/themes/bartik/css/ie6.css?nhzc07" media="all" />
+<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/stylesheets/ie6.css" media="all" />
 <![endif]-->
-  <script type="text/javascript" src="http://blog.fossasia.org/misc/jquery.js?v=1.4.4"></script>
-<script type="text/javascript" src="http://blog.fossasia.org/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://blog.fossasia.org/misc/drupal.js?nhzc07"></script>
-<script type="text/javascript" src="http://blog.fossasia.org/sites/all/modules/dhtml_menu/dhtml_menu.js?nhzc07"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/jquery.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/jquery.once.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/drupal.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/dhtml.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"2GhHrlTg32X3qFGk5S-OvauQVp0HVW7WkJh_fpjuF1c","js":{"modules\/statistics\/statistics.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/dhtml_menu\/dhtml_menu.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/dhtml_menu\/dhtml_menu.css":1,"sites\/all\/modules\/tagadelic\/tagadelic.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"dhtmlMenu":{"nav":"clone","animation":{"effects":{"height":"height","opacity":"opacity","width":0},"speed":"500"},"effects":{"siblings":"close-same-tree","children":"none","remember":"0"},"filter":{"type":null,"list":{"management":"management","navigation":"navigation","admin_menu":0,"main-menu":0,"menu-fossasia-agenda":0,"menu-links":0,"menu-our-friend":0,"secondary-menu":0,"user-menu":0}}},"statistics":{"data":{"nid":"252"},"url":"\/?q=modules\/statistics\/statistics.php"}});
@@ -318,6 +312,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   </div></div> <!-- /.section, /#footer-wrapper -->
 
 </div></div> <!-- /#page, /#page-wrapper -->
-  <script type="text/javascript" src="http://blog.fossasia.org/modules/statistics/statistics.js?nhzc07"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/javascripts/stats.js"></script>
 </body>
 </html>
