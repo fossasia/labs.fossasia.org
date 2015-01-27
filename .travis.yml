@@ -1,0 +1,16 @@
+language: ruby
+
+before_install:
+  - gem install github-pages --no-rdoc --no-ri
+
+rvm:
+- 2.1
+script: jekyll build
+
+branches:
+  only:
+  - gh-pages
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
