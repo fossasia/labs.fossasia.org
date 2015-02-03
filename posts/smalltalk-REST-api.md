@@ -2,6 +2,7 @@
 title: implement a REST API server in Smalltalk
 layout: index
 desc: To allow creating javacript websites with Smalltalk as a backend, implement a RESTful API to manipulate Smalltalk objects. (list, retrieve, update, add, delete)
+status: open
 ---
 To allow creating javacript websites with Smalltalk as a backend, implement a RESTful API to manipulate Smalltalk objects. (list, retrieve, update, add, delete)
 

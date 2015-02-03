@@ -2,6 +2,7 @@
 title: Rebuild the website for the Beijing GNU/Linux User Group with sTeam
 layout: index
 desc: Website Design and Development
+status: open
 ---
 Website Design and Development
 

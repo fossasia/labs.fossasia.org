@@ -2,6 +2,7 @@
 title: Add Design items and Measurement Tables for Patternshare
 layout: index
 desc: Open Design Projects, Garments, Knitting
+status: open
 ---
 Open Design Projects, Garments, Knitting
 

@@ -2,15 +2,43 @@
 title: FOSSASIA Labs
 layout: index
 ---
-<h2><a href="about.html">about our projects</a></h2>
-<h2>Current open projects or project ideas:</h2>
+<h2><a href="about.html">about our projects</a></h2><hr/>
+<h2 style="color: green">Current open projects or project ideas:</h2>
 <ul>
   {% for post in site.pages %}
   {% if post.url contains "posts/" %}
+  {% if post.status contains "open" %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a><br/>
       {{ post.desc }}<br/><br/>
     </li>
   {% endif %}
+  {% endif %}
   {% endfor %}
-</ul>
+</ul><hr/>
+<h2 style="color: purple">Projects being currently worked on:</h2>
+<ul>
+  {% for post in site.pages %}
+  {% if post.url contains "posts/" %}
+  {% if post.status contains "dev" %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br/>
+      {{ post.desc }}<br/><br/>
+    </li>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</ul><hr/>
+<h2 style="color: red">Closed projects or projects ideas:</h2>
+<ul>
+  {% for post in site.pages %}
+  {% if post.url contains "posts/" %}
+  {% if post.status contains "close" %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br/>
+      {{ post.desc }}<br/><br/>
+    </li>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</ul><hr/>

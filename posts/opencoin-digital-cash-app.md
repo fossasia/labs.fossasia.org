@@ -2,6 +2,7 @@
 title: OpenCoin Digital Cash App
 layout: index
 desc: Peer to Peer Technologies and Cryptography
+status: open
 ---
 Peer to Peer Technologies and Cryptography
 

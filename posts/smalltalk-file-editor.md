@@ -2,6 +2,7 @@
 title: Create a file editor and asset manager solution with smalltalk
 layout: index
 desc: Smalltalk Developer Tools Development
+status: open
 ---
 Smalltalk Developer Tools Development
 

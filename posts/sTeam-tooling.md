@@ -2,6 +2,7 @@
 title: Improve the tooling for the sTeam collaboration platform
 layout: index
 desc: Developer Tools Development
+status: open
 ---
 Developer Tools Development
 

@@ -2,6 +2,7 @@
 title: Smalltalk SQL Parser & Evaluator
 layout: index
 desc: Using PetitParser, take SQL and evaluate it in Smalltalk.
+status: open
 ---
 Using PetitParser, take SQL and evaluate it in Smalltalk.
 

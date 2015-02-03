@@ -2,6 +2,7 @@
 title: Port Valentina to different platforms, build packages and refactor code
 layout: index
 desc: Open Design Projects, Garments, Knitting
+status: open
 ---
 Open Design Projects, Garments, Knitting
 

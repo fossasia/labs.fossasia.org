@@ -2,6 +2,7 @@
 title: Create a mobile application for offline text search
 layout: index
 desc: Mobile Application Development
+status: dev
 ---
 Mobile Application Development
 

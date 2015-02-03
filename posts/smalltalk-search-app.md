@@ -2,6 +2,7 @@
 title: Create a smalltalk application for offline text search
 layout: index
 desc: Smalltalk Application Development
+status: open
 ---
 Smalltalk Application Development
 

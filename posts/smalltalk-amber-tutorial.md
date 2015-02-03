@@ -2,6 +2,7 @@
 title: document how to build a website using the amber smalltalk framework
 layout: index
 desc: Frontend Webapplication Development and Documentation
+status: open
 ---
 Frontend Webapplication Development and Documentation
 

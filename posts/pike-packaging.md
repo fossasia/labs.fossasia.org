@@ -2,6 +2,7 @@
 title: Package Pike 8.0 for all Linux distributions
 layout: index
 desc: Linux Packaging
+status: open
 ---
 Linux Packaging
 

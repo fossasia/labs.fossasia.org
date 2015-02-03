@@ -2,6 +2,7 @@
 title: Create search functions and import pattern functions for Valentina
 layout: index
 desc: Open Design Projects, Garments, Knitting
+status: open
 ---
 Open Design Projects, Garments, Knitting
 

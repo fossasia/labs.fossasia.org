@@ -2,6 +2,7 @@
 title: Replace the rmail library in the sup email client with mail
 layout: index
 desc: Ruby Application Development
+status: open
 ---
 Ruby Application Development
 

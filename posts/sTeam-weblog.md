@@ -2,6 +2,7 @@
 title: create a weblog frontend for the sTeam collaboration platform
 layout: index
 desc: Frontend Webapplication Design and Development
+status: open
 ---
 Frontend Webapplication Design and Development
 
