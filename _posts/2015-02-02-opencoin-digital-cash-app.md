@@ -1,6 +1,7 @@
 ---
 title: OpenCoin Digital Cash App
 layout: index
+permalink: opencoin-digital-cash-app
 desc: Peer to Peer Technologies and Cryptography
 status: open
 mentors: Jan Suhr [http://suhr.info](http://suhr.info), Joerg Baach [https://github.com/jhb](https://github.com/jhb)

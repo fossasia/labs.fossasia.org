@@ -1,6 +1,7 @@
 ---
 title: implement a REST API server in Smalltalk
 layout: index
+permalink: smalltalk-REST-api
 desc: To allow creating javacript websites with Smalltalk as a backend, implement a RESTful API to manipulate Smalltalk objects. (list, retrieve, update, add, delete)
 status: open
 mentors: Martin Bähr

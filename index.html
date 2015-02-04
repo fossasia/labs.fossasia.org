@@ -5,37 +5,31 @@ layout: index
 <h2><a href="about.html">about our projects</a></h2><hr/>
 <h2 style="color: green">Current open projects or project ideas:</h2>
 <ul>
-  {% for post in site.pages %}
-    {% if post.url contains "posts/" %}
-      {% if post.status contains "open" %}
-        <li>
-          {% include post-detail.html %}
-        </li>
-      {% endif %}
+  {% for post in site.posts %}
+    {% if post.status contains "open" %}
+      <li>
+        {% include post-detail.html %}
+      </li>
     {% endif %}
   {% endfor %}
 </ul><hr/>
 <h2 style="color: purple">Projects being currently worked on:</h2>
 <ul>
-  {% for post in site.pages %}
-    {% if post.url contains "posts/" %}
-      {% if post.status contains "dev" %}
-        <li>
-          {% include post-detail.html %}
-        </li>
-      {% endif %}
+  {% for post in site.posts %}
+    {% if post.status contains "dev" %}
+      <li>
+        {% include post-detail.html %}
+      </li>
     {% endif %}
   {% endfor %}
 </ul><hr/>
 <h2 style="color: red">Closed projects or projects ideas:</h2>
 <ul>
-  {% for post in site.pages %}
-    {% if post.url contains "posts/" %}
-      {% if post.status contains "close" %}
-        <li>
-          {% include post-detail.html %}
-        </li>
-      {% endif %}
+  {% for post in site.posts %}
+    {% if post.status contains "close" %}
+      <li>
+        {% include post-detail.html %}
+      </li>
     {% endif %}
   {% endfor %}
 </ul><hr/>

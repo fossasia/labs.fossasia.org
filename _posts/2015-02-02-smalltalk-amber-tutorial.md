@@ -1,6 +1,7 @@
 ---
 title: document how to build a website using the amber smalltalk framework
 layout: index
+permalink: smalltalk-amber-tutorial
 desc: Frontend Webapplication Development and Documentation
 status: open
 mentors: Martin Bähr
