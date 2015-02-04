@@ -6,39 +6,36 @@ layout: index
 <h2 style="color: green">Current open projects or project ideas:</h2>
 <ul>
   {% for post in site.pages %}
-  {% if post.url contains "posts/" %}
-  {% if post.status contains "open" %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br/>
-      {{ post.desc }}<br/><br/>
-    </li>
-  {% endif %}
-  {% endif %}
+    {% if post.url contains "posts/" %}
+      {% if post.status contains "open" %}
+        <li>
+          {% include post-detail.html %}
+        </li>
+      {% endif %}
+    {% endif %}
   {% endfor %}
 </ul><hr/>
 <h2 style="color: purple">Projects being currently worked on:</h2>
 <ul>
   {% for post in site.pages %}
-  {% if post.url contains "posts/" %}
-  {% if post.status contains "dev" %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br/>
-      {{ post.desc }}<br/><br/>
-    </li>
-  {% endif %}
-  {% endif %}
+    {% if post.url contains "posts/" %}
+      {% if post.status contains "dev" %}
+        <li>
+          {% include post-detail.html %}
+        </li>
+      {% endif %}
+    {% endif %}
   {% endfor %}
 </ul><hr/>
 <h2 style="color: red">Closed projects or projects ideas:</h2>
 <ul>
   {% for post in site.pages %}
-  {% if post.url contains "posts/" %}
-  {% if post.status contains "close" %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br/>
-      {{ post.desc }}<br/><br/>
-    </li>
-  {% endif %}
-  {% endif %}
+    {% if post.url contains "posts/" %}
+      {% if post.status contains "close" %}
+        <li>
+          {% include post-detail.html %}
+        </li>
+      {% endif %}
+    {% endif %}
   {% endfor %}
 </ul><hr/>
