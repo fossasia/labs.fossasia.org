@@ -3,6 +3,9 @@ title: create a weblog frontend for the sTeam collaboration platform
 layout: index
 desc: Frontend Webapplication Design and Development
 status: open
+mentors: Martin Bähr
+skill-level: medium
+skills: javascript, angular.js, user interface design, RESTful APIs.
 ---
 Frontend Webapplication Design and Development
 
@@ -16,8 +19,8 @@ License: this application should be licensed as "GPLv2 or later" or any compatib
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Useful skills: **javascript, angular.js, user interface design, RESTful APIs.**
+Useful skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

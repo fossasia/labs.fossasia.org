@@ -3,6 +3,9 @@ title: Port Valentina to different platforms, build packages and refactor code
 layout: index
 desc: Open Design Projects, Garments, Knitting
 status: open
+mentors: to be announced
+skill-level: Medium
+skills: C++, Qt , Windows exe build, MacOSX, Linux packaging
 ---
 Open Design Projects, Garments, Knitting
 
@@ -45,8 +48,8 @@ Mailing List: https://groups.google.com/forum/#!forum/valentina-project-list
 
 * * *
 
-Skill Level: **Medium**
+Skill Level: **{{ page.skill-level }}**
 
-Usefull skills: **C++, Qt , Windows exe build, MacOSX, Linux packaging**
+Usefull skills: **{{ page.skills }}**
 
-Mentors: **to be announced**
+Mentors: **{{ page.mentors }}**

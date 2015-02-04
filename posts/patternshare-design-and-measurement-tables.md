@@ -3,6 +3,9 @@ title: Add Design items and Measurement Tables for Patternshare
 layout: index
 desc: Open Design Projects, Garments, Knitting
 status: open
+mentors: Hong Phuc Dang to be announced
+skill-level: medium
+skills: Implementation of Mathematical Algorithms, Javascript, Fabric,js, Rafael.js, HTML, vector graphics
 ---
 Open Design Projects, Garments, Knitting
 
@@ -19,8 +22,8 @@ Website: http://www.taumeta.org
 
 * * *
 
-Skill Level: **Medium**
+Skill Level: **{{ page.skill-level }}**
 
-Usefull skills: **Implementation of Mathematical Algorithms, Javascript, Fabric,js, Rafael.js, HTML, vector graphics**
+Usefull skills: **{{ page.skills }}**
 
-Mentors: **Hong Phuc Dang to be announced**
+Mentors: **{{ page.mentors }}**

@@ -3,6 +3,9 @@ title: Replace the rmail library in the sup email client with mail
 layout: index
 desc: Ruby Application Development
 status: open
+mentors: Martin Bähr, sup developers
+skill-level: medium
+skills: ruby
 ---
 Ruby Application Development
 
@@ -25,8 +28,8 @@ Mailing list: supmua@googlegroups.com
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Useful skills: **ruby**
+Useful skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr, sup developers**
+Mentors: **{{ page.mentors }}**

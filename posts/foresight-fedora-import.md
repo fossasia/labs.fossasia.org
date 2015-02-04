@@ -3,6 +3,9 @@ title: Redesign and improve the process of importing Fedora packages into Foresi
 layout: index
 desc: Linux Distribution Management
 status: open
+mentors: 'Martin Bähr, Bretts'
+skill-level: medium
+skills: python
 ---
 Linux Distribution Management
 
@@ -29,8 +32,8 @@ to import packages in that order.
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Usefil skills: **python**
+Usefil skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr, Bretts**
+Mentors: **{{ page.mentors }}**

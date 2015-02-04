@@ -3,6 +3,9 @@ title: Smalltalk SQL Parser & Evaluator
 layout: index
 desc: Using PetitParser, take SQL and evaluate it in Smalltalk.
 status: open
+mentors: James Foster
+skill-level: medium to advanced
+skills: SQL, Smalltalk
 ---
 Using PetitParser, take SQL and evaluate it in Smalltalk.
 
@@ -13,8 +16,8 @@ optimization.
 
 * * *
 
-Skill level: **medium to advanced**
+Skill level: **{{ page.skill-level }}**
 
-Useful Skills: **SQL, Smalltalk**
+Useful Skills: **{{ page.skills }}**
 
-Mentor: **James Foster**
+Mentor: **{{ page.mentors }}**

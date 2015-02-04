@@ -3,6 +3,9 @@ title: Rebuild the webinterface for the sTeam collaboration platform using a RES
 layout: index
 desc: Frontend Webapplication Design and Development
 status: open
+mentors: Martin Bähr
+skills: javascript, angular.js, user interface design, RESTful APIs.
+skill-level: medium
 ---
 Frontend Webapplication Design and Development
 
@@ -25,8 +28,8 @@ available yet.
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Useful skills: **javascript, angular.js, user interface design, RESTful APIs.**
+Useful skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

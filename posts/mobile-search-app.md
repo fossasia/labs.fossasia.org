@@ -3,6 +3,9 @@ title: Create a mobile application for offline text search
 layout: index
 desc: Mobile Application Development
 status: dev
+mentors: Martin Bähr
+skill-level: medium
+skills: user interface design, javascript, mobile development
 ---
 Mobile Application Development
 
@@ -33,8 +36,8 @@ The application should be portable to any mobile device
 
 * * *
 
-Skill Level: **Medium**
+Skill Level: **{{ page.skill-level }}**
 
-Usefull skills: **user interface design, javascript, mobile development**
+Usefull skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

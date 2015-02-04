@@ -3,6 +3,9 @@ title: Package Pike 8.0 for all Linux distributions
 layout: index
 desc: Linux Packaging
 status: open
+mentors: Martin Bähr
+skill-level: low
+skills: familiarity with Linux packaging and compiling
 ---
 Linux Packaging
 
@@ -20,8 +23,8 @@ requirements for acceptance.
 
 * * *
 
-Skill Level: **low**
+Skill Level: **{{ page.skill-level }}**
 
-Useful skills: **familiarity with Linux packaging and compiling**
+Useful skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

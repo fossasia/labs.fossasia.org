@@ -3,6 +3,9 @@ title: document how to build a website using the amber smalltalk framework
 layout: index
 desc: Frontend Webapplication Development and Documentation
 status: open
+mentors: Martin Bähr
+skills: smalltalk, javascript, angular.js, user interface design, REST
+skill-level: smalltalk, javascript, angular.js, user interface design, REST
 ---
 Frontend Webapplication Development and Documentation
 
@@ -20,8 +23,8 @@ License: your code from this task and your weblog post should be published under
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Useful skills: **smalltalk, javascript, angular.js, user interface design, REST**
+Useful skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

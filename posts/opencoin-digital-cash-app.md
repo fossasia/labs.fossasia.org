@@ -3,6 +3,9 @@ title: OpenCoin Digital Cash App
 layout: index
 desc: Peer to Peer Technologies and Cryptography
 status: open
+mentors: Jan Suhr [http://suhr.info](http://suhr.info), Joerg Baach [https://github.com/jhb](https://github.com/jhb)
+skill-level: Medium
+skills: Scala programming language, Twitter's Finagle server, SBT build tool, Optional - Eclipse IDE is recommended, Optional- Coins are stored in a SQL database via squeryl library
 ---
 Peer to Peer Technologies and Cryptography
 
@@ -15,9 +18,9 @@ Project: [http://opencoin.org](http://opencoin.org) , [https://github.com/OpenCo
 
 * * *
 
-Skill Level: **Medium**
+Skill Level: **{{ page.skill-level }}**
 
-Usefull skills: **Scala programming language, Twitter's Finagle server, SBT build tool, Optional: Eclipse IDE is recommended, Optional: Coins are stored in a SQL database via squeryl library**
+Usefull skills: **{{ page.skills }}**
 
 Getting Started:
 
@@ -27,4 +30,4 @@ Getting Started:
 
 * Develop and test the wallet
 
-Mentors: **Jan Suhr [http://suhr.info](http://suhr.info), Joerg Baach [https://github.com/jhb](https://github.com/jhb)**
+Mentors: **{{ page.mentors }}**

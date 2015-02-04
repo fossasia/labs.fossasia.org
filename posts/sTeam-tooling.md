@@ -3,6 +3,9 @@ title: Improve the tooling for the sTeam collaboration platform
 layout: index
 desc: Developer Tools Development
 status: open
+mentors: Martin Bähr
+skills: familiarity with a language like python, ruby, java...
+skill-level: medium
 ---
 Developer Tools Development
 
@@ -28,8 +31,8 @@ a few days.
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Useful skills: **familiarity with a language like python, ruby, java...**
+Useful skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

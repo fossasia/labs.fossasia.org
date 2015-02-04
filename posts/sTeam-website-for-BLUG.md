@@ -3,6 +3,9 @@ title: Rebuild the website for the Beijing GNU/Linux User Group with sTeam
 layout: index
 desc: Website Design and Development
 status: open
+mentors: Martin Bähr
+skills: webdesign, javascript, angular.js, REST
+skill-level: medium
 ---
 Website Design and Development
 
@@ -32,8 +35,8 @@ The design may be copied or changed at your disgression.
 
 * * *
 
-Skill level: **medium**
+Skill level: **{{ page.skill-level }}**
 
-Useful Skills: **webdesign, javascript, angular.js, REST**
+Useful Skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**

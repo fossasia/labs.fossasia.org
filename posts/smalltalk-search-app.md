@@ -3,6 +3,9 @@ title: Create a smalltalk application for offline text search
 layout: index
 desc: Smalltalk Application Development
 status: open
+mentors: Martin Bähr
+skills: user interfce design, smalltalk
+skill-level: Medium
 ---
 Smalltalk Application Development
 
@@ -40,8 +43,8 @@ Resources: http://pharo.org/
 
 * * *
 
-Skill Level: **Medium**
+Skill Level: **{{ page.skill-level }}**
 
-Usefull skills: **user interfce design, smalltalk**
+Usefull skills: **{{ page.skills }}**
 
-Mentors: **Martin Bähr**
+Mentors: **{{ page.mentors }}**
