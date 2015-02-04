@@ -1,7 +1,8 @@
 ---
 title: Package Pike 8.0 for all Linux distributions
 layout: index
-permalink: pike-packaging
+redirect_from: posts/pick-packaging.html
+permalink: projects/pike-packaging
 desc: Linux Packaging
 status: open
 mentors: Martin Bähr

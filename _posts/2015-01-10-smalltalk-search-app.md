@@ -1,7 +1,8 @@
 ---
 title: Create a smalltalk application for offline text search
 layout: index
-permalink: smalltalk-search-app
+redirect_from: posts/smalltalk-search-app.html
+permalink: projects/smalltalk-search-app
 desc: Smalltalk Application Development
 status: open
 mentors: Martin Bähr

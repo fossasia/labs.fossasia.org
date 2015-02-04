@@ -1,7 +1,8 @@
 ---
 title: Improve the tooling for the sTeam collaboration platform
 layout: index
-permalink: sTeam-tooling
+redirect_from: posts/sTeam-tooling.html
+permalink: projects/sTeam-tooling
 desc: Developer Tools Development
 status: open
 mentors: Martin Bähr

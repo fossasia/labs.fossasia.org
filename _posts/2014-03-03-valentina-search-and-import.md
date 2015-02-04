@@ -1,7 +1,8 @@
 ---
 title: Create search functions and import pattern functions for Valentina
 layout: index
-permalink: valentina-search-and-import
+permalink: projects/valentina-search-and-import
+redirect_from: posts/valentina-search-and-import.html
 desc: Open Design Projects, Garments, Knitting
 status: open
 mentors: Hong Phuc Dang to be announced

@@ -1,7 +1,8 @@
 ---
 title: Add Design items and Measurement Tables for Patternshare
 layout: index
-permalink: patternshare-design-and-measurement-tables
+redirect_from: posts/patternshare-design-and-measurement-tables.html
+permalink: projects/patternshare-design-and-measurement-tables
 desc: Open Design Projects, Garments, Knitting
 status: open
 mentors: Hong Phuc Dang to be announced
