@@ -1,6 +1,6 @@
 ---
 title: Redesign and improve the process of importing Fedora packages into Foresight Linux
-permalink: foresight-fedora-import
+permalink: projects/foresight-fedora-import
 layout: index
 desc: Linux Distribution Management
 status: open

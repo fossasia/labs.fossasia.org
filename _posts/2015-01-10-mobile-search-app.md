@@ -1,7 +1,7 @@
 ---
 title: Create a mobile application for offline text search
 layout: index
-permalink: mobile-search-app
+permalink: projects/mobile-search-app
 desc: Mobile Application Development
 status: dev
 mentors: Martin Bähr

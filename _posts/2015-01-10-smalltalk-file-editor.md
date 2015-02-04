@@ -1,7 +1,7 @@
 ---
 title: Create a file editor and asset manager solution with smalltalk
 layout: index
-permalink: smalltalk-file-editor
+permalink: projects/smalltalk-file-editor
 desc: Smalltalk Developer Tools Development
 status: open
 mentors: Martin Bähr

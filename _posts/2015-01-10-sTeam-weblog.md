@@ -1,7 +1,7 @@
 ---
 title: create a weblog frontend for the sTeam collaboration platform
 layout: index
-permalink: sTeam-weblog
+permalink: projects/sTeam-weblog
 desc: Frontend Webapplication Design and Development
 status: open
 mentors: Martin Bähr

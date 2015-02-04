@@ -1,7 +1,7 @@
 ---
 title: Port Valentina to different platforms, build packages and refactor code
 layout: index
-permalink: valentina-port
+permalink: projects/valentina-port
 desc: Open Design Projects, Garments, Knitting
 status: open
 mentors: to be announced

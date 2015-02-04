@@ -1,7 +1,7 @@
 ---
 title: Smalltalk SQL Parser & Evaluator
 layout: index
-permalink: smalltalk-sql-parser
+permalink: projects/smalltalk-sql-parser
 desc: Using PetitParser, take SQL and evaluate it in Smalltalk.
 status: open
 mentors: James Foster

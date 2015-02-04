@@ -1,7 +1,7 @@
 ---
 title: Replace the rmail library in the sup email client with mail
 layout: index
-permalink: sup-replace-rmail-with-mail
+permalink: projects/sup-replace-rmail-with-mail
 desc: Ruby Application Development
 status: open
 mentors: Martin Bähr, sup developers
