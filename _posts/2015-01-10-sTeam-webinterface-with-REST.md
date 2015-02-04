@@ -1,6 +1,7 @@
 ---
 title: Rebuild the webinterface for the sTeam collaboration platform using a REST api
 layout: index
+redirect_from: posts/sTeam-webinterface-with-REST.html
 permalink: projects/sTeam-webinterface-with-REST
 desc: Frontend Webapplication Design and Development
 status: open

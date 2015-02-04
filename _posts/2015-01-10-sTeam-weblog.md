@@ -1,6 +1,7 @@
 ---
 title: create a weblog frontend for the sTeam collaboration platform
 layout: index
+redirect_from: posts/sTeam-weblog.html
 permalink: projects/sTeam-weblog
 desc: Frontend Webapplication Design and Development
 status: open

@@ -1,6 +1,7 @@
 ---
 title: Add Design items and Measurement Tables for Patternshare
 layout: index
+redirect_from: posts/patternshare-design-and-measurement-tables.html
 permalink: projects/patternshare-design-and-measurement-tables
 desc: Open Design Projects, Garments, Knitting
 status: open

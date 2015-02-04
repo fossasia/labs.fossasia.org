@@ -1,6 +1,7 @@
 ---
 title: Rebuild the website for the Beijing GNU/Linux User Group with sTeam
 layout: index
+redirect_from: posts/sTeam-website-for-BLUG.html
 permalink: projects/sTeam-website-for-BLUG
 desc: Website Design and Development
 status: open

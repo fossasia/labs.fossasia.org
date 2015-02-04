@@ -1,6 +1,7 @@
 ---
 title: Replace the rmail library in the sup email client with mail
 layout: index
+redirect_from: posts/sup-replace-rmail-with-mail.html
 permalink: projects/sup-replace-rmail-with-mail
 desc: Ruby Application Development
 status: open

@@ -1,6 +1,7 @@
 ---
 title: OpenCoin Digital Cash App
 layout: index
+redirect_from: posts/opencoin-digital-cash-app.html
 permalink: projects/opencoin-digital-cash-app
 desc: Peer to Peer Technologies and Cryptography
 status: open

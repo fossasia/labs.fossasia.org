@@ -1,6 +1,7 @@
 ---
 title: Create a file editor and asset manager solution with smalltalk
 layout: index
+redirect_from: posts/smalltalk-file-editor.html
 permalink: projects/smalltalk-file-editor
 desc: Smalltalk Developer Tools Development
 status: open
