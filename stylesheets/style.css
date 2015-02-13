@@ -1639,3 +1639,12 @@ div.admin-panel .description {
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
 }
+.color-green {
+  color: green;
+}
+.color-purple {
+  color: purple;
+}
+.color-red {
+  color: red;
+}
