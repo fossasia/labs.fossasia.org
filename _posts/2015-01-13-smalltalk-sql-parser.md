@@ -16,10 +16,3 @@ for SQL and translate SQL queries into requests for Smalltalk objects.
 This would give a good overview of parsers, compilers, and of database query
 optimization.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful Skills: **{{ page.skills }}**
-
-Mentor: **{{ page.mentors }}**

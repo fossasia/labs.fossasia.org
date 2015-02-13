@@ -15,10 +15,3 @@ wire protocol in Smalltalk.
 This would give a good overview of client/server network protocols and how
 databases work.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful Skills: **{{ page.skills }}**
-
-Mentor: **{{ page.mentors }}**

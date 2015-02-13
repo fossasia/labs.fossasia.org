@@ -23,10 +23,3 @@ It is probably best to use the openSUSE build service, however care needs to be
 taken that the resulting packages satisfy the various distributions
 requirements for acceptance.
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

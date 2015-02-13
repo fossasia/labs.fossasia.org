@@ -31,10 +31,3 @@ sTeam is written in Pike, a programming language similar to Java and python.
 Pike is not hard to learn so you will have no trouble writing pike code within
 a few days.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

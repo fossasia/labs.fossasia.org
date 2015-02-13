@@ -124,9 +124,33 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="content clearfix">
     <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">
           {{ content }}
+          {% if page.url contains "projects/" %}
+          	<hr/>
+          	{% if page.skill-level %}
+          		<p>Skill level: <strong>{{ page.skill-level }}</strong></p>
+          	{% endif %}
+          	{% if page.skills %}
+          		<p>Useful skills: <strong>{{ page.skills }}</strong></p>
+          	{% endif %}
+          	{% if page.mentors %}
+          		<p>Mentors: <strong>{{ page.mentors }}</strong></p>
+          	{% endif %}
+          	
+          	{% if page.status %}
+		  	<p>Status: <strong>
+		  	{% if page.status contains "open" %}
+		  		Open
+		  	{% endif %}
+		  	{% if page.status contains "dev" %}
+		  		In development
+		  	{% endif %}
+		  	{% if page.status contains "closed" %}
+		  		Closed
+		  	{% endif %}
+		  	</strong></p>
+          	{% endif %}
+          {% endif %}
 </div></div></div>  </div>
-
-  
   
 </div>
   </div>

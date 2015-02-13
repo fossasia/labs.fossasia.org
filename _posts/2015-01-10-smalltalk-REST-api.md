@@ -13,10 +13,3 @@ To allow creating javacript websites with Smalltalk as a backend, implement a RE
 
 Initially the API will focus on a narrow set of objects representing users and documents (files), and, if time allows, may expand to access any object in the server.
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Useful Skills: **{{ page.skills }}**
-
-Mentor: **{{ page.mentors }}**

@@ -43,10 +43,3 @@ on the application.
 
 Resources: http://pharo.org/
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

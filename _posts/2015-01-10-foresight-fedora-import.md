@@ -32,10 +32,3 @@ to use conary tools to generate a dependency graph. Using this graph you will
 sort the fedora packages according to importance and update the import scripts
 to import packages in that order.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Usefil skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

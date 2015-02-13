@@ -25,10 +25,3 @@ Project: Valentina Patternmaking Project
 
 Website: http://www.valentina-project.org
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**
