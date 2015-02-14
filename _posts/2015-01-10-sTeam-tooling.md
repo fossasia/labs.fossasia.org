@@ -5,7 +5,7 @@ redirect_from: posts/sTeam-tooling.html
 permalink: projects/sTeam-tooling
 desc: Developer Tools Development
 status: open
-mentors: Martin Bähr
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skills: familiarity with a language like python, ruby, java...
 skill-level: medium
 ---

@@ -5,7 +5,7 @@ redirect_from: posts/sup-replace-rmail-with-mail.html
 permalink: projects/sup-replace-rmail-with-mail
 desc: Ruby Application Development
 status: open
-mentors: Martin Bähr, sup developers
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr</a>, sup developers
 skill-level: medium
 skills: ruby
 ---

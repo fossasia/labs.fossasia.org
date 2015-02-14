@@ -5,7 +5,7 @@ redirect_from: posts/opencoin-digital-cash-app.html
 permalink: projects/opencoin-digital-cash-app
 desc: Peer to Peer Technologies and Cryptography
 status: open
-mentors: Jan Suhr [http://suhr.info](http://suhr.info), Joerg Baach [https://github.com/jhb](https://github.com/jhb)
+mentors: <a href="http://suhr.info"> Jan Suhr</a>, <a href="https://github.com/jhb"> Joerg Baach</a>
 skill-level: Medium
 skills: Scala programming language, Twitter's Finagle server, SBT build tool, Optional - Eclipse IDE is recommended, Optional- Coins are stored in a SQL database via squeryl library
 ---

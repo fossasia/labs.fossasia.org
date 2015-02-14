@@ -5,7 +5,7 @@ permalink: projects/mobile-search-app
 redirect_from: posts/mobile-search-app.html
 desc: Mobile Application Development
 status: dev
-mentors: Martin Bähr
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: medium
 skills: user interface design, javascript, mobile development
 ---

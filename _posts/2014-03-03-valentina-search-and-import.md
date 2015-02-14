@@ -5,7 +5,7 @@ permalink: projects/valentina-search-and-import
 redirect_from: posts/valentina-search-and-import.html
 desc: Open Design Projects, Garments, Knitting
 status: open
-mentors: Hong Phuc Dang to be announced
+mentors: <a href="http://fossasia.github.io/#hong_phuc"> Hong Phuc Dang</a> to be announced
 skills: Vector graphics, C++, Qt5, basic knowledge of garment patterns, basic knowledge of generating patterns from formulas
 skill-level: Medium
 ---
