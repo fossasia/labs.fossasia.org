@@ -5,7 +5,7 @@ redirect_from: posts/sTeam-website-for-BLUG.html
 permalink: projects/sTeam-website-for-BLUG
 desc: Website Design and Development
 status: open
-mentors: Martin Bähr
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skills: webdesign, javascript, angular.js, REST
 skill-level: medium
 ---

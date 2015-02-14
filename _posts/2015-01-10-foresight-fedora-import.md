@@ -5,7 +5,7 @@ redirect_from: posts/foresight-fedora-import.html
 layout: index
 desc: Linux Distribution Management
 status: open
-mentors: 'Martin Bähr, Bretts'
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr</a>, Bretts
 skill-level: medium
 skills: python
 ---

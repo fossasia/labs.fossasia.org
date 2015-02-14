@@ -5,7 +5,7 @@ redirect_from: posts/sTeam-weblog.html
 permalink: projects/sTeam-weblog
 desc: Frontend Webapplication Design and Development
 status: open
-mentors: Martin Bähr
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: medium
 skills: javascript, angular.js, user interface design, RESTful APIs.
 ---

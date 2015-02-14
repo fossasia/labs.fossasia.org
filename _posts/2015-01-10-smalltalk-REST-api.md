@@ -5,7 +5,7 @@ redirect_from: posts/smalltalk-REST-api.html
 permalink: projects/smalltalk-REST-api
 desc: To allow creating javacript websites with Smalltalk as a backend, implement a RESTful API to manipulate Smalltalk objects. (list, retrieve, update, add, delete)
 status: in development
-mentors: Martin Bähr
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: medium to advanced
 skills: Smalltalk, REST
 ---

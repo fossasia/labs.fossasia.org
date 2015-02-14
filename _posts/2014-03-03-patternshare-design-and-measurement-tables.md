@@ -5,7 +5,7 @@ redirect_from: posts/patternshare-design-and-measurement-tables.html
 permalink: projects/patternshare-design-and-measurement-tables
 desc: Open Design Projects, Garments, Knitting
 status: open
-mentors: Hong Phuc Dang to be announced
+mentors: <a href="http://fossasia.github.io/#hong_phuc"> Hong Phuc Dang</a> to be announced
 skill-level: medium
 skills: Implementation of Mathematical Algorithms, Javascript, Fabric,js, Rafael.js, HTML, vector graphics
 ---
