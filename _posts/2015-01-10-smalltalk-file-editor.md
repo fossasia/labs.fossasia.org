@@ -27,10 +27,3 @@ working on the application.
 
 Resources: http://pharo.org/
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

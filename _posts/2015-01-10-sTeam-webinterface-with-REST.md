@@ -28,10 +28,3 @@ admin interface.
 You may also need to extend the RESTful API to support functionality not
 available yet.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

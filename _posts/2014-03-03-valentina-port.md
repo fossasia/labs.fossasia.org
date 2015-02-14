@@ -46,11 +46,3 @@ break;
 Project: https://bitbucket.org/dismine/valentina/overview
 
 Mailing List: https://groups.google.com/forum/#!forum/valentina-project-list
-
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

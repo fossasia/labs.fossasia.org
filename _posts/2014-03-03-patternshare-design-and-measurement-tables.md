@@ -22,10 +22,3 @@ Project: https://github.com/sconklin/tmtp-patternshare
 
 Website: http://www.taumeta.org
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

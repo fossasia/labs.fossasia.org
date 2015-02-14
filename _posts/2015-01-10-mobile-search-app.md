@@ -36,10 +36,3 @@ interface
 
 The application should be portable to any mobile device
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

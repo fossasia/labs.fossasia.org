@@ -35,10 +35,3 @@ content from the old site should be imported to the new site were possible
 
 The design may be copied or changed at your disgression.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful Skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

@@ -28,10 +28,3 @@ the point that sup developers can base their official releases on your work.
 Project: http://supmua.org/
 Mailing list: supmua@googlegroups.com
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**
