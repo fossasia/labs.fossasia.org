@@ -55,7 +55,7 @@ issue trackers and tag it as a question.
 * * *
 
 {:.color-red}
-### Closed projects or projects ideas:
+## Closed projects or projects ideas:
 <ul>
   {% for post in site.posts %}
     {% if post.status contains "close" %}
