@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fossasia/fossasia10.svg?branch=gh-pages)](https://travis-ci.org/fossasia/fossasia10)
+[![Build Status](https://travis-ci.org/fossasia/labs.fossasia.org.svg?branch=gh-pages)](https://travis-ci.org/fossasia/labs.fossasia.org)
 
 ##labs.fossasia.org
 
