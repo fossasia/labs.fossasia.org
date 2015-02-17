@@ -2,6 +2,24 @@
 {{ post.desc }}<br/>
 <ul class="project-details">
 	<li><b>Mentors</b> : {{ post.mentors }}</li>
-	<li><b>Skill Level</b> : {{ post.skill-level }}</li>
-	<li><b>Skills</b> : {{ post.skills }}</li>
+	{% if post.skill-level %}
+	  <li>
+	    <b>Skill Level</b> : {{ post.skill-level }}
+	  </li>
+	{% endif %}
+	{% if post.skills %}
+	  <li>
+	    <b>Skills</b> : {{ post.skills }}
+	  </li>
+	{% endif %}
+	{% if post.student %}
+	  <li>
+	    <b>Student</b> : {{ post.student }}
+	  </li>
+	{% endif %}
+	{% if post.links %}
+	  <li>
+	    <b>Links</b> : {{ post.links }}
+	  </li>
+	{% endif %}
 </ul>
