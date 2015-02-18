@@ -1,6 +1,6 @@
 ---
 title: Crypto Stick enhancements - enable easy usage with PKCS#11 compliant applications on a Linux system
-layout: index
+layout: project
 redirect_from: posts/crypto-stick-enhancements.html
 permalink: projects/crypto-stick-enhancements
 desc: Public-Key Cryptography System
@@ -14,11 +14,3 @@ links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc20
 Public-Key Cryptography System
 
 Crypto Stick is a safe storage for private key. It allows to store private key as easy as on USB dongle, but it prevents private key leak. One of standards for PKI storages is PKCS (Public-Key Cryptography System), which is made by RSA.
-
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

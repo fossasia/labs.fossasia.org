@@ -1,6 +1,6 @@
 ---
 title: Rebuild the webinterface for the sTeam collaboration platform using a REST api
-layout: index
+layout: project
 redirect_from: posts/sTeam-webinterface-with-REST.html
 permalink: projects/sTeam-webinterface-with-REST
 desc: Frontend Webapplication Design and Development
@@ -28,10 +28,3 @@ admin interface.
 You may also need to extend the RESTful API to support functionality not
 available yet.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

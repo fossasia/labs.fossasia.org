@@ -1,6 +1,6 @@
 ---
 title: 2D Body Measurement Application
-layout: index
+layout: project
 redirect_from: posts/2d-body-measurement-application.html
 permalink: projects/2d-body-measurement-application
 desc: Platform independent mobile development
@@ -15,10 +15,3 @@ Platform independent mobile development
 
 The project was aimed at development of a platform independent mobile friendly app that assists the user in taking his body measurement for customized clothing.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

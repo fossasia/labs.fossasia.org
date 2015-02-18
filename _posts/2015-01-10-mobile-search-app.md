@@ -1,6 +1,6 @@
 ---
 title: Create a mobile application for offline text search
-layout: index
+layout: project
 permalink: projects/mobile-search-app
 redirect_from: posts/mobile-search-app.html
 desc: Mobile Application Development
@@ -36,10 +36,3 @@ interface
 
 The application should be portable to any mobile device
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

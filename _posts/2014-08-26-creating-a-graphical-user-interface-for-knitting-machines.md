@@ -1,6 +1,6 @@
 ---
 title: Creating a Graphical User Interface for Knitting Machines
-layout: index
+layout: project
 redirect_from: posts/creating-a-graphical-user-interface-for-knitting-machines.html
 permalink: projects/creating-a-graphical-user-interface-for-knitting-machines
 desc: Application Development
@@ -15,10 +15,3 @@ Application Development
 
 The project allows tailors and artisans to easily utilize, manage and troubleshoot knitting machines, to manage their patterns, and to help them connect their knitting devices to computers.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

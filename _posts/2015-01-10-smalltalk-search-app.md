@@ -1,6 +1,6 @@
 ---
 title: Create a smalltalk application for offline text search
-layout: index
+layout: project
 redirect_from: posts/smalltalk-search-app.html
 permalink: projects/smalltalk-search-app
 desc: Smalltalk Application Development
@@ -43,10 +43,3 @@ on the application.
 
 Resources: http://pharo.org/
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

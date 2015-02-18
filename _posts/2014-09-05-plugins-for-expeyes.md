@@ -1,6 +1,6 @@
 ---
 title: Plugins for ExpEYES - An Open Source Portable Science Lab
-layout: index
+layout: project
 redirect_from: posts/plugins-for-expeyes.html
 permalink: projects/plugins-for-expeyes
 desc: Plugins development
@@ -15,10 +15,3 @@ Plugins development
 
 ExpEYES ( Experiments for Young Engineers and Scientists) is an Open Hardware and Free Software framework for developing science experiments and classroom demonstrations. This project worked on developing a set of plug-ins for ExpEYES. These plug-ins with GUI's enhances the scope of ExpEYES for using it to perform several experiments in mechanics, sound and waves. Project also focused on adding features for using acoustic and motion sensors for various science experiments.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

@@ -1,6 +1,6 @@
 ---
 title: Add Design items and Measurement Tables for Patternshare
-layout: index
+layout: project
 redirect_from: posts/patternshare-design-and-measurement-tables.html
 permalink: projects/patternshare-design-and-measurement-tables
 desc: Open Design Projects, Garments, Knitting
@@ -22,10 +22,3 @@ Project: https://github.com/sconklin/tmtp-patternshare
 
 Website: http://www.taumeta.org
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**
