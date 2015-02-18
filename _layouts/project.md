@@ -4,14 +4,21 @@ layout: index
 {{ content }}
 <hr/>
 {% if page.skill-level %}
-	<p>Skill level: <strong>{{ page.skill-level }}</strong></p>
+	<p><strong>Skill level: </strong>{{ page.skill-level }}</p>
 {% endif %}
 {% if page.skills %}
-	<p>Useful skills: <strong>{{ page.skills }}</strong></p>
+	<p><strong>Useful skills: </strong>{{ page.skills }}</p>
 {% endif %}
 {% if page.mentors %}
-	<p>Mentors: <strong>{{ page.mentors }}</strong></p>
+	<p><strong>Mentors: </strong>{{ page.mentors }}</p>
 {% endif %}
+{% if page.student %}
+	<p><strong>Student: </strong>{{ page.student }}</p>
+{% endif %}
+{% if page.links %}
+	<p><strong>Links: </strong>{{ page.links }}</p>
+{% endif %}
+
 
 {% if page.status %}
 		<p>Status: <strong>
