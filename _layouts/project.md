@@ -21,7 +21,7 @@ layout: index
 
 
 {% if page.status %}
-		<p>Status: <strong>
+		<p><strong>Status: </strong>
 		{% if page.status contains "open" %}
 			Open
 		{% endif %}
@@ -31,5 +31,5 @@ layout: index
 		{% if page.status contains "closed" %}
 			Closed
 		{% endif %}
-		</strong></p>
+		</p>
 {% endif %}
