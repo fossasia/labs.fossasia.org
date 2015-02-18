@@ -28,7 +28,7 @@ layout: index
 		{% if page.status contains "dev" %}
 			In development
 		{% endif %}
-		{% if page.status contains "closed" %}
+		{% if page.status contains "close" %}
 			Closed
 		{% endif %}
 		</p>
