@@ -1,6 +1,6 @@
 ---
 title: Port Valentina to different platforms, build packages and refactor code
-layout: index
+layout: project
 permalink: posts/valentina-port.html
 desc: Open Design Projects, Garments, Knitting
 status: open
@@ -46,11 +46,3 @@ break;
 Project: https://bitbucket.org/dismine/valentina/overview
 
 Mailing List: https://groups.google.com/forum/#!forum/valentina-project-list
-
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

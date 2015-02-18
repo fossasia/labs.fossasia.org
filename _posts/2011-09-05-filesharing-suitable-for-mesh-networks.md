@@ -1,6 +1,6 @@
 ---
 title: Filesharing suitable for Mesh Networks
-layout: index
+layout: project
 redirect_from: posts/filesharing-suitable-for-mesh-networks.html
 permalink: projects/filesharing-suitable-for-mesh-networks
 desc: P2P solutions
@@ -15,10 +15,3 @@ P2P solutions
 
 Many people want to share files in our mesh network but they step into some problems: Existent major P2P solutions depend on the Internet ( like emule or torrent ). Most of major existent P2P solutions doesn't support ipv6 Folder sharing like samba doesn't provide efficient file search People prefer to share depending on relationships, for example you want share some photos with your school companion but not with your headmaster.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

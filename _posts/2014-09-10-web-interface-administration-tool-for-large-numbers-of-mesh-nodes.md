@@ -1,6 +1,6 @@
 ---
 title: Web Interface Administration tool for large numbers of Mesh Nodes
-layout: index
+layout: project
 redirect_from: posts/web-interface-administration-tool-for-large-numbers-of-mesh-nodes.html
 permalink: projects/web-interface-administration-tool-for-large-numbers-of-mesh-nodes
 desc: OpenWRT-extension
@@ -15,10 +15,3 @@ OpenWRT-extension
 
 Kalua is a hardware-independent OpenWRT-extension (using busybox-ash as main-language) for setting up, monitore and manage many, large wifi-mesh-networks for different locations. Large networks consist of hundreds and even thousand of nodes. Administration of routers, e.g. ESSID setting is a long process.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

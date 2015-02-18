@@ -1,6 +1,6 @@
 ---
 title: Proposal for Anonymous Mode and Autosharing for Phimpme Android App
-layout: index
+layout: project
 redirect_from: posts/proposal-for-anonymous-mode-and-autosharing-for-phimpme-android-app.html
 permalink: projects/proposal-for-anonymous-mode-and-autosharing-for-phimpme-android-app
 desc: Mobile Application Development
@@ -15,10 +15,3 @@ Mobile Application Development
 
 The idea was to develop Anonymous mode and autosharing for phimpme Android app. The features developed were: <br>1. Share over NFC, Wi-Fi Direct, and Bluetooth. <br>2. Support shared folders, public ftp. <br>3. Sharing works without Internet. <br>4. Auto-connect and broadcast.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

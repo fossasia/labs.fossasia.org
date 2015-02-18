@@ -1,6 +1,6 @@
 ---
 title: CryptoStick feature enhancements
-layout: index
+layout: project
 redirect_from: posts/crypto-stick-feature-enhancements.html
 permalink: projects/crypto-stick-feature-enhancements
 desc: OATH based password generation
@@ -14,11 +14,3 @@ links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc20
 OATH based password generation
 
 The goal of the project was to add one-time-password generation capabilities (based on OATH) and other functions to the Crypto Stick, inspired by the functionality of YubiKey.
-
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

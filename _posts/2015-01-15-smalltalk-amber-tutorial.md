@@ -1,6 +1,6 @@
 ---
 title: document how to build a website using the amber smalltalk framework
-layout: index
+layout: project
 redirect_from: posts/smalltalk-amber-tutorial.html
 permalink: projects/smalltalk-amber-tutorial
 desc: Frontend Webapplication Development and Documentation
@@ -23,10 +23,3 @@ both versions should integrate with a RESTful backend, which is being created in
 
 License: your code from this task and your weblog post should be published under the following licenses: CC-BY-SA, GNU FDL, GNU GPL v2 or later.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

@@ -1,6 +1,6 @@
 ---
 title: Phimpme app port to different platforms
-layout: index
+layout: project
 redirect_from: posts/phimpme-app-port-to-different-platforms.html
 permalink: projects/phimpme-app-port-to-different-platforms
 desc: Mobile Application Development
@@ -15,10 +15,3 @@ Mobile Application Development
 
 Phimpme is an Android photo app. Users can share photos to any photo service on the web - to twitter, flickr, google+, facebook, tumblr and many more. With this app you can even set up your own website and upload images from your phone. The app already offers built in support for Drupal, Joomla and wordpress. Goal of the Google Summer of Code project is to port phimp me to iOS and other platforms.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

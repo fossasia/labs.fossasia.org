@@ -2,7 +2,7 @@
 title: Redesign and improve the process of importing Fedora packages into Foresight Linux
 permalink: projects/foresight-fedora-import
 redirect_from: posts/foresight-fedora-import.html
-layout: index
+layout: project
 desc: Linux Distribution Management
 status: open
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr</a>, Bretts
@@ -32,10 +32,3 @@ to use conary tools to generate a dependency graph. Using this graph you will
 sort the fedora packages according to importance and update the import scripts
 to import packages in that order.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Usefil skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

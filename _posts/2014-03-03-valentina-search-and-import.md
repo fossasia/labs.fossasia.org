@@ -1,6 +1,6 @@
 ---
 title: Create search functions and import pattern functions for Valentina
-layout: index
+layout: project
 permalink: projects/valentina-search-and-import
 redirect_from: posts/valentina-search-and-import.html
 desc: Open Design Projects, Garments, Knitting
@@ -25,10 +25,3 @@ Project: Valentina Patternmaking Project
 
 Website: http://www.valentina-project.org
 
-* * *
-
-Skill Level: **{{ page.skill-level }}**
-
-Usefull skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**

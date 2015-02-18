@@ -1,6 +1,6 @@
 ---
 title: Linux Games Distribution with lxlauncher
-layout: index
+layout: project
 redirect_from: posts/linux-games-distribution-with-lxlauncher.html
 permalink: projects/linux-games-distribution-with-lxlauncher
 desc: Linux Game Development
@@ -15,10 +15,3 @@ Linux Game Development
 
 The goal was to work on a Linux games distribution that can be burned on a CD or installed on a USB stick. Gaming is very popular in Asia. Existing popular games can be included. The project also needs to take care to include hardware drivers for a number of possible computer systems. The Linux distro will be based on Debian or Ubuntu. The interface will use lxlauncher.
 
-* * *
-
-Skill level: **{{ page.skill-level }}**
-
-Useful skills: **{{ page.skills }}**
-
-Mentors: **{{ page.mentors }}**
