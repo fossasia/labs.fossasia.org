@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/phimpme-app-port-to-different-platforms.html
 permalink: projects/phimpme-app-port-to-different-platforms
 desc: Mobile Application Development
-status: close
+status: closed
 mentors: <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>, <a href="http://fossasia.github.io/#mario_behling"> Mario Behling </a>
 student: Wu Yilin
 skill-level: medium

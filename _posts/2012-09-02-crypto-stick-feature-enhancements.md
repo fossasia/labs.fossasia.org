@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/crypto-stick-feature-enhancements.html
 permalink: projects/crypto-stick-feature-enhancements
 desc: OATH based password generation
-status: close
+status: closed
 mentors: Jan
 student: Andrzej Surowiec
 skill-level: medium

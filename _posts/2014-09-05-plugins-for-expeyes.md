@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/plugins-for-expeyes.html
 permalink: projects/plugins-for-expeyes
 desc: Plugins development
-status: close
+status: closed
 mentors: Phuc Hau, <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>
 student: Praveen Patil
 skill-level: medium

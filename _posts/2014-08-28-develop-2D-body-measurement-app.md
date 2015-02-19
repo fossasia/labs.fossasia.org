@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/develop-2D-body-measurement-app.html
 permalink: projects/develop-2D-body-measurement-app
 desc: Mobile Application Development
-status: close
+status: closed
 mentors: Christine, Jörg Henning
 student: Vishv Brahmbhatt
 skill-level: medium

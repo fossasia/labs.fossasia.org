@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/web-interface-administration-tool-for-large-numbers-of-mesh-nodes.html
 permalink: projects/web-interface-administration-tool-for-large-numbers-of-mesh-nodes
 desc: OpenWRT-extension
-status: close
+status: closed
 mentors: Bastian Bittorf, <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>
 student: queping
 skill-level:

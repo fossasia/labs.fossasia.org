@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/2d-body-measurement-app.html
 permalink: projects/2d-body-measurement-app
 desc: Mobile Application Development
-status: close
+status: closed
 mentors: slspencer, Roman Telezhynskyi, <a href="http://fossasia.github.io/#mario_behling"> Mario Behling </a>
 student: Ayantha Randika
 skill-level: medium

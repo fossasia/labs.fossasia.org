@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/2d-body-measurement-application.html
 permalink: projects/2d-body-measurement-application
 desc: Platform independent mobile development
-status: close
+status: closed
 mentors: slspencer, Roman Telezhynskyi, <a href="http://fossasia.github.io/#mario_behling"> Mario Behling </a>
 student: Prashant Kiran
 skill-level: medium
