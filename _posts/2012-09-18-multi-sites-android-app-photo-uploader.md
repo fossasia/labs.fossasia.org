@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/multi-sites-android-app-photo-uploader.html
 permalink: projects/multi-sites-android-app-photo-uploader
 desc: Mobile App Development
-status: close
+status: closed
 mentors: Dang Phuc Hau
 student: fedofan
 skill-level: medium

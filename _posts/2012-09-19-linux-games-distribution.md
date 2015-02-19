@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/linux-games-distribution.html
 permalink: projects/linux-games-distribution
 desc: Game Development
-status: close
+status: closed
 mentors: Dang Phuc Hau
 student: David Ng
 skill-level: medium

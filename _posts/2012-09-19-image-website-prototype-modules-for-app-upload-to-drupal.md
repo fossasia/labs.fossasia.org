@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/image-website-prototype-modules-for-app-upload-to-drupal.html
 permalink: projects/image-website-prototype-modules-for-app-upload-to-drupal
 desc: Client-server communication
-status: close
+status: closed
 mentors: <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>
 student: Mr Zero
 skill-level: medium

@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/filesharing-suitable-for-mesh-networks.html
 permalink: projects/filesharing-suitable-for-mesh-networks
 desc: P2P solutions
-status: close
+status: closed
 mentors: <a href="http://fossasia.github.io/#mario_behling"> Mario Behling </a>
 student: Hung
 skill-level: medium

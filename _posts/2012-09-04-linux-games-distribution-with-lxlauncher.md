@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/linux-games-distribution-with-lxlauncher.html
 permalink: projects/linux-games-distribution-with-lxlauncher
 desc: Linux Game Development
-status: close
+status: closed
 mentors: <a href="http://fossasia.github.io/#mario_behling"> Mario Behling </a>
 student: vanhonit
 skill-level: medium

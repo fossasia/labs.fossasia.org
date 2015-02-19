@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/post-image-to-github-app-and-jekyll-markdown-web-service.html
 permalink: projects/post-image-to-github-app-and-jekyll-markdown-web-service
 desc: Web Application Development
-status: close
+status: closed
 mentors: Phuc Hau, Bastian Bittorf
 student: nyk38
 skill-level: medium

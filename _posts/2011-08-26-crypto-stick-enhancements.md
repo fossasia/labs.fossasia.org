@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/crypto-stick-enhancements.html
 permalink: projects/crypto-stick-enhancements
 desc: Public-Key Cryptography System
-status: close
+status: closed
 mentors: Crypto Stick
 student: Adam Rakowski
 skill-level: medium

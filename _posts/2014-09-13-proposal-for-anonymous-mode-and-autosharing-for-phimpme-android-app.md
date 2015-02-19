@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/proposal-for-anonymous-mode-and-autosharing-for-phimpme-android-app.html
 permalink: projects/proposal-for-anonymous-mode-and-autosharing-for-phimpme-android-app
 desc: Mobile Application Development
-status: close
+status: closed
 mentors: Bastian Bittorf, <a href="http://fossasia.github.io/#mario_behling"> Mario Behling </a>
 student: Yu Zhiqiang
 skill-level: medium

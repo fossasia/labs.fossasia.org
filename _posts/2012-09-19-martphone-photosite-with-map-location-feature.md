@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/martphone-photosite-with-map-location-feature.html
 permalink: projects/smartphone-photosite-with-map-location-feature
 desc: Mobile Application Development
-status: close
+status: closed
 mentors: <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>
 student: Lanih
 skill-level: medium
