@@ -1,0 +1,32 @@
+---
+title: Port AYAB Software to Mac OS X, improve docs and usabilty
+layout: project
+permalink: posts/ayab-port.html
+desc: Open Design Projects, Knitting
+status: open
+mentors: Andreas Bräu
+skill-level: Medium
+skills: Python, QT, MacOSX, Windows packaging, Linux packaging
+---
+Open Design Projects, Knitting
+
+
+[AYAB](http://ayab-knitting.com) (All Yarns are Beautiful) is the software talking to Brother knitting machines. It's based on Python and QT. At the moment we only have Howtos for Windows and Linux distributions to get the software run.
+
+Your primary task would be to create a native Mac OS X app that uses AYAB libraries to communicate with our machines. The next step is to create the installation procedure to make it as easy as possible to install and use this software.
+
+If there's time left, create installation packages for Windows and Linux distributions.
+
+Features:
+
+* use native UI elements
+* installation is documented step-by-step
+* installation is GUI based, too
+* improve usability
+* use standard installation procedures
+* use knitting machine wording, e.g. green/orange to count needles
+
+
+Project: http://ayab-knitting.com/
+
+Issue Tracker: https://bitbucket.org/chris007de/ayab-apparat/issues?status=new&status=open
