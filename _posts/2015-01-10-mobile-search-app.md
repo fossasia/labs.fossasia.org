@@ -4,7 +4,7 @@ layout: project
 permalink: projects/mobile-search-app
 redirect_from: posts/mobile-search-app.html
 desc: Mobile Application Development
-status: dev
+status: prep
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: medium
 skills: user interface design, javascript, mobile development
@@ -36,3 +36,6 @@ interface
 
 The application should be portable to any mobile device
 
+Development must be done using Free Software tools, such as Eclipse or others,
+preferably on GNU/Linux. We are not able to support work with like Visual
+Studio, Xcode or other proprietary tools.

@@ -18,11 +18,12 @@ features that you believe need to be implemented. add your own ideas here.
 apart from the requirements given in the project description, tell us what you
 think should be added.
 
-make a development plan. how will you spend the time over summer? decide which
-features are most important, and which you can leave for later. also decide
-which features are optional, so you can drop them if you run out of time. at
-the end we'd rather see something working with just a few features, rather than
-lots of features which are all incomplete.
+make a development plan. what tools and platform will you be using for development?
+how will you spend the time over summer? decide which features are most
+important, and which you can leave for later. also decide which features are
+optional, so you can drop them if you run out of time. at the end we'd rather
+see something working with just a few features, rather than lots of features
+which are all incomplete.
 
 describe what you believe you need to learn in order to implement these
 features. if you can, list resources where you can learn what you need for this

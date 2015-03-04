@@ -42,6 +42,24 @@ issue trackers and tag it as a question.
 
 * * *
 
+{:.color-cyan}
+
+## Smaller projects that you can work on as demonstration of your skills
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.status contains "prep" %}
+      <li>
+        {% include post-detail.html %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+  {% for post in site.posts %}
+    {% if post.status contains "dev" %}
+* * *
+
 {:.color-purple}
 ## Projects being currently worked on:
 <ul>
@@ -53,5 +71,8 @@ issue trackers and tag it as a question.
     {% endif %}
   {% endfor %}
 </ul>
+      {% break %}
+    {% endif %}
+  {% endfor %}
 
 * * *
