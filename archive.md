@@ -4,7 +4,7 @@ layout: index
 ---
 ## [about our projects](index.html)
 
-## [Our open projects or ideas](open.html)
+## [Our open projects or ideas](ideas.html)
 
 * * *
 

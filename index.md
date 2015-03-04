@@ -3,7 +3,7 @@ title: FOSSASIA Labs - Home
 layout: index
 ---
 <div style="overflow: hidden; width: 100%; padding: 0px; text-align: center">
-<span onclick="document.location.href = 'open.html'" style="min-width:45%;width:45%;display:inline-block;max-width:45%;background-color:green;color:white;margin:0;padding:5px; font-weight: bold">Open project ideas</span> 
+<span onclick="document.location.href = 'ideas.html'" style="min-width:45%;width:45%;display:inline-block;max-width:45%;background-color:green;color:white;margin:0;padding:5px; font-weight: bold">Open project ideas</span> 
 <span onclick="document.location.href = 'archive.html'" style="min-width:45%;width:45%;display:inline-block;max-width:45%;background-color:red;color:white;margin:0;padding:5px; font-weight: bold">Our closed projects</span> 
 </div>
 <br/>
@@ -62,7 +62,7 @@ education.
 
 _If you are a student and interested to join GSoC 2015, or your university is
 participating in VALS Semester of Code, please check out our
-[projects page](/open.html)._
+[projects page](/ideas.html).
 
 Google Code-in is a global, online contest for 13-17 year old pre-university
 students interested in learning more about open source development. Students
