@@ -3,7 +3,7 @@ title: Questions about our GSoC Projects
 layout: index
 ---
 
-** What should a proposal look like? **
+**What should a proposal look like?**
 
 First of all check the general answer in the [GSoC FAQ]( http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page#5._What_should_a_student_proposal_look )
 
