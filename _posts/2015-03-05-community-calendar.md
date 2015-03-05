@@ -19,6 +19,6 @@ https://gitlab.com/beijinglug/community-calendar
 
 look at the issues and work on them
 
-to get started, follow the contribution instructions in the Readme at https://gitlab.com/beijinglug/community-calendarI
+to get started, follow the contribution instructions in the Readme at https://gitlab.com/beijinglug/community-calendar/blob/master/readme.md
 
 the community-calendar project is released under the GPL v3 or later.
