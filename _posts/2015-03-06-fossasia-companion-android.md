@@ -1,4 +1,3 @@
-
 ---
 title: FOSSASIA Companion for Android
 layout: project
