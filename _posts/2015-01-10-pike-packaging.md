@@ -5,7 +5,7 @@ redirect_from: posts/pick-packaging.html
 permalink: projects/pike-packaging
 desc: Linux Packaging
 status: open
-mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>, Chris Angelico
 skill-level: low
 skills: familiarity with Linux packaging and compiling
 ---

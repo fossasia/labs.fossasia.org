@@ -5,7 +5,7 @@ redirect_from: posts/sTeam-webinterface-with-REST.html
 permalink: projects/sTeam-webinterface-with-REST
 desc: Frontend Webapplication Design and Development
 status: open
-mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
+mentors: <a href="http://fossasia.github.io/#embee">Martin Bähr</a>, <a href="http://fossasia.github.io/#aruna_herath">Aruna Herath</a>, Chris Angelico
 skills: javascript, angular.js, user interface design, RESTful APIs.
 skill-level: medium
 ---

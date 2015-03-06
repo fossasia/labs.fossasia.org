@@ -5,7 +5,7 @@ redirect_from: posts/smalltalk-search-app.html
 permalink: projects/smalltalk-search-app
 desc: Smalltalk Application Development
 status: open
-mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
+mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>, Sean P. DeNigris
 skills: user interfce design, smalltalk
 skill-level: Medium
 ---
