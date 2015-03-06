@@ -22,7 +22,8 @@ The users of this application want to be able to search phrases and read the
 documents listed in the search-results using a simple, distraction free
 interface
 
-    The application should only search in files in a specified directory on the mobile device
+    The application should only search in documents in a FileSystem object
+      inside pharo.
     The interface should offer a box to enter the search text, or browse the
       list of included documents.
     Search results should display the name of the name of the document and the
