@@ -24,7 +24,7 @@ ul li.collapsed {
   list-style-type: disc;
 }
 ul li.leaf {
-  list-style-image: url(../../misc/menu-leaf.png);
+  list-style-image: url();
   list-style-type: square;
 }
 li.expanded,
