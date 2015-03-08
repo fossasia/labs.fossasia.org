@@ -17,7 +17,7 @@ Find out here [what should be in the proposal](gsoc-faq.html).
 
 Some mentors are available at certain times specifically for GSoC projects:
 
-*   **Martin Bähr**: saturdays from 2pm to 6pm chinese time, that is 7am to 11am CET or 6am to 10am UTC. You can find him on freenode irc in the channel #fossasia. _(other times are possible, but don't expect an immideate answer)_
+*   **Martin Bähr**: Martin is travelling, so office hours and any availability on IRC are suspended until march 23rd. Please only use email, preferably to the fossasia list, or make sure to cc other mentors. {% comment %} saturdays from 2pm to 6pm chinese time, that is 7am to 11am CET or 6am to 10am UTC. You can find him on freenode irc in the channel #fossasia. _(other times are possible, but don't expect an immideate answer)_{% endcomment %}
 
 * * *
 
