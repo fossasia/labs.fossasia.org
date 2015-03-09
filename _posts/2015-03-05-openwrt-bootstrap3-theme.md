@@ -13,6 +13,7 @@ Web development, Application Coding, UI Design
 LuCI or LuCI2 is the default web interface in OpenWRT and supports themes.
 
 Create a new LuCI theme using twitter's bootstrap3. You could use the existing bootstrap theme as coding base or build a new theme from scratch. There're lot of features, LuCI could benefit from, including a much more easier way to create themes. The project focus can either be more technical or design. Things to do:
+
 * upgrade to bootstrap3 (less;css;buildsystem)
 * create more bootstrap and meta components (e.g. data tables, node info boxes)
 * enhance kitchensink to style guide
