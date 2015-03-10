@@ -66,7 +66,13 @@ Resources:
 
   [Pharo]( http://pharo.org/ ) (download, documentation)
 
-  [StSearch]( http://www.squeaksource.com/StSearch/ ) is a search library in
-    smalltalk. that may be useful. it is unknown if it works in pharo or if it
+  [FullTextSearch]( http://smalltalkhub.com/#!/~BenjA/FullTextSearch ) a search
+    library built for pharo
+
+  [StSearch]( http://www.squeaksource.com/StSearch/ ) is another search library in
+    smalltalk that may be useful. it is unknown if it works in pharo or if it
     works at all, so you need to test it. in any case it may help you write your own.
+    Reports by the developers: 
+    [ZhXi 2011]( http://askoh.com/misc/stsearch/FYP_Report_ZheXi.pdf ),
+    [ZhengWei 2012]( http://askoh.com/misc/stsearch/FYP_Report_ZhengWei.pdf )
 
