@@ -1,12 +1,9 @@
 ---
-title: FOSSASIA Labs
+title: Project Ideas
 layout: index
----
-## [about our projects](index.html)
 
 * * *
-
-## Looking for Google Summer of Code Projects? See the list below. If you have questions about GSoC please check the [FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page).
+Here is a list of ideas for Google Summer of Code Projects. We are also happy if students propose their own ideas. If you have questions about GSoC please check the [FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page).
 For project specific questions contact the respective mentors. Find out here [what should be in the proposal](gsoc-faq.html).
 
 ## Mentor Office Hours
