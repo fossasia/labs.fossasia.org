@@ -1,5 +1,5 @@
 ---
-title: FOSSASIA Labs
+title: Project Ideas Page
 layout: index
 ---
 
