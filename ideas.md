@@ -5,7 +5,7 @@ layout: index
 
 * * *
 
-## Looking for Google Summer of Code Projects? See the list below. 
+Here is a list of Google Summer of Code project ideas?
 If you have questions about GSoC please check the [FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page). For project specific questions contact the respective mentors. Find out here [what should be in the proposal](gsoc-faq.html).
 
 ## Mentor Office Hours
