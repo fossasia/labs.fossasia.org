@@ -2,7 +2,6 @@
 title: FOSSASIA Labs
 layout: index
 ---
-## [about our projects](index.html)
 
 * * *
 
