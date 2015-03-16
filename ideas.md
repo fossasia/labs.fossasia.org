@@ -6,18 +6,14 @@ layout: index
 
 * * *
 
-## Looking for Google Summer of Code Projects?
-
-See the list below. If you have questions about GSoC please check the [FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page).
-For project specific questions contact the respective mentors.
-
-Find out here [what should be in the proposal](gsoc-faq.html).
+## Looking for Google Summer of Code Projects? See the list below. If you have questions about GSoC please check the [FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page).
+For project specific questions contact the respective mentors. Find out here [what should be in the proposal](gsoc-faq.html).
 
 ## Mentor Office Hours
 
 Some mentors are available at certain times specifically for GSoC projects:
 
-*   **Martin Bähr**: Martin is travelling, so office hours and any availability on IRC are suspended until march 23rd. Please only use email, preferably to the fossasia list, or make sure to cc other mentors. {% comment %} saturdays from 2pm to 6pm chinese time, that is 7am to 11am CET or 6am to 10am UTC. You can find him on freenode irc in the channel #fossasia. _(other times are possible, but don't expect an immideate answer)_{% endcomment %}
+*   **Martin Bähr**: Martin is travelling, so office hours and any availability on IRC are suspended until march 23rd. Please only use email, preferably to the fossasia list, or make sure to cc other mentors. {% comment %} Saturdays from 2pm to 6pm Chinese time, that is 7am to 11am CET or 6am to 10am UTC. You can find him on freenode irc in the channel #fossasia. _(other times are possible, but don't expect an immideate answer)_{% endcomment %}
 
 * * *
 
