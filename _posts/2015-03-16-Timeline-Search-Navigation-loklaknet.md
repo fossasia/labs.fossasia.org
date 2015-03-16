@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/Timeline-Search-Navigation-loklaknet.html
 permalink: projects/Timeline-Search-Navigation-loklaknet
 desc: loklak
-status: Open
+status: dev
 mentors: <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>
 student: 
 skill-level: medium
