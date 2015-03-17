@@ -5,7 +5,7 @@ redirect_from: posts/Timeline-Search-Navigation-loklaknet.html
 permalink: projects/Timeline-Search-Navigation-loklaknet
 desc: loklak
 status: open
-mentors: <a href="http://fossasia.github.io/#hong_phuc">Hong Phuc</a>
+mentors: Michael Christen
 student: 
 skill-level: medium
 skills: web
