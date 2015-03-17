@@ -10,6 +10,7 @@ student: Prashant Kiran
 skill-level: medium
 skills: Javascript, css, web-development
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/prasht63/5693417237512192">GSoC page</a>, <a href="https://github.com/fashiontec/bodyapps-viz">Github repo</a>
+category: mobile-app
 ---
 Platform independent mobile development
 

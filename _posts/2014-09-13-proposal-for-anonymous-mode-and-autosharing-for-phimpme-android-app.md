@@ -10,6 +10,7 @@ student: Yu Zhiqiang
 skill-level: medium
 skills: android, client-server communication, networking, bluetooth
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/yuzhiqiangorg/5676830073815040">GSoC page</a>
+category: Phimpme
 ---
 Mobile Application Development
 

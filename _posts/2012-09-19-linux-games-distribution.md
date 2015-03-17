@@ -10,6 +10,7 @@ student: David Ng
 skill-level: medium
 skills: Linux, Web technologies, HTML, driver knowledge
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2012/biohack/5668600916475904">GSoC page</a>
+category: Linux
 ---
 Game Development
 

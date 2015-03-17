@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>, S. Krish
 skill-level: medium
 skills: user interface design, smalltalk
+category: Smalltalk
 ---
 Smalltalk Developer Tools Development
 

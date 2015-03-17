@@ -10,6 +10,7 @@ student: Andrzej Surowiec
 skill-level: medium
 skills: cryptostick
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2012/emeryth/5741031244955648">GSoC page</a>
+category: CryptoStick
 ---
 OATH based password generation
 

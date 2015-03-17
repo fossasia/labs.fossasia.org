@@ -8,6 +8,7 @@ status: closed
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: medium to advanced
 skills: Smalltalk, REST
+category: Smalltalk
 ---
 To allow creating javacript websites with Smalltalk as a backend, implement a RESTful API to manipulate Smalltalk objects. (list, retrieve, update, add, delete)
 

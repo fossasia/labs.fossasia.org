@@ -10,6 +10,7 @@ student: queping
 skill-level:
 skills:
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/blackangelmao/5741031244955648">GSoC page</a>
+category: OpenWRT
 ---
 OpenWRT-extension
 

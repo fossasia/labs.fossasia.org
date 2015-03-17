@@ -7,6 +7,7 @@ status: open
 mentors: Andreas Bräu
 skill-level: Medium
 skills: HTML, CSS, Javascript, Lua
+category: OpenWRT
 ---
 Web development, Application Coding, UI Design
 

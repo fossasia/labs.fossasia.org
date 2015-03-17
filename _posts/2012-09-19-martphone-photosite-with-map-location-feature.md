@@ -10,6 +10,7 @@ student: Lanih
 skill-level: medium
 skills: mobile, Google Maps, async tasks
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2012/lannie/5668600916475904">GSoC page</a>
+category: mobile-app
 ---
 Mobile Application Development
 

@@ -8,6 +8,7 @@ mentors: FOSSASIA developers
 status: prep
 skills: various
 skill-level: mixed
+category: FOSSASIA
 ---
 Advanced native Android schedule browser application for the FOSSASIA conference in Singapore.
 

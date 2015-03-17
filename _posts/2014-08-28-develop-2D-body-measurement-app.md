@@ -10,6 +10,7 @@ student: Vishv Brahmbhatt
 skill-level: medium
 skills: android, mobile
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/vishv/5878405773918208">GSoC page</a>
+category: mobile-app
 ---
 Mobile Application Development
 

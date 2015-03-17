@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#embee">Martin Bähr</a>, <a href="http://fossasia.github.io/#aruna_herath">Aruna Herath</a>, Chris Angelico
 skills: javascript, angular.js, user interface design, RESTful APIs.
 skill-level: medium
+category: sTeam
 ---
 Frontend Webapplication Design and Development
 

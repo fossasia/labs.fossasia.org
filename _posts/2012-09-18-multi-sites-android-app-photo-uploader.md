@@ -10,6 +10,7 @@ student: fedofan
 skill-level: medium
 skills: Web technologies, Java, CMS, HTML5
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2012/fedofan/5668600916475904">GSoC page</a>
+category: mobile-app
 ---
 Mobile App Development
 
