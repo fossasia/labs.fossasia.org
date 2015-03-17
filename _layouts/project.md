@@ -21,15 +21,15 @@ layout: index
 
 
 {% if page.status %}
-		<p><strong>Status: </strong>
-		{% if page.status contains "open" %}
-			Open
-		{% endif %}
-		{% if page.status contains "dev" %}
-			In development
-		{% endif %}
-		{% if page.status contains "closed" %}
-			Closed
-		{% endif %}
-		</p>
+	<p><strong>Status: </strong>
+	{% if page.status contains "open" %}
+		Open
+	{% endif %}
+	{% if page.status contains "dev" %}
+		In development
+	{% endif %}
+	{% if page.status contains "closed" %}
+		Closed
+	{% endif %}
+	</p>
 {% endif %}
