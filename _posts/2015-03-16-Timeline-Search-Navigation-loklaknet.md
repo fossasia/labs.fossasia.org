@@ -3,12 +3,13 @@ title: Timeline and Search Navigation for loklak.net
 layout: project
 redirect_from: posts/Timeline-Search-Navigation-loklaknet.html
 permalink: projects/Timeline-Search-Navigation-loklaknet
+Category: loklak Search
 desc: loklak
 status: open
 mentors: Michael Christen
 student: 
 skill-level: medium
-skills: web
+skills: Web
 links: <a href="http://loklak.net">loklak.net</a>
 ---
 
