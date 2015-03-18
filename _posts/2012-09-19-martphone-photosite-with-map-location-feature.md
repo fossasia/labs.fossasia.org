@@ -1,7 +1,7 @@
 ---
 title: Smartphone photosite with map location feature
 layout: project
-redirect_from: posts/martphone-photosite-with-map-location-feature.html
+redirect_from: posts/smartphone-photosite-with-map-location-feature.html
 permalink: projects/smartphone-photosite-with-map-location-feature
 desc: Mobile Application Development
 status: closed
