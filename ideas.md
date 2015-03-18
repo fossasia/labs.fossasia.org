@@ -28,10 +28,6 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
   </ul>
 </div>
 
-{:.color-red}
-## Our Open Projects
-
-
 <ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
