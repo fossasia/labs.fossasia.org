@@ -7,7 +7,7 @@ status: open
 mentors: to be announced
 skill-level: Medium
 skills: C++, Qt , Windows exe build, MacOSX, Linux packaging
-category: Valentina
+category: FashionTec
 ---
 Open Design Projects, Garments, Knitting
 
