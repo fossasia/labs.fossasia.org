@@ -3,7 +3,6 @@ title: Timeline and Search Navigation for loklak.net
 layout: project
 redirect_from: posts/Timeline-Search-Navigation-loklaknet.html
 permalink: projects/Timeline-Search-Navigation-loklaknet
-Category: loklak Search
 desc: loklak
 status: open
 mentors: Michael Christen
@@ -11,6 +10,7 @@ student:
 skill-level: medium
 skills: Web
 links: <a href="http://loklak.net">loklak.net</a>
+category: Community Tools
 ---
 
 loklak is free software hosted on loklak.org which provides message search results from twitter in json format. loklak is a complete search engine back-end solution with a json api. What is missing to provide a search web page is a web page design showing the json search results as timeline in the style of a twitter search result. Basically it should look like https://twitter.com/search?src=typd&q=fossasia in the right column while the left column has to provided new/other search navigation tools. The data to be presented will all be within the json API of loklak. The timeline web page must also provide
