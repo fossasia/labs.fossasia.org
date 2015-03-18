@@ -8,7 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#hong_phuc"> Hong Phuc Dang</a> to be announced
 skills: Vector graphics, C++, Qt5, basic knowledge of garment patterns, basic knowledge of generating patterns from formulas
 skill-level: Medium
-category: Valentina
+category: FashionTec
 ---
 Open Design Projects, Garments, Knitting
 
