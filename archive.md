@@ -24,7 +24,7 @@ categories:
 {:.color-red}
 ## Our Closed Projects:
 
-<ul class="no-bullet">
+<div>
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -32,9 +32,9 @@ categories:
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "closed" %}
-          <li>{% include post-detail.html %}</li>
+          <span>{% include post-detail.html %}</span>
         {% endif %}
       {% endif %}
     {% endfor %}
   {% endfor %}
-</ul>
+</div>
