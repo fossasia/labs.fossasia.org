@@ -103,6 +103,7 @@ div.password-suggestions ul {
 
 .no-bullet {
   list-style-type: none;
+  padding: 0;
 }
 
 .project-contents {
