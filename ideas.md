@@ -61,7 +61,6 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
     {% if post.status contains "dev" %}
 * * *
 
-{:.color-purple}
 ## Projects being currently worked on:
 
   {% for category in page.categories %}
