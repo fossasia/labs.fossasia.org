@@ -35,7 +35,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "open" %}
-          <li>{% include post-detail.html %}</li>
+          {% include post-detail.html %}
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -51,7 +51,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "prep" %}
-          <li>{% include post-detail.html %}</li>
+          {% include post-detail.html %}
         {% endif %}
       {% endif %}
     {% endfor %}
