@@ -5,12 +5,12 @@ redirect_from: posts/knitting-machine-gui.html
 permalink: projects/knitting-machine-gui
 desc: Knitting Machine Graphical interface
 status: open
-mentors: Mar Canet,
+mentors: Mar Canet, Mario Behling
 student: 
 skill-level: medium
 skills: python
 links: 
-category: FashionTech
+category: FashionTec
 ---
 
 The software will be universal graphical interface for the DIY and home production knitting machines.
