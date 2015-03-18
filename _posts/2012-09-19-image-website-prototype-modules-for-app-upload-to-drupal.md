@@ -10,6 +10,7 @@ student: Mr Zero
 skill-level: medium
 skills: mobile, web
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2012/mrzero/5668600916475904">GSoC page</a>
+category: Drupal
 ---
 Client-server communication
 

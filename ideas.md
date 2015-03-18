@@ -1,6 +1,20 @@
 ---
 title: Project Ideas Page
 layout: index
+categories:
+  - FOSSASIA
+  - Smalltalk
+  - sTeam
+  - mobile-app
+  - Valentina
+  - OpenCoin
+  - OpenWRT
+  - sup
+  - AYAB
+  - loklak
+  - FashionTec
+  - Pike
+  - Linux
 ---
 
 Here is a list of Google Summer of Code project ideas?
@@ -8,15 +22,19 @@ If you have questions about GSoC please check the [FAQ](http://www.google-melang
 
 Find many of our projects on github for [FOSSASIA itself](http://github.com/fossasia/) and for our friends at [FashionTec](https://github.com/fashiontec/). If you have questions about these projects on github, submit an issue on the github issue trackers and tag it as a question.
 
-## Project ideas:
-
+## Table of Contents
 <ul>
-  {% for post in site.posts %}
-    {% if post.status contains "open" %}
-      <li>
-        {% include post-detail.html %}
-      </li>
-    {% endif %}
+  {% for category in page.categories %}
+    {% for post in site.posts %}
+      {% if forloop.first %}
+        <h3 class="project-category">{{ category }}</h3>
+      {% endif %}
+      {% if post.category == category %}
+        {% if post.status contains "open" %}
+          <li>{% include post-detail.html %}</li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 
@@ -27,12 +45,17 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 ## Smaller projects that you can work on as demonstration of your skills
 
 <ul>
-  {% for post in site.posts %}
-    {% if post.status contains "prep" %}
-      <li>
-        {% include post-detail.html %}
-      </li>
-    {% endif %}
+  {% for category in page.categories %}
+    {% for post in site.posts %}
+      {% if forloop.first %}
+        <h3 class="project-category">{{ category }}</h3>
+      {% endif %}
+      {% if post.category == category %}
+        {% if post.status contains "prep" %}
+          <li>{% include post-detail.html %}</li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 
@@ -43,12 +66,17 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 {:.color-purple}
 ## Projects being currently worked on:
 <ul>
-  {% for post in site.posts %}
-    {% if post.status contains "dev" %}
-      <li>
-        {% include post-detail.html %}
-      </li>
-    {% endif %}
+  {% for category in page.categories %}
+    {% for post in site.posts %}
+      {% if forloop.first %}
+        <h3 class="project-category">{{ category }}</h3>
+      {% endif %}
+      {% if post.category == category %}
+        {% if post.status contains "dev" %}
+          <li>{% include post-detail.html %}</li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
       {% break %}

@@ -10,6 +10,7 @@ student: Ayantha Randika
 skill-level: medium
 skills: android, mobile
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/randika/5717271485874176">GSoC page</a>, <a href="https://github.com/fashiontec/bodyapps-android">Github repo</a>
+category: mobile-app
 ---
 Mobile Application Development
 

@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>, Chris Angelico
 skill-level: low
 skills: familiarity with Linux packaging and compiling
+category: Pike
 ---
 Linux Packaging
 

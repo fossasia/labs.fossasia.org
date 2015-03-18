@@ -10,6 +10,7 @@ student: Wu Yilin
 skill-level: medium
 skills: iOS, web, mobile
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/wuyilin/5668600916475904">GSoC page</a>
+category: Phimpme
 ---
 Mobile Application Development
 

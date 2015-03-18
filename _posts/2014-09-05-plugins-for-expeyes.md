@@ -10,6 +10,7 @@ student: Praveen Patil
 skill-level: medium
 skills: python
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/praveenkumar103/5685265389584384">GSoC page</a>
+category: ExpEYES
 ---
 Plugins development
 

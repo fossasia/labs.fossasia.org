@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#embee">Martin Bähr</a>, <a href="http://fossasia.github.io/#aruna_herath">Aruna Herath</a>, Chris Angelico, <a href="http://fossasia.github.io/#tong_hui">Tong Hui</a>
 skills: webdesign, javascript, angular.js, REST
 skill-level: medium
+category: sTeam
 ---
 Website Design and Development
 

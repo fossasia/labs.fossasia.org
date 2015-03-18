@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#embee">Martin Bähr</a>, <a href="http://fossasia.github.io/#aruna_herath">Aruna Herath</a>, Chris Angelico
 skills: familiarity with a language like python, ruby, java...
 skill-level: medium
+category: sTeam
 ---
 Developer Tools Development
 

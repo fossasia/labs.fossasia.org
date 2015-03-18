@@ -10,6 +10,7 @@ student: nyk38
 skill-level: medium
 skills: Jekyll, Javascript, Markdown
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/nyk38/5668600916475904">GSoC page</a>
+category: Jekyll
 ---
 Web Application Development
 

@@ -10,6 +10,7 @@ student: Hung
 skill-level: medium
 skills: networks, P2P, social software
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2011/xperitor/5668600916475904">GSoC page</a>
+category: Free Networks
 ---
 P2P solutions
 

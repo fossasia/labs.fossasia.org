@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr</a>, sup developers
 skill-level: medium
 skills: ruby
+category: sup
 ---
 Ruby Application Development
 

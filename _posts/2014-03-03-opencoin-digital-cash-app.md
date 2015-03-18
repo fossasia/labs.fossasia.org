@@ -8,6 +8,7 @@ status: open
 mentors: <a href="http://suhr.info"> Jan Suhr</a>, <a href="https://github.com/jhb"> Joerg Baach</a>
 skill-level: Medium
 skills: Scala programming language, Twitter's Finagle server, SBT build tool, Optional - Eclipse IDE is recommended, Optional- Coins are stored in a SQL database via squeryl library
+category: OpenCoin
 ---
 Peer to Peer Technologies and Cryptography
 

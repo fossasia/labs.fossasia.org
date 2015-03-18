@@ -7,6 +7,7 @@ status: open
 mentors: Andreas Bräu
 skill-level: Medium
 skills: HTML, CSS, Javascript, Python, PHP, RSS, ICS
+category: FOSSASIA
 ---
 Web development, Application Coding, UI Design, Statistics, Visualization
 

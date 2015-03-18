@@ -8,6 +8,7 @@ status: prep
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skills: javascript, angular.js, REST
 skill-level: medium
+category: sTeam
 ---
 your task is to explore and document the REST API for sTeam
 

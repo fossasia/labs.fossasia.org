@@ -8,6 +8,7 @@ status: prep
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skills: smalltalk, javascript, angular.js, user interface design, REST
 skill-level: medium
+category: Smalltalk
 ---
 Frontend Webapplication Development and Documentation
 

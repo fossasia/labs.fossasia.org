@@ -8,6 +8,7 @@ status: open
 mentors: James Foster
 skill-level: medium to advanced
 skills: SQL, Smalltalk
+category: Smalltalk
 ---
 Using PetitParser, take SQL and evaluate it in Smalltalk.
 

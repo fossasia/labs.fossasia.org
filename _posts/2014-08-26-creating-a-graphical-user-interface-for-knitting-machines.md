@@ -10,6 +10,7 @@ student: Sebastian Oliva
 skill-level: medium
 skills: python, pattern, garment
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/tian2992/5653164804014080">GSoC page</a>
+category: AYAB
 ---
 Application Development
 

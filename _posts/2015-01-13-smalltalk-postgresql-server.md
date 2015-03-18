@@ -8,6 +8,7 @@ status: open
 mentors: James Foster
 skills: PostgreSQL, SQL, Smalltalk, GemStone/S, Sockets
 skill-level: medium to advanced
+category: Smalltalk
 ---
 
 To facilitate accessing Smalltalk objects from SQL, implement the PostgreSQL

@@ -8,6 +8,7 @@ status: prep
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: easy
 skills: user interface design, javascript, angular.js, REST APIs
+category: BeijingLUG
 ---
 the goal of this project is to share events among local communities. each group can add the calendar widget to their website, see events from other groups and share their own events with other groups.
 

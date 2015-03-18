@@ -10,6 +10,7 @@ student: Adam Rakowski
 skill-level: medium
 skills: OpenSC libraries, cryptography
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2011/fooscript/5693417237512192">GSoC page</a>
+category: CryptoStick
 ---
 Public-Key Cryptography System
 

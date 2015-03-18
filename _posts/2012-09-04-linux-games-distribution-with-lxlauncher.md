@@ -10,6 +10,7 @@ student: vanhonit
 skill-level: medium
 skills: Vala, C++, lxlauncher
 links: <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2012/vanhonit/5805043437535232">GSoC page</a>
+category: Linux
 ---
 Linux Game Development
 

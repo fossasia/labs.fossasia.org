@@ -8,6 +8,7 @@ status: prep
 mentors: <a href="http://fossasia.github.io/#embee"> Martin Bähr </a>
 skill-level: medium
 skills: user interface design, javascript, mobile development
+category: mobile-app
 ---
 Mobile Application Development
 
