@@ -1,7 +1,8 @@
 ---
 title: Extend toolbox for FOSSASIA (and Freifunk) API
 layout: project
-permalink: posts/toolbox-fossasia-api.html
+redirect_from: posts/toolbox-fossasia-api.html
+permalink: projects/toolbox-fossasia-api
 desc: Web development, Application Coding, UI Design, Statistics, Visualization
 status: open
 mentors: Andreas Bräu

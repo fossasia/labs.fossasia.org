@@ -1,7 +1,8 @@
 ---
 title: Create bootstrap3 theme for OpenWrt LuCI/LuCI2
 layout: project
-permalink: posts/openwrt-bootstrap3-theme.html
+redirect_from: posts/openwrt-bootstrap3-theme.html
+permalink: projects/openwrt-bootstrap3-theme
 desc: Web development, Application Coding, UI Design
 status: open
 mentors: Andreas Bräu
