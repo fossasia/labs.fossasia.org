@@ -2,18 +2,14 @@
 title: Project Ideas Page
 layout: index
 categories:
-  - FOSSASIA
+  - Community Tools
+  - FashionTec
+  - Local Networks
   - Smalltalk
   - sTeam
   - mobile-app
-  - Valentina
   - OpenCoin
-  - OpenWRT
   - sup
-  - AYAB
-  - loklak
-  - FashionTec
-  - Pike
   - Linux
 ---
 
