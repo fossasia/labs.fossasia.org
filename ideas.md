@@ -18,7 +18,7 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
 Find many of our projects on github for [FOSSASIA itself](http://github.com/fossasia/) and for our friends at [FashionTec](https://github.com/fashiontec/). If you have questions about these projects on github, submit an issue on the github issue trackers and tag it as a question.
 
 <div class="project-contents">
-  <h2>Table of Contents</h2>
+  <h2>Ideas</h2>
   <ul>
     {% for category in page.categories %}
     <li>
@@ -28,8 +28,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
   </ul>
 </div>
 
-{:.color-red}
-## Our Open Projects
+## Ideas
 
 
 <div>
