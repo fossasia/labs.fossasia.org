@@ -28,7 +28,6 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
    </ul>
 </div>
 
-<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -40,15 +39,11 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
         {% endif %}
       {% endif %}
     {% endfor %}
-  {% endfor %}
-</ul>
 
 * * *
 
-{:.color-cyan}
 ## Smaller projects that you can work on as demonstration of your skills
 
-<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -61,7 +56,6 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
     {% endfor %}
   {% endfor %}
-</ul>
 
   {% for post in site.posts %}
     {% if post.status contains "dev" %}
@@ -70,7 +64,6 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 {:.color-purple}
 ## Projects being currently worked on:
 
-<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -83,7 +76,6 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
     {% endfor %}
   {% endfor %}
-</ul>
       {% break %}
     {% endif %}
   {% endfor %}
