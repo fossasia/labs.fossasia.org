@@ -10,7 +10,7 @@ student:
 skill-level: medium
 skills: Web
 links: 
-category: Fashiontec
+category: FashionTec
 ---
 
 * Projects like Ayab and Knitic access knitting machines
