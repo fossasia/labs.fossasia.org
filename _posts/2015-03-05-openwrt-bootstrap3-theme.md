@@ -22,3 +22,10 @@ Create a new LuCI theme using twitter's bootstrap3. You could use the existing b
 * polish freifunk themes, or create a new one
 * convert icons to vector graphics
 * minimize everything so it will fit on 4MB flash devices
+
+Links:
+
+* luci-github Repository: http://github.com/openwrt/luci
+* Issue Tracker: https://github.com/openwrt/luci/issues
+* Mailing List: https://lists.subsignal.org/mailman/listinfo/luci
+* IRC Channel: http://irc.freifunk.net/
