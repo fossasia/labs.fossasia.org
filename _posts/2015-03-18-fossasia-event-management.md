@@ -15,6 +15,7 @@ For FOSSASIA 2015 we used the FOSSASIA Companion. There was some coordination ne
 - Web interface for generating forms, generated forms will be used by speakers to add information related to their speech/talk etc. Should be similar to Google Forms.
 - Web interface allowing the organizers to modify/add information to the information given by the speakers.
 - One click generation of iCal file for the events.
+- Develop Android/Multi-platform application. Pros and cons of native app to be discussed with the mentors of this project.
 - One click generation of Mobile application configuration file. Configuration file should only consist of API calls and not the real data. The data should be fetched form the server. This will eleminate the need to update the app.
 - Options to export data to varios file formats like pdf, csv, sql etc.
 
