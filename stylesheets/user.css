@@ -100,3 +100,7 @@ div.password-suggestions ul {
 .profile dd {
   margin: 0 0 1em 0;
 }
+
+.no-bullet {
+  list-style-type: none;
+}

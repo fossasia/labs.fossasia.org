@@ -24,7 +24,7 @@ categories:
 {:.color-red}
 ## Our Closed Projects:
 
-<ul>
+<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
