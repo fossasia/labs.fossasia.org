@@ -17,12 +17,15 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
 
 Find many of our projects on github for [FOSSASIA itself](http://github.com/fossasia/) and for our friends at [FashionTec](https://github.com/fashiontec/). If you have questions about these projects on github, submit an issue on the github issue trackers and tag it as a question.
 
-## Table of Contents
+{:.color-red}
+## Our Open Projects
+
+
 <ul>
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h3 class="project-category">{{ category }}</h3>
+        <h2 class="project-category">{{ category }}</h2>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "open" %}
@@ -43,7 +46,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h3 class="project-category">{{ category }}</h3>
+        <h2 class="project-category">{{ category }}</h2>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "prep" %}
@@ -64,7 +67,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h3 class="project-category">{{ category }}</h3>
+        <h2 class="project-category">{{ category }}</h2>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "dev" %}
