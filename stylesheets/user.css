@@ -104,3 +104,19 @@ div.password-suggestions ul {
 .no-bullet {
   list-style-type: none;
 }
+
+.project-contents {
+  width: 40%;
+  padding: 3px 15px;
+  background: #f6f6f2;
+  border: 2px solid #ccc;
+}
+.project-contents ul {
+  list-style-type: none;
+}
+.project-contents ul a {
+  margin-left : 5px;
+}
+.project-contents ul li:before {
+   content: "\00BB \0020";
+}

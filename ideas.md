@@ -17,6 +17,17 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
 
 Find many of our projects on github for [FOSSASIA itself](http://github.com/fossasia/) and for our friends at [FashionTec](https://github.com/fashiontec/). If you have questions about these projects on github, submit an issue on the github issue trackers and tag it as a question.
 
+<div class="project-contents">
+  <h2>Table of Contents</h2>
+  <ul>
+    {% for category in page.categories %}
+    <li>
+      <a href="#{{ category }}">{{ category }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
 {:.color-red}
 ## Our Open Projects
 
@@ -25,7 +36,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h2 class="project-category">{{ category }}</h2>
+        <h2 id="{{ category }}" class="project-category">{{ category }}</h2>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "open" %}
@@ -39,14 +50,13 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 * * *
 
 {:.color-cyan}
-
 ## Smaller projects that you can work on as demonstration of your skills
 
 <ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h2 class="project-category">{{ category }}</h2>
+        <h2 id="{{ category }}" class="project-category">{{ category }}</h2>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "prep" %}
@@ -63,11 +73,13 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 
 {:.color-purple}
 ## Projects being currently worked on:
+
+
 <ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h2 class="project-category">{{ category }}</h2>
+        <h2 id="{{ category }}" class="project-category">{{ category }}</h2>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "dev" %}
