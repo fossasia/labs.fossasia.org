@@ -19,9 +19,13 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 
 <div class="project-contents">
   <h2>Ideas</h2>
+  <ul>
     {% for category in page.categories %}
+    <li>
       <a href="#{{ category }}">{{ category }}</a>
+    </li>
     {% endfor %}
+   </ul>
 </div>
 
 <ul class="no-bullet">
