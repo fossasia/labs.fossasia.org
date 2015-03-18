@@ -72,7 +72,7 @@
   // remove categories which don't have a project
   $('.project-category').each(function (){
     var $e = $(this);
-    if($e.next().attr('tagName') != 'LI'){
+    if($e.next().attr('tagName') != 'SPAN'){
       $e.remove();
     }
   });
