@@ -1,8 +1,8 @@
 ---
 title: Develop the FOSSASIA Event Management utility/software
 layout: project
-redirect_from: 
-permalink: 
+redirect_from: posts/fossasia-event-management.html
+permalink: projects/fossasia-event-management
 desc: FOSSASIA Event management
 status: open
 mentors: Mario Behling, Duke
