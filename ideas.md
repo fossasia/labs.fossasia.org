@@ -18,16 +18,21 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
 Find many of our projects on github for [FOSSASIA itself](http://github.com/fossasia/) and for our friends at [FashionTec](https://github.com/fashiontec/). If you have questions about these projects on github, submit an issue on the github issue trackers and tag it as a question.
 
 <div class="project-contents">
-  <h2>Ideas</h2>
+  <h2>Table of Contents</h2>
   <ul>
     {% for category in page.categories %}
     <li>
       <a href="#{{ category }}">{{ category }}</a>
     </li>
     {% endfor %}
-   </ul>
+  </ul>
 </div>
 
+{:.color-red}
+## Our Open Projects
+
+
+<div>
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -35,15 +40,19 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "open" %}
-          {% include post-detail.html %}
+          <span>{% include post-detail.html %}</span>
         {% endif %}
       {% endif %}
     {% endfor %}
+  {% endfor %}
+</div>
 
 * * *
 
+{:.color-cyan}
 ## Smaller projects that you can work on as demonstration of your skills
 
+<div>
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -51,18 +60,21 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "prep" %}
-          {% include post-detail.html %}
+          <span>{% include post-detail.html %}</span>
         {% endif %}
       {% endif %}
     {% endfor %}
   {% endfor %}
+</div>
 
   {% for post in site.posts %}
     {% if post.status contains "dev" %}
 * * *
 
+{:.color-purple}
 ## Projects being currently worked on:
 
+<div>
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -70,11 +82,12 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "dev" %}
-          <li>{% include post-detail.html %}</li>
+          <span>{% include post-detail.html %}</span>
         {% endif %}
       {% endif %}
     {% endfor %}
   {% endfor %}
+</div>
       {% break %}
     {% endif %}
   {% endfor %}
