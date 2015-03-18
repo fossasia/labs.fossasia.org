@@ -1,25 +1,32 @@
 <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 {{ post.desc }}<br/>
-<ul class="project-details">
-	<li><b>Mentors</b> : {{ post.mentors }}</li>
+<table class="project-details">
+	<tr>
+		<td>Mentors</td>
+		<td>{{ post.mentors }}</td>
+	</tr>
 	{% if post.skill-level %}
-	  <li>
-	    <b>Skill Level</b> : {{ post.skill-level }}
-	  </li>
+	<tr>
+	  <td>Skill Level</td>
+	  <td>{{ post.skill-level }}</td>
+	</tr>
 	{% endif %}
 	{% if post.skills %}
-	  <li>
-	    <b>Skills</b> : {{ post.skills }}
-	  </li>
+	<tr>
+	  <td>Skills</td>
+	  <td>{{ post.skills }}</td>
+	</tr>
 	{% endif %}
 	{% if post.student %}
-	  <li>
-	    <b>Student</b> : {{ post.student }}
-	  </li>
+	<tr>
+	  <td>Student</td>
+	  <td>{{ post.student }}</td>
+	</tr>
 	{% endif %}
 	{% if post.links %}
-	  <li>
-	    <b>Links</b> : {{ post.links }}
-	  </li>
+	<tr>
+	  <td>Links</td>
+	  <td>{{ post.links }}</td>
+	</tr>
 	{% endif %}
 </ul>
