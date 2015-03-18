@@ -21,7 +21,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 ## Our Open Projects
 
 
-<ul>
+<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -42,7 +42,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 
 ## Smaller projects that you can work on as demonstration of your skills
 
-<ul>
+<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
@@ -63,7 +63,7 @@ Find many of our projects on github for [FOSSASIA itself](http://github.com/foss
 
 {:.color-purple}
 ## Projects being currently worked on:
-<ul>
+<ul class="no-bullet">
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
