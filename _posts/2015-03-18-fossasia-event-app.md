@@ -6,10 +6,8 @@ permalink: projects/fossasia-event-app
 desc: FOSSASIA Conference App
 status: open
 mentors: Mario Behling, Duke
-student: 
 skill-level: medium
 skills: Web
-links: 
 category: Community Tools
 ---
 
