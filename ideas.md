@@ -7,7 +7,6 @@ categories:
   - Local Networks
   - Smalltalk
   - sTeam
-  - mobile-app
   - OpenCoin
   - sup
   - Linux
