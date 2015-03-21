@@ -25,9 +25,6 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
   </ul>
 </div>
 
-## Ideas
-
-
 <div>
   {% for category in page.categories %}
     {% for post in site.posts %}
@@ -45,7 +42,6 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
 
 * * *
 
-{:.color-cyan}
 ## Smaller projects that you can work on as demonstration of your skills
 
 <div>
@@ -67,7 +63,6 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
     {% if post.status contains "dev" %}
 * * *
 
-{:.color-purple}
 ## Projects being currently worked on:
 
 <div>
