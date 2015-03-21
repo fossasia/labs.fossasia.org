@@ -4,10 +4,11 @@ layout: project
 permalink: projects/community-communication
 redirect_from: posts/community-communication.html
 desc: mobile Widget webdesign and development
-status: prep
+status: open
 mentors: <a href="http://fossasia.github.io/#tong_hui"> Tong Hui </a>
 skill-level: Medium
 skills: user interface design, javascript, html, REST APIs
+category: Community Tools
 ---
 
 The project's goal is for Beijing GNU/Linux User Group port a self-hosted online communication tool. We discovered [lets-chat](https://github.com/sdelements/lets-chat) project suite for our requirements, but it need more encrytion.
