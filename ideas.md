@@ -29,7 +29,7 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h2 id="{{ category }}" class="project-category">{{ category }}</h2>
+        <h1 id="{{ category }}" class="project-category">{{ category }}</h1>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "open" %}
@@ -48,7 +48,7 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h2 id="{{ category }}" class="project-category">{{ category }}</h2>
+        <h1 id="{{ category }}" class="project-category">{{ category }}</h1>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "prep" %}
@@ -69,7 +69,7 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
   {% for category in page.categories %}
     {% for post in site.posts %}
       {% if forloop.first %}
-        <h2 id="{{ category }}" class="project-category">{{ category }}</h2>
+        <h1 id="{{ category }}" class="project-category">{{ category }}</h1>
       {% endif %}
       {% if post.category == category %}
         {% if post.status contains "dev" %}
