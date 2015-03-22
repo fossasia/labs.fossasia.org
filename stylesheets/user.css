@@ -106,7 +106,7 @@ div.password-suggestions ul {
 }
 
 .project-contents {
-  width: 40%;
+  width: 55%;
   padding: 3px 15px;
   background: #f6f6f2;
   border: 2px solid #ccc;
@@ -119,4 +119,11 @@ div.password-suggestions ul {
 }
 .project-contents ul li:before {
    content: "\00BB \0020";
+}
+
+.project-contents>ul>li>ul {
+  margin: 2px;
+}
+.project-contents>ul>li>ul>li{
+  padding: 5px 0;
 }
