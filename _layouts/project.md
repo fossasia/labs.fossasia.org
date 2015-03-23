@@ -3,23 +3,36 @@ layout: index
 ---
 {{ content }}
 <hr/>
-{% if page.skill-level %}
-	<p><strong>Skill level: </strong>{{ page.skill-level }}</p>
-{% endif %}
-{% if page.skills %}
-	<p><strong>Useful skills: </strong>{{ page.skills }}</p>
-{% endif %}
-{% if page.mentors %}
-	<p><strong>Mentors: </strong>{{ page.mentors }}</p>
-{% endif %}
-{% if page.student %}
-	<p><strong>Student: </strong>{{ page.student }}</p>
-{% endif %}
-{% if page.links %}
-	<p><strong>Links: </strong>{{ page.links }}</p>
-{% endif %}
-
-
+<table class="project-details">
+	<tr>
+		<td>Mentors</td>
+		<td>{{ page.mentors }}</td>
+	</tr>
+	{% if page.skill-level %}
+	<tr>
+	  <td>Skill Level</td>
+	  <td>{{ page.skill-level }}</td>
+	</tr>
+	{% endif %}
+	{% if page.skills %}
+	<tr>
+	  <td>Skills</td>
+	  <td>{{ page.skills }}</td>
+	</tr>
+	{% endif %}
+	{% if page.student %}
+	<tr>
+	  <td>Student</td>
+	  <td>{{ page.student }}</td>
+	</tr>
+	{% endif %}
+	{% if page.links %}
+	<tr>
+	  <td>Links</td>
+	  <td>{{ page.links }}</td>
+	</tr>
+	{% endif %}
+</table>
 {% if page.status %}
 	<p><strong>Status: </strong>
 	{% if page.status contains "open" %}
