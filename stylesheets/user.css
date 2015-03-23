@@ -114,11 +114,12 @@ div.password-suggestions ul {
 .project-contents ul {
   list-style-type: none;
 }
+
 .project-contents ul a {
   margin-left : 5px;
 }
-.project-contents ul li:before {
-   content: "\00BB \0020";
+.project-contents ul li {
+   list-style-type: none;
 }
 
 .project-contents>ul>li>ul {
