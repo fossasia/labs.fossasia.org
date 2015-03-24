@@ -9,7 +9,7 @@ mentors: Mario Behling, Duke
 student: 
 skill-level: medium
 skills: Web
-links: 
+links: http://ayab-knitting.com/
 category: FashionTec
 ---
 
