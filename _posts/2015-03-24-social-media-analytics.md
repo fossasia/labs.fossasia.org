@@ -5,13 +5,14 @@ redirect_from: posts/social-media-analytics.html
 permalink: projects/social-media-analytics
 desc: Monitor Event hashtag to find out interesting insights about event
 status: open
-mentors: <TBD>
+mentors: TBD
 skill-level: medium
 skills: Web
 category: Community Tools
 ---
 
 Social media analytics can be very helpful in finding out interesting facts about event. Like...
+
 - During whose session people tweeted most?
 - Who gets more mentions?
 - Which track gets more tweets? (track specific hashtag?) etc...
