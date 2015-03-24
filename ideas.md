@@ -16,22 +16,20 @@ Here is a list of Google Summer of Code project ideas. If you have questions abo
 
 <div class="project-contents">
   <h2>Ideas</h2>
-  <ul>
-    {% for category in page.categories %}
-    <li>
-      <a href="#{{ category }}">{{ category }}</a>
-      <ul>
+  {% for category in page.categories %}
+    <a href="#{{ category }}">{{ category }}</a>
+    <div class="category-contents">
       {% for post in site.posts %}
         {% if post.category == category %}
           {% if post.status == "open" or post.status == "prep" %}
-            <li><a href="#{{ post.title }}">{{ post.title }}</a></li>
+            <a href="#{{ post.title }}">{{ post.title }}</a>
+            <br>
           {% endif %}
         {% endif %}
       {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
+    </div>
+    <br>
+  {% endfor %}
 </div>
 
 <div>

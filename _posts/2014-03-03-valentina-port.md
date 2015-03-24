@@ -44,6 +44,6 @@ default:
 break;
 }
 
-Project: https://bitbucket.org/dismine/valentina/overview
+Project: [https://bitbucket.org/dismine/valentina/overview](https://bitbucket.org/dismine/valentina/overview)
 
-Mailing List: https://groups.google.com/forum/#!forum/valentina-project-list
+Mailing List: [https://groups.google.com/forum/#!forum/valentina-project-list](https://groups.google.com/forum/#!forum/valentina-project-list)

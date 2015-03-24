@@ -19,7 +19,7 @@ Rebuild the management webinterface for the sTeam collaboration platform using a
 Open sTeam is a collaboration platform developed at the University of Paderborn in germany.
 It is no longer developed at the university, but still in use.
 
-http://societyserver.org is built with a branch of sTeam, and its developer
+[http://societyserver.org](http://societyserver.org) is built with a branch of sTeam, and its developer
 recently created a RESTful API interface for it.
 
 In this project you will rewrite the management webinterface to use the new RESTful api.

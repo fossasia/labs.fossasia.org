@@ -26,5 +26,5 @@ developer of the website to update and edit them.
 It is expected that you spend the first week learning smalltalk before
 working on the application.
 
-Resources: http://pharo.org/
+Resources: [http://pharo.org/](http://pharo.org/)
 

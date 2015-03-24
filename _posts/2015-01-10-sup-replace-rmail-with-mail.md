@@ -26,5 +26,5 @@ support still needs to be ported.
 in this project you are expected to complete the port to the new mail gem, to
 the point that sup developers can base their official releases on your work.
 
-Project: http://supmua.org/
-Mailing list: supmua@googlegroups.com
+Project: [http://supmua.org/](http://supmua.org/)
+Mailing list: [mailto:supmua@googlegroups.com](supmua@googlegroups.com)

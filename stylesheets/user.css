@@ -110,20 +110,10 @@ div.password-suggestions ul {
   background: #f6f6f2;
   border: 2px solid #ccc;
 }
-.project-contents ul {
-  list-style-type: none;
-}
 
-.project-contents ul a {
-  margin-left : 5px;
+.category-contents a{
+  margin-left : 5.5%;
 }
 .project-contents ul li {
    list-style-type: none;
-}
-
-.project-contents>ul>li>ul {
-  margin: 2px;
-}
-.project-contents>ul>li>ul>li{
-  padding: 5px 0;
 }

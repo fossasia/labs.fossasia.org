@@ -17,10 +17,10 @@ a parser for SQL and translate SQL queries into requests for Smalltalk objects.
 This will give a good overview of parsers, compilers, and of database query
 optimization.
 
-The project will use Pharo (http://pharo.org/), so if you aren't familiar with
+The project will use Pharo ([http://pharo.org/](http://pharo.org/)), so if you aren't familiar with
 Smalltalk you should start with the resources available at that site. To see the
 code start with Pharo 3.0 and load PetitParser, PetitTests, and SQL-Evaluator from 
-http://smalltalkhub.com/#!/~Moose/PetitParser/ (try to figure out how to do this
+[http://smalltalkhub.com/#!/~Moose/PetitParser/](http://smalltalkhub.com/#!/~Moose/PetitParser/) (try to figure out how to do this
 before asking for help to show that you have studied the materials about 
 Monticello).
 
@@ -30,7 +30,7 @@ to create a SQL grammar. The project is to take that grammar and use the parser
 to build an expression evaluator. The initial version of the code has over 100
 passing tests and the project will follow test-driven development to create 
 coverage for as much of the SQL standard as possible (I’ve started with 
-http://www.savage.net.au/SQL/sql-92.bnf.html). 
+[http://www.savage.net.au/SQL/sql-92.bnf.html](http://www.savage.net.au/SQL/sql-92.bnf.html)). 
 
 As mentor, I’d expect to interact using email and Skype on a regular basis, but would 
 expect the student to demonstrate that he or she is spending time working through 

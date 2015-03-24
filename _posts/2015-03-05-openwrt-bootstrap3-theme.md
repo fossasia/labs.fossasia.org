@@ -25,7 +25,7 @@ Create a new LuCI theme using twitter's bootstrap3. You could use the existing b
 
 Links:
 
-* luci-github Repository: http://github.com/openwrt/luci
-* Issue Tracker: https://github.com/openwrt/luci/issues
-* Mailing List: https://lists.subsignal.org/mailman/listinfo/luci
-* IRC Channel: http://irc.freifunk.net/
+* luci-github Repository: [http://github.com/openwrt/luci](http://github.com/openwrt/luci)
+* Issue Tracker: [https://github.com/openwrt/luci/issues](https://github.com/openwrt/luci/issues)
+* Mailing List: [https://lists.subsignal.org/mailman/listinfo/luci](https://lists.subsignal.org/mailman/listinfo/luci)
+* IRC Channel: [http://irc.freifunk.net/](http://irc.freifunk.net/)
