@@ -5,7 +5,7 @@ redirect_from: posts/blogger-wall.html
 permalink: projects/blogger-wall
 desc: Blogger Wall - Develop utility to display blog posts submitted by attendees
 status: open
-mentors: Nikunj Thakkar, <TBD>
+mentors: <TBD>
 skill-level: medium
 skills: Web
 category: Community Tools

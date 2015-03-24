@@ -5,7 +5,7 @@ redirect_from: posts/social-media-analytics.html
 permalink: projects/social-media-analytics
 desc: Monitor Event hashtag to find out interesting insights about event
 status: open
-mentors: Nikunj Thakkar, <TBD>
+mentors: <TBD>
 skill-level: medium
 skills: Web
 category: Community Tools

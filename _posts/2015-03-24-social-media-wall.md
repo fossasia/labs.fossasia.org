@@ -5,7 +5,7 @@ redirect_from: posts/social-media-wall.html
 permalink: projects/social-media-wall
 desc: Social Medial Wall - Develop utility to display social media posts with specified Hashtag
 status: open
-mentors: Nikunj Thakkar, <TBD>
+mentors: <TBD>
 skill-level: medium
 skills: Web
 category: Community Tools
