@@ -11,6 +11,6 @@ skills: user interface design, javascript, html, REST APIs
 category: Community Tools
 ---
 
-The project's goal is for Beijing GNU/Linux User Group port a self-hosted online communication tool. We discovered [lets-chat](https://github.com/sdelements/lets-chat) project suite for our requirements, but it need more encrytion.
+The project's goal is for Beijing GNU/Linux User Group port a self-hosted online communication tool. We discovered [lets-chat](https://github.com/sdelements/lets-chat) project suite for our requirements, but it need more encryption.
 
-So, your primary work is hosted the lets-chat project in your VPS, and then try port a OTR encryption impliment for this project. 
+So, your primary work is hosted the lets-chat project in your VPS, and then try port a OTR encryption implement for this project. 

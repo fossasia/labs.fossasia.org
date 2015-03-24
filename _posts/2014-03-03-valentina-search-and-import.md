@@ -22,7 +22,7 @@ The student would develop user functions to add search tags to patterns, search 
 
 Background: One of the main ideas of Valentina is to enable users to create custom sized patterns based on applying an individual's measurement data to pattern formulas, independent of industry sizing standards. Similar industry software packages include Assyst (www.assyst-intl.com), Lektra (www.lectra.com), Grafis (http://www.grafis.com), plus others. Grafis in particular enables users to generate patterns based on formulas derived from pattern descriptions from standard books (e.g. books published by Mueller und Sohn.) Currently available industry software, however, does not aim at the DIY/maker or SME markets.
 
-Project: Valentina Patternmaking Project
+Project: Valentina Pattern making Project
 
 Website: [http://www.valentina-project.org](http://www.valentina-project.org)
 

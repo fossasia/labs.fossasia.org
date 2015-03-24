@@ -24,7 +24,7 @@ list: [http://groups.google.com/group/fossasia](http://groups.google.com/group/f
 
 **Coding Projects**
 
-In the past we have done activities with the following projects 
+In the past we have done activities with the following projects -
 
 *   Linux apps
 *   localization tools
@@ -69,7 +69,7 @@ students interested in learning more about open source development. Students
 work on bite-sized tasks for real-world open source projects in a variety of
 categories.
 
-_If you are a middle or highschool student aged 13 to 17 years, check out our
+_If you are a middle or high school student aged 13 to 17 years, check out our
 tasks at
 [Google Code-In](http://www.google-melange.com/gci/org/google/gci2014/fossasia)_
 
@@ -80,7 +80,7 @@ tasks at
 We support LUG meetups, code sprints and community days and provide
 facilities for groups. For code sprints we work together with different
 partners in the Mekong Delta in Can Tho to support groups with sponsored
-accomodation during sprints.
+accommodation during sprints.
 
 **Event activities**
 

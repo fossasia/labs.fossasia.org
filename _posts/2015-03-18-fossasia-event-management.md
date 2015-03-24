@@ -16,13 +16,13 @@ For FOSSASIA 2015 we used the FOSSASIA Companion. There was some coordination ne
 - Web interface allowing the organizers to modify/add information to the information given by the speakers.
 - One click generation of iCal file for the events.
 - Develop Android/Multi-platform application. Pros and cons of native app to be discussed with the mentors of this project.
-- One click generation of Mobile application configuration file. Configuration file should only consist of API calls and not the real data. The data should be fetched form the server. This will eleminate the need to update the app.
-- Options to export data to varios file formats like pdf, csv, sql etc.
+- One click generation of Mobile application configuration file. Configuration file should only consist of API calls and not the real data. The data should be fetched form the server. This will eliminate the need to update the app.
+- Options to export data to various file formats like pdf, csv, sql etc.
 
 **The project should be flexible so that it can be used by other organizations as well**
 
 The applicant should have the following skills
-- advanced development skille either native Android app or web, JavaScript skills etc.
+- advanced development skills either native Android app or web, JavaScript skills etc.
 - proven ability (show an example of your work) to write AJAX web applications
 - confident with css
 - overall application and web design skills

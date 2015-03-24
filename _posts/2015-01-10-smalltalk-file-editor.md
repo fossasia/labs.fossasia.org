@@ -16,7 +16,7 @@ Create a file editor and asset manager solution with smalltalk
 
 
 Pharo Smalltalk is an integrated development environment for desktop and
-webapplications.  When developing a website, various assets, such as images,
+web applications.  When developing a website, various assets, such as images,
 javascript files and libraries, css files, static html content and html
 templates need to be managed.
 
