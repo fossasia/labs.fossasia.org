@@ -40,6 +40,7 @@ In the past we have done activities with the following projects
 *   Inkscape
 *   Linux conversion libraries
 *   OpenStreetMap
+*   ExpEYES - Pocket Science Lab
 *   and many more
 
 **Student Code Programs**
