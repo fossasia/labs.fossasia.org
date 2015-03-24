@@ -2,7 +2,6 @@
 layout: index
 ---
 {{ content }}
-<hr/>
 <table class="project-details">
 	<tr>
 		<td>Mentors</td>
