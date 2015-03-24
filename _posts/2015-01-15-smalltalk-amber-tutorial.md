@@ -20,7 +20,7 @@ as you work you should document the process and write a tutorial on building an 
 
 in a second step, you should explore how to integrate other javascript frameworks, such as angular.js to drive the interface, writing angular controllers and services in amber smalltalk.
 
-both versions should integrate with a RESTful backend, which is being created in a seperate project.
+both versions should integrate with a RESTful backend, which is being created in a separate project.
 
 License: your code from this task and your weblog post should be published under the following licenses: CC-BY-SA, GNU FDL, GNU GPL v2 or later.
 

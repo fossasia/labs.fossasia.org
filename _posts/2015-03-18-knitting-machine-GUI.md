@@ -20,5 +20,5 @@ The software will be universal graphical interface for the DIY and home producti
 * Render 2D yarn visualization
 * Assist during the knitting process in a friendly interface
 * Improve UX app
-* Define a settings system for define and add new machines in json
+* Define a settings system for define and add new machines in JSON
 * Make Android version for tablets

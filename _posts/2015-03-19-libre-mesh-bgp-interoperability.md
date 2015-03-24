@@ -12,6 +12,6 @@ skills: Coding, Networking, Lua
 category: Libre-Mesh
 ---
 
-* Creation of a LiMe plug-in (in the form of an OpenWrt package) to autoconfigure a BGP daemon (possibly BIRD)
-* Study interaction between BGP and dinamic routing protocols.
-* Tune BGP and others routing protocol to interoperate optimally
+* Creation of a LiMe plug-in (in the form of an OpenWrt package) to auto configure a BGP daemon (possibly BIRD)
+* Study interaction between BGP and dynamic routing protocols.
+* Tune BGP and others routing protocol to inter-operate optimally

@@ -10,7 +10,7 @@ skills: javascript, angular.js, user interface design, RESTful APIs.
 skill-level: medium
 category: sTeam
 ---
-Frontend Webapplication Design and Development
+Frontend Web application Design and Development
 
 
 Rebuild the management webinterface for the sTeam collaboration platform using a REST api

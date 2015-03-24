@@ -34,4 +34,4 @@ you may need to extend the API for specific features.
 content from the old site should be imported to the new site were possible
 (articles, events, wiki and forum)
 
-The design may be copied or changed at your disgression.
+The design may be copied or changed at your digression.
