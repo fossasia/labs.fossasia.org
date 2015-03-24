@@ -19,7 +19,7 @@ Rebuild the website for the Beijing GNU/Linux User Group with sTeam
 Open sTeam is a collaboration platform developed at the University of Paderborn in germany.
 It is no longer developed at the university, but still in use.
 
-http://societyserver.org is built with a branch of sTeam, and its developer
+[http://societyserver.org](http://societyserver.org) is built with a branch of sTeam, and its developer
 recently created a RESTful API interface for it.
 
 The Beijing GNU/Linux User Group uses an old Joomla based website, which should be replaced.

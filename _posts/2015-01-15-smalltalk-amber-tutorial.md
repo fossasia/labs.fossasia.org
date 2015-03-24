@@ -12,9 +12,9 @@ category: Smalltalk
 ---
 Frontend Webapplication Development and Documentation
 
-amber ( http://amber-lang.net/ ) is an implementation of smalltalk that compiles to javascript, similar to coffeescript and other languages.
+amber ( [http://amber-lang.net/](http://amber-lang.net/) ) is an implementation of smalltalk that compiles to javascript, similar to coffeescript and other languages.
 
-in this project you should build a user management application similar to https://github.com/aidarbek/angular.
+in this project you should build a user management application similar to [https://github.com/aidarbek/angular](https://github.com/aidarbek/angular).
 
 as you work you should document the process and write a tutorial on building an amber application.
 

@@ -19,6 +19,6 @@ you can also explore the [techgrind site]( http://ngtg.techgrind.asia:8000/ )
 you do not need to document the whole API, but you should focus on the registration process, and submitting and updating documents.
 
 parts of the documentation already exist here:
-https://gitlab.com/beijinglug/community-calendar/blob/master/api-documentation.md
+[https://gitlab.com/beijinglug/community-calendar/blob/master/api-documentation.md](https://gitlab.com/beijinglug/community-calendar/blob/master/api-documentation.md)
 
 the documentation should be released under the GPLv2 or later, so that it can be included with the original code.

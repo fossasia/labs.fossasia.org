@@ -24,5 +24,5 @@ Background: One of the main ideas of Valentina is to enable users to create cust
 
 Project: Valentina Patternmaking Project
 
-Website: http://www.valentina-project.org
+Website: [http://www.valentina-project.org](http://www.valentina-project.org)
 
