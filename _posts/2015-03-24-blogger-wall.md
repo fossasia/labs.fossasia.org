@@ -5,7 +5,7 @@ redirect_from: posts/blogger-wall.html
 permalink: projects/blogger-wall
 desc: Blogger Wall - Develop utility to display blog posts submitted by attendees
 status: open
-mentors: <TBD>
+mentors: TBD
 skill-level: medium
 skills: Web
 category: Community Tools
@@ -15,8 +15,9 @@ Before and after the Fossasia event happens many speakers/attendees share their 
 
 For this we will create APIs to submit, retrieve, update and remove blog post links. Front-end will load specified no. of posts on load and subsequent calls will be made to API to load more posts.
 
-The applicant should have the following skills
-- advanced development skills on web development including python, Django, AngularJS/Jquery
-- proven ability (show an example of your work) to write AJAX web applications
-- confident with css, HTML
-- overall application and web design skills
+The applicant should have the following skills:
+
+* advanced development skills on web development including python, Django, AngularJS/Jquery
+* proven ability (show an example of your work) to write AJAX web applications
+* confident with css, HTML
+* overall application and web design skills
