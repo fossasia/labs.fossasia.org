@@ -32,8 +32,8 @@ Features:
 
 Links:
 
-* Project: http://ayab-knitting.com/
-* Issue Tracker: https://bitbucket.org/chris007de/ayab-apparat/issues?status=new&status=open
+* Project: [http://ayab-knitting.com/](http://ayab-knitting.com/)
+* Issue Tracker: [https://bitbucket.org/chris007de/ayab-apparat/issues?status=new&status=open](https://bitbucket.org/chris007de/ayab-apparat/issues?status=new&status=open)
 * IRC Channel: irc://irc.freenode.net/#ayab
 * Twitter: https://www.twitter.com/AYABApparat
 * Reddit: http://www.reddit.com/r/ayab/
