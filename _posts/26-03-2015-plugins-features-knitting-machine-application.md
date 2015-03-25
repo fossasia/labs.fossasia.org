@@ -1,15 +1,15 @@
 ---
-title: Develop plugins and features for Knitting Machine Application
+title: Develop a library to support knitting machines
 layout: project
-redirect_from: posts/plugins-features-knitting-machine-application.html
-permalink: projects/plugins-features-knitting-machine-application
-desc: Additional Plugins and Features for Knitting Machine Applications
+redirect_from: posts/knitting-machine-library.html
+permalink: projects/knitting-machine-library
+desc: Knitting Machine Library
 status: open
-mentors: tbc
+mentors: Mario Behling, Duke
 student: 
 skill-level: medium
-skills: Python, Hardware hacking, C, C++
-links: [http://ayab-knitting.com/](http://ayab-knitting.com/)
+skills: Web
+links: <a href="http://ayab-knitting.com/">http://ayab-knitting.com/</a>
 category: FashionTec
 ---
 
