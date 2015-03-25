@@ -1,9 +1,9 @@
 ---
-title: Develop a library to support knitting machines
+title: Additional Plugins and Features for Knitting Machine Software
 layout: project
-redirect_from: posts/knitting-machine-library.html
-permalink: projects/knitting-machine-library
-desc: Knitting Machine Library
+redirect_from: posts/plugins-features-knitting-machine-application.html
+permalink: projects/plugins-features-knitting-machine-application
+desc: Additional Plugins and Features for Knitting Machine Software
 status: open
 mentors: Mario Behling, Duke
 student: 
