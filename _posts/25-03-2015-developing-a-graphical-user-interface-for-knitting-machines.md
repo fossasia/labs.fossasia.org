@@ -4,7 +4,7 @@ layout: project
 redirect_from: posts/developing-a-graphical-user-interface-for-knitting-machines.html
 permalink: projects/developing-a-graphical-user-interface-for-knitting-machines
 desc: Application Development
-status: closed
+status: open
 mentors: Steve Conklin, Christian Obersteiner
 student: Sebastian Oliva
 skill-level: medium
