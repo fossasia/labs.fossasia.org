@@ -1,5 +1,5 @@
 ---
-title: Create bootstrap3 theme for OpenWrt LuCI/LuCI2
+title: CJK Internationalisation of Text Processing
 layout: project
 permalink: posts/cjk-internationalisation-text-processing.html
 desc: Web development, Application Coding, UI Design
