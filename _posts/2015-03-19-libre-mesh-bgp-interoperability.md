@@ -9,7 +9,7 @@ mentors: Al
 student: 
 skill-level: High
 skills: Coding, Networking, Lua
-category: Libre-Mesh
+category: Local Networks
 ---
 
 * Creation of a LiMe plug-in (in the form of an OpenWrt package) to auto configure a BGP daemon (possibly BIRD)
