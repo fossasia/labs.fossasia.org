@@ -1,9 +1,9 @@
 ---
-title: Social Medial Wall - Develop utility to display social media posts with specified Hashtag
+title: Social Media Wall - Develop utility to display social media posts with specified Hashtag
 layout: project
 redirect_from: posts/social-media-wall.html
 permalink: projects/social-media-wall
-desc: Social Medial Wall - Develop utility to display social media posts with specified Hashtag
+desc: Social Media Wall - Develop utility to display social media posts with specified Hashtag
 status: open
 mentors: TBD
 skill-level: medium
