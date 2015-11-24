@@ -20,13 +20,19 @@ Many if constructions replace with switch.
 
 Methods:
 
+```
 VDomDocument::ParsePointElement
+
 VDomDocument::ParseSplineElement
+
 VDomDocument::ParseArcElement
+
 VDomDocument::ParseToolsElement
+```
 
 For example:
 
+```
 QStringList arcs;
 arcs << VToolArc::ToolType << VNodeArc::ToolType;
 
@@ -43,6 +49,7 @@ default:
 // print warning
 break;
 }
+```
 
 Project: [https://bitbucket.org/dismine/valentina/overview](https://bitbucket.org/dismine/valentina/overview)
 
