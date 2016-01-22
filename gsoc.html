@@ -1,0 +1,62 @@
+<html>
+<head>
+	<link rel="shortcut icon" href="images/fossasia.ico" type="image/vnd.microsoft.icon" />
+	<title>FOSSASIA | GSOC Project Ideas</title>
+	<meta name="author" content="FOSSASIA Labs" />
+    <meta name="keywords" content="fossasia, open source, foss, projects, labs, asia" />
+    <meta name="description" content="FOSSASIA is a Free and Open Source Software (FOSS) event for developers, officials and users from South-East Asia. Its main goal is to foster FOSS projects in Asia." />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="FOSSASIA Labs" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/fossasia/labs.fossasia.org/gh-pages/images/fossasia.png" />
+</head>
+<body>
+	<h3>List of Project Ideas</h3>
+	<div>
+		<div class="loading">Loading...</div>
+		<ul id="table">
+		</ul>
+	</div>
+	<hr>
+	<h3>Description of Ideas</h3>
+	<div id="content"><div class="loading">Loading...</div></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC"></script>
+	<script type="text/javascript">
+		$.getJSON( 
+			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC",
+			function(){
+				console.log("success");
+			}
+		)
+		.done(function(data){
+			$('.loading').hide();
+			console.log(data[0]);
+			$.each( data, function( i, item ) {
+				//List of Content
+				var a = $("<a>", {href: "#" + item["id"]});
+				a.html(item["title"] + "<br>");
+				var li = $("<li>");
+				li.html(a);
+				$('#table').append(li);
+				console.log("Data: " + item["url"]);
+
+				//Content Description
+				var div = $("<div>", {id: item["id"]});
+				var h4 = $("<h4>");
+				h4.html(item["title"]);
+				var p = $("<p>");
+				p.html(item["body"]);
+				div.html(h4);
+				div.append(p);
+				$('#content').append(div);
+		    });
+	        
+		})
+		.fail(function(){
+			console.log("fail");
+		})
+	</script>
+</body>
+</html>
