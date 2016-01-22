@@ -33,13 +33,23 @@
 		.done(function(data){
 			$('.loading').hide();
 			console.log(data[0]);
-			$.each( data, function( i, item ) {
+			$.each(data, function(i, item) {
 				//List of Content
+				var tag;
+				$.each(item["labels"], function(i, label) {
+					if (label["name"] != "GSoC") {
+						tag = label["name"];
+					}
+				});
+				if ($("#" + tag).length <= 0) {
+					var html = "<li class='tags'>" + tag + "<ul id='" + tag + "'></ul></li>";
+					$('#table').append(html);
+				}
 				var a = $("<a>", {href: "#" + item["id"]});
 				a.html(item["title"] + "<br>");
 				var li = $("<li>");
 				li.html(a);
-				$('#table').append(li);
+				$('#' + tag).append(li);
 				console.log("Data: " + item["url"]);
 
 				//Content Description
