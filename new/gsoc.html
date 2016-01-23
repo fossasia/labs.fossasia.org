@@ -9,18 +9,32 @@
     <meta property="og:title" content="FOSSASIA Labs" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://raw.githubusercontent.com/fossasia/labs.fossasia.org/gh-pages/images/fossasia.png" />
+
+	<style type="text/css" media="all">@import url("../stylesheets/system.css");@import url("../stylesheets/system.menus.css");@import url("../stylesheets/system.messages.css");@import url("../stylesheets/system.theme.css");@import url("../stylesheets/field.css");@import url("../stylesheets/node.css");@import url("../stylesheets/user.css");@import url("../stylesheets/dhtml.css");@import url("../stylesheets/tagadelic.css");@import url("../stylesheets/layout.css");@import url("../stylesheets/style.css");@import url("../stylesheets/colors.css");
+	.section-heading{
+		font-size: 28px;
+	}
+
+	</style>
+<style type="text/css" media="print">@import url("../stylesheets/print.css");</style>
 </head>
 <body>
-	<h3>List of Project Ideas</h3>
-	<div>
-		<div class="loading">Loading...</div>
-		<ul id="table">
-		</ul>
-	</div>
-	<hr>
-	<h3>Description of Ideas</h3>
-	<div id="content"><div class="loading">Loading...</div></div>
+	<div class="content">	<div class="project-contents">
+		<h1 class="section-heading">List of Project Ideas</h1>
+		<div>
+		<div class="category-contents">
+		</div>
+			<div class="loading">Loading...</div>
+			<ul id="table">
+			</ul>
+		</div>
+	</div></div>
 
+	<hr>
+	<h1 class="section-heading">Descripton of Ideas</h1>
+	<div id="description-content">
+		<div class="loading">Loading...</div>
+	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 	<script src="https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC"></script>
 	<script type="text/javascript">
@@ -42,7 +56,8 @@
 					}
 				});
 				if ($("#" + tag).length <= 0) {
-					var html = "<li class='tags'>" + tag + "<ul id='" + tag + "'></ul></li>";
+					var a0 = "<a href='#"+tag+"-description'>"+tag+"</a>";
+					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "'></ul></li>";
 					$('#table').append(html);
 				}
 				var a = $("<a>", {href: "#" + item["id"]});
@@ -53,14 +68,22 @@
 				console.log("Data: " + item["url"]);
 
 				//Content Description
+
+				var wrapperDiv = $("<div>");
+				var h1 = $("<h1>", {id: tag+"-description"});
+				h1.html(tag);
 				var div = $("<div>", {id: item["id"]});
 				var h4 = $("<h4>");
-				h4.html(item["title"]);
+				var a2 = $("<a>", {href:item['html_url'],target:'_blank'});
+				a2.html(item["title"])
+				h4.html(a2);
 				var p = $("<p>");
 				p.html(item["body"]);
 				div.html(h4);
 				div.append(p);
-				$('#content').append(div);
+				wrapperDiv.html(h1);
+				wrapperDiv.append(div);
+				$('#description-content').append(wrapperDiv);
 		    });
 	        
 		})
