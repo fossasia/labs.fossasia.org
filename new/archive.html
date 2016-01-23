@@ -1,7 +1,7 @@
 <html>
 <head>
 	<link rel="shortcut icon" href="images/fossasia.ico" type="image/vnd.microsoft.icon" />
-	<title>FOSSASIA | GSOC Project Ideas</title>
+	<title>FOSSASIA | GSOC Project Ideas Archive</title>
 	<meta name="author" content="FOSSASIA Labs" />
     <meta name="keywords" content="fossasia, open source, foss, projects, labs, asia" />
     <meta name="description" content="FOSSASIA is a Free and Open Source Software (FOSS) event for developers, officials and users from South-East Asia. Its main goal is to foster FOSS projects in Asia." />
@@ -9,9 +9,29 @@
     <meta property="og:title" content="FOSSASIA Labs" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://raw.githubusercontent.com/fossasia/labs.fossasia.org/gh-pages/images/fossasia.png" />
+
+    <link rel="shortcut icon" href="fossasia.ico" type="image/x-icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    	h1, h2, h3, h4, h5 {
+    		font-weight: bold;
+    		margin: 2rem 0;
+    	}
+    	ul {
+    		padding:0 2rem;
+    	}
+    </style>
 </head>
 <body>
-	<h3>List of Project Ideas</h3>
+	
+	<h3>Archive of Project Ideas</h3>
 	<div>
 		<div class="loading">Loading...</div>
 		<ul id="table">
@@ -21,11 +41,22 @@
 	<h3>Description of Ideas</h3>
 	<div id="content"><div class="loading">Loading...</div></div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/flexslider.min.js"></script>
+    <script src="js/jquery.plugin.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/placeholders.min.js"></script>
+    <script src="js/scripts.js"></script>
 	<script src="https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC"></script>
 	<script type="text/javascript">
 		$.getJSON( 
-			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC",
+			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC&state=closed",
 			function(){
 				console.log("success");
 			}
@@ -38,7 +69,7 @@
 				var tag;
 				$.each(item["labels"], function(i, label) {
 					if (label["name"] != "GSoC") {
-						tag = label["name"];
+						tag = label["name"].replace(" ", "-");
 					}
 				});
 				if ($("#" + tag).length <= 0) {
