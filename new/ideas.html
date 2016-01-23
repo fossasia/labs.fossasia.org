@@ -136,7 +136,10 @@
 						<div class="row">
 							<div class="col-sm-12 text-center">
 								<h1>Google Summer of Code Projects</h1>
-								<span class="uppercase">&lt;Add GSoC projects list&gt;</span>
+                                <div id="projects_holder">
+                                  <label id="ploading">Loading</label>
+                                  <div id="results_projects"></div>
+                                </div>
 								<a class="btn btn-lg" href="#">More Mini-Projects on Github</a>
 								<span class="uppercase">Don't wait, get started now and invite your friends too</span>
 								<a href="#"><i class="icon social_facebook"></i></a>
@@ -252,7 +255,6 @@
 				</div>
 			</footer>
 		</div>
-				
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.min.js"></script>
@@ -265,6 +267,59 @@
         <script src="js/twitterfetcher.min.js"></script>
         <script src="js/placeholders.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script type="text/javascript">
+		$.getJSON( 
+			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC",
+			function(){
+				console.log("success");
+			}
+		)
+		.done(function(data){
+			$('#ploading').hide();
+			console.log(data[0]);
+			$.each(data, function(i, item) {
+				//List of Content
+				var tag;
+				$.each(item["labels"], function(i, label) {
+					if (label["name"] != "GSoC") {
+						tag = label["name"];
+					}
+				});
+				var a = $("<a>", {href: "#" + item["id"]});
+				a.html(item["title"] + "<br>");
+				var li = $("<li>");
+				li.html(a);
+				$('#' + tag).append(li);
+				//Content Description
+				var div = $("<div>", {id: item["id"]});
+				var h4 = $("<h4>");
+				var p = $("<p>");
+				h4.html(item["title"]);
+				p.html(item["body"]);
+				var bes = $("<input>",{type:"button",onClick:"location.href='"+item["html_url"]+"'",value:"Read more on Github",id:"issuebut"});
+				div.html(h4);
+				div.append(p);
+				div.append(bes);
+				$('#results_projects').append(div);
+			});
+		});
+		</script>
     </body>
 </html>
-				
+<style>
+#results_projects div{
+	width: 80%;
+    margin-right: 10%;
+    background: #eee;
+    margin-left: 10%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+#results_projects div h4{
+	margin-bottom:5px;
+	font-weight:bold;
+}
+</style>
