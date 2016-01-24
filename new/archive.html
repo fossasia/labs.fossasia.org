@@ -1,72 +1,334 @@
-<html>
-<head>
-	<link rel="shortcut icon" href="images/fossasia.ico" type="image/vnd.microsoft.icon" />
-	<title>FOSSASIA | GSOC Project Ideas</title>
-	<meta name="author" content="FOSSASIA Labs" />
-    <meta name="keywords" content="fossasia, open source, foss, projects, labs, asia" />
-    <meta name="description" content="FOSSASIA is a Free and Open Source Software (FOSS) event for developers, officials and users from South-East Asia. Its main goal is to foster FOSS projects in Asia." />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="FOSSASIA Labs" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/fossasia/labs.fossasia.org/gh-pages/images/fossasia.png" />
-</head>
-<body>
-	<h3>List of Project Ideas</h3>
-	<div>
-		<div class="loading">Loading...</div>
-		<ul id="table">
-		</ul>
-	</div>
-	<hr>
-	<h3>Description of Ideas</h3>
-	<div id="content"><div class="loading">Loading...</div></div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-	<script src="https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC"></script>
-	<script type="text/javascript">
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Archive GSoC Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body class="no-loader">
+    
+    	<div class="loader">
+    		<div class="strip-holder">
+				<div class="strip-1"></div>
+				<div class="strip-2"></div>
+				<div class="strip-3"></div>
+    		</div>
+    	</div>
+    	
+    	<a id="top"></a>
+				
+		<div class="nav-container">
+						
+				<nav class="overlay-nav">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-2">
+								<img alt="Logo" class="logo logo-light" src="img/logo.png">
+								<img alt="Logo" class="logo logo-dark" src="img/logo-dark.png">
+					    </div>
+					
+							<div class="col-md-10 text-right">
+								<ul class="menu">
+									<li><a class="inner-link" href="#about-scroll">Single Link</a></li>
+									<li class="has-dropdown"><a href="#">Dropdown</a>
+										<ul class="nav-dropdown">
+											<li><a href="#">Dropdown 1</a></li>
+											<li><a href="#">Dropdown 2</a></li>
+											<li><a href="#">Dropdown 3</a></li>
+										</ul>
+									</li>
+									<li><a class="inner-link" href="#home">Single Link</a></li>
+									<li class="social-link"><a href="#"><i class="icon social_twitter"></i></a></li>
+									<li class="social-link"><a href="#"><i class="icon social_facebook"></i></a></li>
+									<li class="social-link instagram-toggle"><a href="#" class="instagram-toggle-init"><i class="icon social_instagram"></i></a></li>
+								</ul>
+								<div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
+								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+								
+							</div>
+						</div>
+					</div>
+			
+					<div class="bottom-border"></div>
+			
+					<div class="sidebar-menu">
+						<img alt="Logo" class="logo" src="img/logo.png">
+						<div class="bottom-border"></div>
+						<div class="sidebar-content">
+					
+							<div class="widget">
+								<ul class="menu">
+									<li><a class="inner-link" href="#top">Home</a></li>
+									<li><a class="inner-link" href="#about-scroll">About</a></li>
+									<li><a class="inner-link" href="#home">Schedule</a></li>
+									<li><a class="inner-link" href="#home">Tickets</a></li>
+									<li><a class="inner-link" href="#home">Register</a></li>
+									<li><a class="inner-link" href="#home">Visitors</a></li>
+									<li><a class="inner-link" href="#home">Subscribe</a></li>
+								</ul>
+							</div>
+					
+							<div class="widget">
+								<ul class="social-profiles">
+									<li><a href="#"><i class="icon social_twitter"></i></a></li>
+									<li><a href="#"><i class="icon social_facebook"></i></a></li>
+									<li><a href="#"><i class="icon social_dribbble"></i></a></li>
+									<li><a href="#"><i class="icon social_instagram"></i></a></li>
+									<li><a href="#"><i class="icon social_googleplus"></i></a></li>
+								</ul>
+							</div>
+					
+							<div class="copy-text">
+								<span>© Copyright 2014 Meetup Inc.</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="instagram-sidebar">
+						<div class="instafeed" data-user-name="insideenvato">
+							<ul></ul>
+						</div>
+					</div>
+			
+				</nav>
+		
+						
+				
+		</div>
+		<div class="main-container"><section class="section-header overlay preserve3d">
+			
+				<div class="background-image-holder parallax-background">
+					<img class="background-image" alt="Background Image" src="img/hero7.jpg">
+				</div>
+				
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-">
+							
+							
+							
+							<h1 class="text-white">FOSSASIA Labs</h1>
+							<p class="lead text-white">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			
+			<a id="gsoc" class="in-page-link"></a>
+			
+			<section class="strip-divider call-to-action">
+					<div class="background-image-holder parallax-background">
+						<img class="background-image" alt="BG Image" src="img/grey-bg.jpg">
+					</div>
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center" id="gsoc-proj">
+								<h1>Google Summer of Code Projects Archive</h1>
+                                <div id="projects_holder">
+                                  <h1 id="mino">Contents</h1>
+                                  <div class="loading">Loading. Please Wait..</div>
+                                  <ul id="table"></ul>
+                                  <div id="results_projects">
+                                    <h1>Description</h1>
+                                  </div>
+                                  <div class="loading">Loading. Please Wait..</div>
+                                </div>
+								<a class="btn btn-lg" href="#">More Mini-Projects on Github</a>
+								<span class="uppercase">Don't wait, get started now and invite your friends too</span>
+								<a href="#"><i class="icon social_facebook"></i></a>
+								<a href="#"><i class="icon social_twitter"></i></a>
+							</div>
+						</div>
+		
+					</div>
+			</section>
+			
+			<a id="join" class="in-page-link"></a>
+			
+			
+		<div class="footer-container">			
+			
+					
+			
+					
+			
+					
+			<footer class="classic">
+				<div class="container">
+					<div class="row ui-sortable">
+						<div class="col-sm-2">
+							<ul class="menu">
+								<li><a target="default" href="http://github.com/fossasia">Github</a></li>
+								<li><a href="http://blog.fossasia.org/code-conduct" target="_self">Code of Conduct</a></li>
+								<li><a target="default" class="inner-link" href="#about">About</a></li>
+								<li><a target="_self" href="http://blog.fossasia.org/contact">Contact</a></li><li><a target="default" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ALEMVYQHR4LNC">Donate</a></li>
+								<li><a class="inner-link back-to-top" href="#top">Back To Top</a></li>
+							</ul>
+						</div>
+					
+						<div class="col-sm-7">
+							<span class="lead color-heading">About FOSSASIA</span>
+							<p>
+								FOSSASIA is the premier Free and Open Source technology organization in Asia for developers, designers, start-ups, and contributors. Projects at FOSSASIA range from open hardware, to design, graphics and software. FOSSASIA was established in 2009. The annual FOSSASIA took place in Cambodia, Vietnam and Singapore. FOSSASIA meetup groups exist throughout Asia.</p>
+						</div>
+					
+						<div class="col-sm-3">
+							<ul class="contact-methods">
+								<li><i class="icon pe-7s-mail"></i><span>contact@fossasia.org</span></li>
+								<li><i class="icon pe-7s-phone"></i><span>+65 83435672</span></li>
+								<li><i class="icon pe-7s-map-marker"></i><span>Singapore, Asia</span></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="row ui-sortable">
+						<div class="col-sm-12 text-center">
+							<ul class="social-profiles">
+								<li><a target="default" href="http://twitter.com/fossasia"><i class="icon social_twitter"></i></a></li>
+								<li><a target="default" href="http://facebook.com/fossasia"><i class="icon social_facebook"></i></a></li>
+								<li><a target="default" href="https://www.linkedin.com/groups/FOSSASIA-3762811"><i class="icon social_linkedin icon-large"></i></a></li>
+								<li><a target="default" href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ"><i class="icon social_youtube icon-large"></i></a></li>
+								<li><a target="default" href="https://www.flickr.com/photos/fossasia"><i class="icon social_instagram icon-large"></i></a></li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/skrollr.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/jquery.plugin.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/placeholders.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script type="text/javascript">
 		$.getJSON( 
-			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC",
+			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC&state=closed",
 			function(){
 				console.log("success");
 			}
 		)
 		.done(function(data){
-			$('.loading').hide();
 			console.log(data[0]);
+			$('.loading').hide();
 			$.each(data, function(i, item) {
 				//List of Content
 				var tag;
 				$.each(item["labels"], function(i, label) {
 					if (label["name"] != "GSoC") {
-						tag = label["name"];
+						tag = label["name"].replace(" ", "-");
 					}
 				});
 				if ($("#" + tag).length <= 0) {
-					var html = "<li class='tags'>" + tag + "<ul id='" + tag + "'></ul></li>";
+					var a0 = "<a href='#"+tag+"-description' id='issue-tag' onClick=desc();>"+tag+"</a>";
+					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "'></ul></li>";
 					$('#table').append(html);
+
+					var wrapperDiv = $("<div>", {id: tag+"-description"});
+					var h1 = $("<h1>", {id: tag+"-description"});
+					h1.html(tag);
+					wrapperDiv.html(h1);
+					$('#results_projects').append(wrapperDiv);
 				}
-				var a = $("<a>", {href: "#" + item["id"]});
+				var a = $("<a>", {href: "#" + item["id"],id:"issue-link",onClick:"desc()"});
 				a.html(item["title"] + "<br>");
 				var li = $("<li>");
 				li.html(a);
 				$('#' + tag).append(li);
-				console.log("Data: " + item["url"]);
 
 				//Content Description
+
 				var div = $("<div>", {id: item["id"]});
 				var h4 = $("<h4>");
-				h4.html(item["title"]);
 				var p = $("<p>");
+				h4.html(item["title"]);
 				p.html(item["body"]);
+				var bes = $("<input>",{type:"button",onClick:"location.href='"+item["html_url"]+"'",value:"Read more on Github",id:"issuebut"});
 				div.html(h4);
 				div.append(p);
-				$('#content').append(div);
-		    });
-	        
-		})
-		.fail(function(){
-			console.log("fail");
-		})
-	</script>
-</body>
+				div.append(bes);
+				$('#'+tag+'-description').append(div);
+			});
+		});
+		function desc(){
+			document.getElementById("gsoc-proj").style.paddingTop="25rem";
+		};
+		// The function actually applying the offset
+		function offsetAnchor() {
+		    if(location.hash.length !== 0) {
+		        window.scrollTo(window.scrollX, window.scrollY - 100);
+		    }
+		}
+
+		// This will capture hash changes while on the page
+		$(window).on("hashchange", function () {
+		    offsetAnchor();
+		});
+
+		// This is here so that when you enter the page with a hash,
+		// it can provide the offset in that case too. Having a timeout
+		// seems necessary to allow the browser to jump to the anchor first.
+		window.setTimeout(function() {
+		    offsetAnchor();
+		}, 1);
+		</script>
+    </body>
 </html>
+<style>
+#results_projects {
+	z-index:10;
+}
+#results_projects div{
+	width: 80%;
+    margin-right: 10%;
+    background: #eee;
+    margin-left: 10%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+#results_projects div h4{
+	margin-bottom:5px;
+	font-weight:bold;
+}
+#table{
+	margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+    background: #eee;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.tags ul{
+	margin-left: 30px;
+}
+.tags > a{
+	color:#000;
+	font-size:19px;
+}
+#colbe:hover{
+	color:#000 !important;
+	cursor:default;
+}
+</style>
