@@ -261,7 +261,8 @@
 				var p = $("<p>");
 				h4.html(item["title"]);
 				p.html(item["body"]);
-				var bes = $("<input>",{type:"button",onClick:"location.href='"+item["html_url"]+"'",value:"Read more on Github",id:"issuebut"});
+				var bes = $("<a>",{href:item["html_url"],id:"issuebut"});
+				bes.html("Read More on Github");
 				div.html(h4);
 				div.append(p);
 				div.append(bes);
@@ -323,10 +324,20 @@
 .tags ul{
 	margin-left: 30px;
 }
-.tags > a{
-	color:#000;
-	font-size:19px;
+#table a{
+	color:#E12B00 !important;
 }
+
+#table a:hover{
+	color:#E12B00 !important;
+}
+
+#issuebut {
+	color: #E12B00 !important;
+	border-bottom: 3px solid #E12B00;
+	padding-bottom: 2px;
+}
+
 #colbe:hover{
 	color:#000 !important;
 	cursor:default;
