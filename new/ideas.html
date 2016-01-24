@@ -138,7 +138,11 @@
 								<h1>Google Summer of Code Projects</h1>
                                 <div id="projects_holder">
                                   <label id="ploading">Loading</label>
-                                  <div id="results_projects"></div>
+                                  <h1 id="mino">Contents</h1>
+                                  <ul id="table"></ul>
+                                  <div id="results_projects">
+                                    <h1>Description</h1>
+                                  </div>
                                 </div>
 								<a class="btn btn-lg" href="#">More Mini-Projects on Github</a>
 								<span class="uppercase">Don't wait, get started now and invite your friends too</span>
@@ -276,6 +280,9 @@
 		)
 		.done(function(data){
 			$('#ploading').hide();
+			$('#table').show();
+			$('#results_projects').show();
+			$('#mino').show();
 			console.log(data[0]);
 			$.each(data, function(i, item) {
 				//List of Content
@@ -285,6 +292,11 @@
 						tag = label["name"];
 					}
 				});
+				if ($("#" + tag).length <= 0) {
+					var a0 = "<a href='#"+tag+"-description'>"+tag+"</a>";
+					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "'></ul></li>";
+					$('#table').append(html);
+				}
 				var a = $("<a>", {href: "#" + item["id"]});
 				a.html(item["title"] + "<br>");
 				var li = $("<li>");
@@ -321,5 +333,25 @@
 #results_projects div h4{
 	margin-bottom:5px;
 	font-weight:bold;
+}
+#table{
+	margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+    background: #eee;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+	display:none;
+}
+#results_projects,#mino{
+	display:none;
+}
+.tags ul{
+	margin-left: 30px;
+}
+.tags > a{
+	color:#000;
+	font-size:19px;
 }
 </style>
