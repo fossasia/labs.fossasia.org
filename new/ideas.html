@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Meetup</title>
+        <title>GSoC Project Ideas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
@@ -134,14 +134,16 @@
 					
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-12 text-center" id="riga">
+							<div class="col-sm-12 text-center" id="gsoc-proj">
 								<h1>Google Summer of Code Projects</h1>
                                 <div id="projects_holder">
                                   <h1 id="mino">Contents</h1>
+                                  <div class="loading">Loading. Please Wait..</div>
                                   <ul id="table"></ul>
                                   <div id="results_projects">
                                     <h1>Description</h1>
                                   </div>
+                                  <div class="loading">Loading. Please Wait..</div>
                                 </div>
 								<a class="btn btn-lg" href="#">More Mini-Projects on Github</a>
 								<span class="uppercase">Don't wait, get started now and invite your friends too</span>
@@ -272,32 +274,41 @@
         <script src="js/scripts.js"></script>
         <script type="text/javascript">
 		$.getJSON( 
-			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC",
+			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC&state=open",
 			function(){
 				console.log("success");
 			}
 		)
 		.done(function(data){
 			console.log(data[0]);
+			$('.loading').hide();
 			$.each(data, function(i, item) {
 				//List of Content
 				var tag;
 				$.each(item["labels"], function(i, label) {
 					if (label["name"] != "GSoC") {
-						tag = label["name"];
+						tag = label["name"].replace(" ", "-");
 					}
 				});
 				if ($("#" + tag).length <= 0) {
-					var a0 = "<a id='colbe'>"+tag+"</a>";
+					var a0 = "<a href='#"+tag+"-description' id='issue-tag' onClick=desc();>"+tag+"</a>";
 					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "'></ul></li>";
 					$('#table').append(html);
+
+					var wrapperDiv = $("<div>", {id: tag+"-description"});
+					var h1 = $("<h1>", {id: tag+"-description"});
+					h1.html(tag);
+					wrapperDiv.html(h1);
+					$('#results_projects').append(wrapperDiv);
 				}
-				var a = $("<a>", {href: "#" + item["id"],id:"mitty",onClick:"jiggy()"});
+				var a = $("<a>", {href: "#" + item["id"],id:"issue-link",onClick:"desc()"});
 				a.html(item["title"] + "<br>");
 				var li = $("<li>");
 				li.html(a);
 				$('#' + tag).append(li);
+
 				//Content Description
+
 				var div = $("<div>", {id: item["id"]});
 				var h4 = $("<h4>");
 				var p = $("<p>");
@@ -307,12 +318,31 @@
 				div.html(h4);
 				div.append(p);
 				div.append(bes);
-				$('#results_projects').append(div);
+				$('#'+tag+'-description').append(div);
 			});
 		});
-		function jiggy(){
-			document.getElementById("riga").style.paddingTop="600px";
+		function desc(){
+			document.getElementById("gsoc-proj").style.paddingTop="75rem";
 		};
+
+		// The function actually applying the offset
+		function offsetAnchor() {
+		    if(location.hash.length !== 0) {
+		        window.scrollTo(window.scrollX, window.scrollY - 100);
+		    }
+		}
+
+		// This will capture hash changes while on the page
+		$(window).on("hashchange", function () {
+		    offsetAnchor();
+		});
+
+		// This is here so that when you enter the page with a hash,
+		// it can provide the offset in that case too. Having a timeout
+		// seems necessary to allow the browser to jump to the anchor first.
+		window.setTimeout(function() {
+		    offsetAnchor();
+		}, 1);
 		</script>
     </body>
 </html>
