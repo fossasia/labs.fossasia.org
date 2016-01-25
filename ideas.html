@@ -272,9 +272,10 @@
 			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC&state=open"
 		)
 		.done(function(data){
+
 			$('.loading').hide();
+
 			$.each(data, function(i, item) {
-				console.log(item);
 				//List of Content
 				var tag;
 				$.each(item["labels"], function(i, label) {
@@ -282,6 +283,7 @@
 						tag = label["name"].replace(" ", "-");
 					}
 				});
+				
 				if ($("#" + tag).length <= 0) {
 
 					var a0 = $("<a>", {href: "#" + tag + "-description", id:"issue-tag", onClick: "desc"});
@@ -322,6 +324,7 @@
 				$('#'+tag+'-description').append(div);
 			});
 		});
+
 		function desc(){
 			document.getElementById("gsoc-proj").style.paddingTop="75rem";
 		};
