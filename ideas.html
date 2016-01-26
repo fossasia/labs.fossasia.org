@@ -416,14 +416,12 @@
 
         <script type="text/javascript">
 		$.getJSON( 
-			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC&state=open",
-			function(){
-				console.log("success");
-			}
+			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=GSOC&state=open"
 		)
 		.done(function(data){
-			console.log(data[0]);
+
 			$('.loading').hide();
+
 			$.each(data, function(i, item) {
 				//List of Content
 				var tag;
@@ -432,20 +430,28 @@
 						tag = label["name"].replace(" ", "-");
 					}
 				});
+				
 				if ($("#" + tag).length <= 0) {
-					var a0 = "<a href='#"+tag+"-description' id='issue-tag' onClick=desc();>"+tag+"</a>";
-					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "'></ul></li>";
-					$('#table').append(html);
 
-					var wrapperDiv = $("<div>", {id: tag+"-description"});
-					var h1 = $("<h1>", {id: tag+"-description"});
+					var a0 = $("<a>", {href: "#" + tag + "-description", id:"issue-tag", onClick: "desc"});
+					var li0 = $("<li>", {class: "tags"});
+					var ul = $("<ul>", {id: tag});
+					var wrapperDiv = $("<div>", {id: tag + "-description"});
+					var h1 = $("<h1>", {id: tag + "-description"});
+
+					a0.html(tag);					
+					li0.html(a0);
+					li0.append(ul);
+					$('#table').append(li0);
 					h1.html(tag);
 					wrapperDiv.html(h1);
 					$('#results_projects').append(wrapperDiv);
 				}
-				var a = $("<a>", {href: "#" + item["id"],id:"issue-link",onClick:"desc()"});
-				a.html(item["title"] + "<br>");
+
+				var a = $("<a>", {href: "#" + item["id"], id:"issue-link", onClick:"desc()"});
 				var li = $("<li>");
+				
+				a.html(item["title"] + "<br>");
 				li.html(a);
 				$('#' + tag).append(li);
 
@@ -454,9 +460,10 @@
 				var div = $("<div>", {id: item["id"]});
 				var h4 = $("<h4>");
 				var p = $("<p>");
+				var bes = $("<a>",{href: item["html_url"], id: "issue-button"});
+
 				h4.html(item["title"]);
 				p.html(item["body"]);
-				var bes = $("<a>",{href:item["html_url"],id:"issuebut"});
 				bes.html("Read More on Github");
 				div.html(h4);
 				div.append(p);
@@ -464,6 +471,7 @@
 				$('#'+tag+'-description').append(div);
 			});
 		});
+
 		function desc(){
 			document.getElementById("gsoc-proj").style.paddingTop="75rem";
 		};
@@ -530,7 +538,7 @@
 	color:#E12B00 !important;
 }
 
-#issuebut {
+#issue-button {
 	color: #E12B00 !important;
 	border-bottom: 3px solid #E12B00;
 	padding-bottom: 2px;
