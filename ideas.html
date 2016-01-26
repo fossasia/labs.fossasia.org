@@ -397,6 +397,7 @@
 		</div>
 				
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+		<script src="js/showdown.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.min.js"></script>
         <script src="js/spectragram.min.js"></script>
@@ -430,7 +431,7 @@
 						tag = label["name"].replace(" ", "-");
 					}
 				});
-				
+
 				if ($("#" + tag).length <= 0) {
 
 					var a0 = $("<a>", {href: "#" + tag + "-description", id:"issue-tag", onClick: "desc"});
@@ -462,8 +463,11 @@
 				var p = $("<p>");
 				var bes = $("<a>",{href: item["html_url"], id: "issue-button"});
 
+				var converter = new showdown.Converter();
+				var body = converter.makeHtml(item["body"]);
+
 				h4.html(item["title"]);
-				p.html(item["body"]);
+				p.html(body);
 				bes.html("Read More on Github");
 				div.html(h4);
 				div.append(p);
