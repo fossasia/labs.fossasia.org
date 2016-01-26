@@ -151,7 +151,7 @@
 						<img class="background-image" alt="BG Image" src="img/grey-bg.jpg">
 					</div>
 					
-					<div class="container-new">
+					<div class="container-fluid">
 						<div class="row">
 							<div class="col-sm-12 text-center" id="gsoc-proj">
 								<h1>Google Summer of Code Projects</h1>
@@ -506,14 +506,22 @@
 #results_projects {
 	z-index:10;
 }
+
 #projects_holder{
 	 width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    #projects_holder{
+		 width: 90%;
+		 margin-left: 5%;
+	}
 }
 
 #results_projects div{
 	background: #eee;
     text-align: left;
-    padding: 15px 8%;
+    padding: 15px 6%;
     margin-bottom: 20px;
 	border: 1px solid;
 	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
@@ -526,10 +534,10 @@
 #table{
     width: 100%;
     background: #eee;
-    padding: 15px 15% !important;
+    padding: 15px 10% !important;
     text-align: left;
     margin-bottom: 20px;
-    padding: 10px;
+    padding-bottom: 30px !important;
 }
 .tags ul{
 	margin-left: 30px;
@@ -554,6 +562,10 @@
 
 .call-to-action h1 {
     margin-top: 20px;
+}
+
+.call-to-action .btn{
+	margin: 20px 0 40px 0;
 }
 
 li.tags{
