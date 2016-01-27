@@ -146,12 +146,8 @@
 			
 			<a id="gsoc" class="in-page-link"></a>
 			
-			<section class="strip-divider call-to-action">
-					<div class="background-image-holder parallax-background">
-						<img class="background-image" alt="BG Image" src="img/grey-bg.jpg">
-					</div>
-					
-					<div class="container">
+			<section class="strip-divider call-to-action">					
+					<div class="container-fluid">
 						<div class="row">
 							<div class="col-sm-12 text-center" id="gsoc-proj">
 								<h1>Google Summer of Code Projects</h1>
@@ -397,6 +393,7 @@
 		</div>
 				
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+		<script src="js/showdown.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.min.js"></script>
         <script src="js/spectragram.min.js"></script>
@@ -430,7 +427,7 @@
 						tag = label["name"].replace(" ", "-");
 					}
 				});
-				
+
 				if ($("#" + tag).length <= 0) {
 
 					var a0 = $("<a>", {href: "#" + tag + "-description", id:"issue-tag", onClick: "desc"});
@@ -462,8 +459,11 @@
 				var p = $("<p>");
 				var bes = $("<a>",{href: item["html_url"], id: "issue-button"});
 
+				var converter = new showdown.Converter();
+				var body = converter.makeHtml(item["body"]);
+
 				h4.html(item["title"]);
-				p.html(item["body"]);
+				p.html(body);
 				bes.html("Read More on Github");
 				div.html(h4);
 				div.append(p);
@@ -502,29 +502,38 @@
 #results_projects {
 	z-index:10;
 }
+
+#projects_holder{
+	 width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    #projects_holder{
+		 width: 90%;
+		 margin-left: 5%;
+	}
+}
+
 #results_projects div{
-	width: 80%;
-    margin-right: 10%;
-    background: #eee;
-    margin-left: 10%;
+	background: #eee;
     text-align: left;
-    padding: 10px;
+    padding: 15px 6%;
     margin-bottom: 20px;
 	border: 1px solid;
 	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
+
 #results_projects div h4{
 	margin-bottom:5px;
 	font-weight:bold;
 }
 #table{
-	margin-left: 10%;
-    width: 80%;
-    margin-right: 10%;
+    width: 100%;
     background: #eee;
+    padding: 15px 10% !important;
     text-align: left;
     margin-bottom: 20px;
-    padding: 10px;
+    padding-bottom: 30px !important;
 }
 .tags ul{
 	margin-left: 30px;
@@ -536,6 +545,27 @@
 
 #table a:hover{
 	color:#E12B00 !important;
+	text-decoration: underline;
+}
+
+#table #issue-tag{
+	font-size: 24px;
+}
+
+#table #issue-link{
+	font-size: 16px;
+}
+
+.call-to-action h1 {
+    margin-top: 20px;
+}
+
+.call-to-action .btn{
+	margin: 20px 0 40px 0;
+}
+
+li.tags{
+	margin-top: 20px;
 }
 
 #issue-button {
