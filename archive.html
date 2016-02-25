@@ -5,6 +5,20 @@
         <meta charset="utf-8">
         <title>Archive GSoC Projects</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="FOSSASIA Open Tech Community - Open Source, Big Data, Design Thinking and Free Knowledge Tools with Asia's Premier Open Technology Organization">
+        <meta name="keywords" content="FOSSASIA, FOSS, Free and Open Source Software, Asia">
+        <meta name="author" content="FOSSASIA">
+        <meta property="og:title" content="FOSSASIA" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://fossasia.github.io/fossasia15/img/fossasia-dark.png" />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@fossasia">
+        <meta name="twitter:title" content="FOSSASIA">
+        <meta name="twitter:description" content="FOSSASIA Open Technology Community - Open Source, Big Data, Design Thinking and Free Knowledge Tools with Asia's Premier Open Technology Organization">
+        <meta name="twitter:creator" content="@fossasia">
+        <meta name="twitter:image" content="http://fossasia.github.io/fossasia15/img/fossasia-dark.png">
+
+        <link rel="shortcut icon" href="fossasia.ico" type="image/x-icon" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
@@ -237,12 +251,12 @@
 						tag = label["name"].replace(" ", "-");
 					}
 				});
-				if ($("#" + tag).length <= 0) {
-					var a0 = "<a href='#"+tag+"-description' id='issue-tag' onClick=desc();>"+tag+"</a>";
-					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "'></ul></li>";
+				if ($("#" + tag + "-issues").length <= 0) {
+					var a0 = "<a href='#"+tag+"' id='issue-tag' onClick=desc();>"+tag+"</a>";
+					var html = "<li class='tags'>" + a0 + "<ul id='" + tag + "-issues'></ul></li>";
 					$('#table').append(html);
 
-					var wrapperDiv = $("<div>", {id: tag+"-description"});
+					var wrapperDiv = $("<div>", {id: tag+""});
 					var h1 = $("<h1>", {id: tag+"-description"});
 					h1.html(tag);
 					wrapperDiv.html(h1);
@@ -252,7 +266,7 @@
 				a.html(item["title"] + "<br>");
 				var li = $("<li>");
 				li.html(a);
-				$('#' + tag).append(li);
+				$('#' + tag + "-issues").append(li);
 
 				//Content Description
 
@@ -324,6 +338,12 @@
 .tags ul{
 	margin-left: 30px;
 }
+
+.tags ul li {
+	margin: 5px 0px;
+	list-style: inside;
+}
+
 #table a{
 	color:#E12B00 !important;
 }
