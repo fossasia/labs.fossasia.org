@@ -428,12 +428,12 @@
 					}
 				});
 
-				if ($("#" + tag).length <= 0) {
+				if ($("#" + tag + "-issues").length <= 0) {
 
-					var a0 = $("<a>", {href: "#" + tag + "-description", id:"issue-tag", onClick: "desc"});
+					var a0 = $("<a>", {href: "#" + tag + "", id:"issue-tag", onClick: "desc"});
 					var li0 = $("<li>", {class: "tags"});
-					var ul = $("<ul>", {id: tag});
-					var wrapperDiv = $("<div>", {id: tag + "-description"});
+					var ul = $("<ul>", {id: tag + "-issues"});
+					var wrapperDiv = $("<div>", {id: tag + ""});
 					var h1 = $("<h1>", {id: tag + "-description"});
 
 					a0.html(tag);					
@@ -450,7 +450,7 @@
 				
 				a.html(item["title"] + "<br>");
 				li.html(a);
-				$('#' + tag).append(li);
+				$('#' + tag + '-issues').append(li);
 
 				//Content Description
 
@@ -537,6 +537,11 @@
 }
 .tags ul{
 	margin-left: 30px;
+}
+
+.tags ul li {
+	margin: 5px 0px;
+	list-style: inside;
 }
 
 #table a{
