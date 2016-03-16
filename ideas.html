@@ -470,6 +470,9 @@
 				div.append(bes);
 				$('#'+tag+'-description').append(div);
 			});
+			
+			$("#results_projects div img").parent().css("border", "none");
+			$("#results_projects div a").parent().css("list-style", "none");
 		});
 
 		function desc(){
@@ -526,6 +529,14 @@
 #results_projects div h4{
 	margin-bottom:5px;
 	font-weight:bold;
+}
+
+#results_projects div a{
+	color:#E12B00 !important;
+}
+
+#results_projects div ul{
+	list-style: inside;
 }
 #table{
     width: 100%;
