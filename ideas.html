@@ -465,6 +465,7 @@
 				var bes = $("<a>",{href: item["html_url"], id: "issue-button"});
 
 				var converter = new showdown.Converter();
+				converter.setOption('simplifiedAutoLink', true);
 				var body = converter.makeHtml(item["body"]);
 
 				h4.html(item["title"]);
