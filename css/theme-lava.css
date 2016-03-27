@@ -959,6 +959,10 @@ nav .container {
   font-size: 36px;
   line-height: 48px;
 }
+.strip-divider a {
+	font-size: 14px;
+	line-height: 36px;
+}
 .strip-divider a:hover {
   color: #fff !important;
 }
