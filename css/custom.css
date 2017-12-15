@@ -97,3 +97,9 @@
 .baddition{
   margin-left:  600px;
 }
+
+div.copy-text {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+}
