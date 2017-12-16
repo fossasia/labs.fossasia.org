@@ -97,3 +97,13 @@
 .baddition{
   margin-left:  600px;
 }
+
+div.copy-text {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+}
+
+.background-image-holder.parallax-background.skrollable.skrollable-between {
+  background-image: url(img/header-fossasia.jpg);
+}
