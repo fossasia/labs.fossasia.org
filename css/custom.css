@@ -103,3 +103,7 @@ div.copy-text {
   padding-right: 30px;
   font-size: 12px;
 }
+
+.background-image-holder.parallax-background.skrollable.skrollable-between {
+  background-image: url(background-image-holder parallax-background skrollable skrollable-between);
+}
