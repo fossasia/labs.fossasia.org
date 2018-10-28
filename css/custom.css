@@ -107,3 +107,24 @@ div.copy-text {
 .background-image-holder.parallax-background.skrollable.skrollable-between {
   background-image: url(img/header-fossasia.jpg);
 }
+
+.project-links a
+{
+  text-decoration: none;
+   padding: 1rem;
+   font-size: 150%;
+   color: #e12b00;
+   border: 2px solid #e12b00;
+   border-radius: 100vw;
+   margin: 0.5rem;
+   width: 4.5rem;
+   height: 4.5rem;
+   text-align: center;
+}
+
+.project-links a:hover
+{
+    color: white;
+    background: #e12b00;
+    border-color: #e12b00;
+}
