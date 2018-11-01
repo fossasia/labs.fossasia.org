@@ -128,3 +128,28 @@ div.copy-text {
     background: #e12b00;
     border-color: #e12b00;
 }
+
+.row-equal
+{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.link-bottom-left
+{
+  position: absolute;
+  bottom: -3%;
+  left: 0;
+  vertical-align: top;
+  margin-bottom: 7%;
+}
+
+.link-bottom-right
+{
+  position: absolute;
+  bottom: -3%;
+  right: 5%;
+  vertical-align: top;
+  margin-bottom: 7%;
+}
