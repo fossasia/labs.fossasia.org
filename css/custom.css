@@ -139,7 +139,7 @@ div.copy-text {
 .link-bottom-left
 {
   position: absolute;
-  bottom: -3%;
+  bottom: 1%;
   left: 0;
   vertical-align: top;
   margin-bottom: 7%;
@@ -152,4 +152,14 @@ div.copy-text {
   right: 5%;
   vertical-align: top;
   margin-bottom: 7%;
+}
+
+.info-box
+{
+  margin-bottom: 2%;
+}
+
+.faq-item
+{
+  margin-bottom: 17%;
 }
