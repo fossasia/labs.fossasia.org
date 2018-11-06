@@ -4,7 +4,7 @@ before_install:
   - gem install github-pages --no-rdoc --no-ri
 
 rvm:
-- 2.3
+- 2.1
 script: jekyll build
 
 branches:
