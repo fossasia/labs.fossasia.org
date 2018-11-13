@@ -72,6 +72,16 @@
 .social-profiles a i{
   transition: all .5s;
 }
+.social-profiles > *{
+  height: 48px;
+  width: 48px;
+  text-align: center;
+  margin-right: 0px !important;
+  display: inline-block;
+}
+.social-profiles i{
+  vertical-align: middle;
+}
 .social-profiles a:hover i{
   color: grey;
 }
