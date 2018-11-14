@@ -459,7 +459,6 @@ nav .logo {
   max-height: 45px;
   max-width: 110px;
   position: absolute;
-  top: -6px;
   opacity: 1;
 }
 nav .text-right {
@@ -584,10 +583,10 @@ nav .container {
 
 }
 
+
 .has-dropdown:hover > ul{
   display: block;
 }
-
 
 .has-dropdown:hover .nav-dropdown {
   opacity: 1;
@@ -795,7 +794,7 @@ nav .container {
 }
 .sidebar-menu .logo {
   max-width: 110px;
-  position: relative;
+  position: absolute;
   top: 21px !important;
   margin-bottom: 32px;
   left: 24px;
@@ -1585,6 +1584,7 @@ nav .container {
   display: block;
   margin: 0px auto;
   margin-bottom: 12px;
+
 }
 @media screen and (max-width: 768px) {
   .gallery-header .logo {
