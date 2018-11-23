@@ -57,42 +57,37 @@
 
      <body class="no-loader">
 
-    	<div class="loader">
-    		<div class="strip-holder">
-				<div class="strip-1"></div>
-				<div class="strip-2"></div>
-				<div class="strip-3"></div>
-    		</div>
-    	</div>
-
     	<a id="top"></a>
-
-		<div class="nav-container"><nav class="overlay-nav">
+		<div class="nav-container">
+			<nav class="overlay-nav">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-2">
 								<a href="http://fossasia.org"><img alt="FOSSASIA" class="logo logo-light" src="img/fossasia-long.png">
 								<img alt="FOSSASIA" class="logo logo-dark" src="img/fossasia-dark.png"></a>
 							</div>
-
 							<div class="col-md-10 text-right">
 								<ul class="menu">
-									<li class="has-dropdown"><a href="http://fossasia.org/about">About</a>
-										<ul class="nav-dropdown" style="min-height: 100px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+									<li class="has-dropdown"><a>About</a>
+										<ul class="nav-dropdown" style="min-height:100px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+											<li><a target="_self" href="http://fossasia.org/about">About</a></li>
 											<li><a target="_self" href="http://fossasia.org/about#background">Background & Mission</a></li>
 											<li><a target="_self" href="http://fossasia.org/licenses">Licenses</a></li>
 											<li><a target="_self" href="http://fossasia.org/team">Team</a></li>
 										</ul>
-									<li class="has-dropdown"><a href="http://fossasia.org/apply.html">Apply</a>
-										<ul class="nav-dropdown" style="min-height: 175px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+									</li>
+									<li class="has-dropdown"><a>Apply</a>
+										<ul class="nav-dropdown" style="min-height:175px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+											<li><a target="_self" href="http://fossasia.org/apply.html">Apply</a></li>
 											<li><a target="_self" href="http://fossasia.org/apply-students">University Student Programs/Internships</a></li>
 											<li><a target="_self" href="http://fossasia.org/apply-pupils">Pre-University Student Programs/Internships</a></li>
 											<li><a target="_self" href="http://codeheat.org">Code Heat Contest</a></li>
 											<li><a target="_self" href="/adp">Advanced Developer Program</a></li>
 										</ul>
-
-									<li class="has-dropdown"><a class="inner-link" href="#projects">Projects</a>
-										<ul class="nav-dropdown" style="min-height:575px"> <!--whenever you add/remove an option, change the style="min-height:500px" by +- 25px-->
+									</li>
+									<li class="has-dropdown"><a>Projects</a>
+										<ul class="nav-dropdown" style="max-height:200px; overflow-y:scroll">
+											<li><a target="_self" class="inner-link" href="#projects">Projects</a></li>
 											<li><a target="_self" href="https://github.com/fossasia">Contribute on Github</a></li>
 											<li><a target="_self" href="http://labs.fossasia.org/ideas.html">Project Ideas</a></li>
 											<li><a target="_self" class="inner-link" href="#top">FOSSASIA Labs</a></li>
@@ -105,22 +100,25 @@
 											<li><a target="_self" href="http://meilix.fossasia.org">Meilix Linux</a></li>
 											<li><a target="_self" href="http://pslab.fossasia.org/">Pocket Science Lab</a></li>
 											<li><a target="_self" href="https://query-server.herokuapp.com/">Query Server</a></li>
-											<li><a target="_self" href="http://knitting.fossasia.org/">Knitting Lab</a></li>
+											<li><a target="_self" href="https://knitting.fossasia.org/">Knitting Lab</a></li>
 											<li><a target="_self" href="https://badgeyay-dev.herokuapp.com/">Badgeyay</a></li>
-											<li><a target="_self" href="http://gci17.fossasia.org">Code-In 2017</a></li>
-											<li><a target="_self" href="http://gci16.fossasia.org">Code-In 2016</a></li>
-											<li><a target="_self" href="http://gci15.fossasia.org">Code-In 2015</a></li>
-											<li><a target="_self" href="http://gci14.fossasia.org">Code-In 2014</a></li>
+											<li><a target="_self" href="https://gci18.fossasia.org">Code-In 2018</a></li>
+											<li><a target="_self" href="https://gci17.fossasia.org">Code-In 2017</a></li>
+											<li><a target="_self" href="https://gci16.fossasia.org">Code-In 2016</a></li>
+											<li><a target="_self" href="https://gci15.fossasia.org">Code-In 2015</a></li>
+											<li><a target="_self" href="https://gci14.fossasia.org">Code-In 2014</a></li>
 										</ul>
-									<li><a target="_self" href="http://fossasia.org/#subscribe">Subscribe</a></li>
-									<li><a href="http://blog.fossasia.org" target="_self">blog</a></li>
-									<li class="has-dropdown"><a href="http://events.fossasia.org">Events</a>
-										<ul class="nav-dropdown" style="min-height: 525px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+									</li>
+									<li><a target="_self" href="http://fossasia.org/#subscribe">Subscribe</a></li>	
+									<li><a href="http://blog.fossasia.org" target="_self">Blog</a></li>							
+									<li class="has-dropdown"><a>Events</a>
+										<ul class="nav-dropdown" style="max-height:200px; overflow-y:scroll"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+											<li><a target="_self" href="http://events.fossasia.org">Events</a></li>
 											<li><a target="_self" href="http://events.fossasia.org/#sponsorship">Sponsorship</a></li>
 											<li><a target="_self" href="http://eventyay.com">FOSSASIA Event Management</a></li>
 											<li><a href="http://sciencehack.asia" target="_self">Science Hack Asia</a></li>
 											<li><a href="http://sciencehack.in" target="_self">Science Hack India</a></li>
-											<li><a target="_self" href="http://2018.fossasia.org">FOSSASIA Summit 2018</a></li>
+											<li><a target="_self" href="http://2019.fossasia.org">FOSSASIA Summit 2019</a></li>
 											<li><a target="_self" href="http://opentechsummit.cn">OpenTechSummit China</a></li>
 											<li><a target="_self" href="http://jugaadfest.com">Jugaadfest India</a></li>
 											<li><a target="_self" href="http://2017.fossasia.org">FOSSASIA Summit 2017</a></li>
@@ -134,17 +132,14 @@
 											<li><a target="_self" href="http://coc.fossasia.org">Code of Conduct</a></li>
 										</ul>
 									</li>
-									<li><a href="http://fossasia.org/donate/" target="_self">Donate</a></li>
-									<li><a href="http://blog.fossasia.org/contact/" target="_self">Contact</a></li>
+									<li><a href="https://fossasia.org/donate/" target="_self">Donate</a></li>
+									<li><a href="https://blog.fossasia.org/contact/" target="_self">Contact</a></li>
 									<li class="social-link"><a href="http://twitter.com/fossasia" target="_self"><i class="icon social_twitter"></i></a></li>
-									<li class="social-link"><a href="http://facebook.com/fossasia" target="_self"><i class="icon social_facebook"></i></a></li>
+									<li class="social-link"><a href="https://facebook.com/fossasia" target="_self"><i class="icon social_facebook"></i></a></li>
 									<li class="social-link"><a href="https://github.com/fossasia/labs.fossasia.org" target="_self"><i class="fa fa-github fa-lg"></i></a></li>
 								</ul>
-
-																</ul>
 								<div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
-								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
-
+								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>						
 							</div>
 						</div>
 					</div>
@@ -152,11 +147,10 @@
 					<div class="bottom-border"></div>
 
 					<div class="sidebar-menu">
-						<img alt="Logo" class="logo" src="img/fossasia-long.png">
+						<img alt="Logo" class="logo" src="img/fossasia-long.png"/ style="margin-bottom: 10px;">
 						<div class="bottom-border"></div>
 						<div class="sidebar-content">
-
-							<div class="widget">
+							<div class="widget" style="padding-top:50px;">
 								<ul class="menu">
 									<li><a href="http://fossasia.org" target="_self">Home</a></li>
 									<li><a href="http://fossasia.org/about" target="_self">About</a></li>
@@ -211,16 +205,16 @@
 				</div>
 			</section>
 
-			<section class="color-blocks">
-				<div class="color-block block-left col-sm-12 col-md-12"></div>
+			<section class="color-blocks block-left">
+				<div class="color-block col-sm-12 col-md-12"></div>
 				<div class="container">
-					<div class="row">
+					<div class="row"> 
 						<a href="http://labs.fossasia.org/ideas.html" class="block-content" target="_self">
-							<div class="col-md-2 col-sm-4 text-center">
+							<div class="col-md-4 col-sm-4 text-center">
 								<i class="icon pe-7s-cash"></i>
 							</div>
 
-							<div class="col-sm-8 col-md-8">
+							<div class="col-sm-8 col-md-6">
 								<h1>Google Summer of Code</h1>
 								<p>FOSSASIA is proud to participate for several years as a mentor organization in the Summer of Code program of Google and at Google Code-In. Google Summer of Code offers students stipends to write code for our open source projects. Since 2011 FOSSASIA functions as an umbrella organization for a number of projects.</p>
 							</div>
@@ -356,7 +350,9 @@
 								<div class="info-box">
 									<img alt="Venue" src="img/16684326949_3f300eacf7_z.jpg">
 									<h3>Hardware Projects</h3>
-									<p>The boundaries between hardware and software are increasingly blurry. For many years we cooperate with commmunities that work on open hardware such as OpenWrt, the Machine Knitting community, IoT projects for the smart city and open data hardware applications.</p>
+									<p>The boundaries between hardware and software are increasingly blurry. For many years we cooperate with commmunities that work on open hardware such as OpenWrt, the Machine Knitting community, IoT projects for the smart city and open data hardware applications.</p><br/><br/>
+										<div class="text-link">
+										<a href="https://github.com/fossasia?utf8=%E2%9C%93&q=hardware&type=&language=" target="default">Hardware Repos</a>
 								</div>
 							</div>
 						</div>
@@ -365,10 +361,270 @@
 
 			</section>
 
-<a id="open-event" class="in-page-link"></a>
+			<a id="data-machinelearning" class="in-page-link"></a>
 
 			<section class="image-with-text background-dark preserve-3d">
 
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<h1 class="text-white">SUSI.AI, Data Science and Machine Learning</h1>
+							<p class="lead text-white">
+								We are implementing data science and machine learning capabilities in a number of projects. At <a href="http://susi.ai" target="_self">SUSI.AI</a> we are using big data to provide a personal assistant for users. SUSI.ai can be used inside chat applications like messengers as well as mobile Android apps and iOS apps.<br>[Technologies used: NodeJS, ExpressJS, APIs, Facebook, Slack, Messenger Services, Javascript, HTML, CSS]<br>
+
+
+                <div class="project-links">
+                    <a href="https://susi.ai" target="_self" title="Website" class="fa fa-link"></a>
+                    <a href="https://groups.google.com/group/susiai" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                    <a href="https://github.com/fossasia?utf8=✓&q=susi" target="_self" title="Contribute" class="fa fa-github"></a>
+                    <a href="https://www.facebook.com/asksusiai/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/susiai_" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                </div>
+                <div class="project-links">
+                    <div style="padding: 0.5rem 1rem;">Chat Channels : </div>
+                    <a href="https://gitter.im/fossasia/susi_server" target="_self" title="Chat Channel - Server" class="fa fa-server"></a>
+                    <a href="https://gitter.im/fossasia/susi_android" target="_self" title="Chat Channel - Android" class="fa fa-android"></a>
+                    <a href="https://gitter.im/fossasia/susi_iOS" target="_self" title="Chat Channel - iOS" class="fa fa-apple"></a>
+                </div>
+
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="go-right side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">
+						<img class="background-image" alt="FOSSASIA Wordpress Plugins" src="img/asksusi.png">
+					</div>
+				</div>
+			</section>
+
+	<a id="SUSIAI_Android" class="in-page-link"></a>
+
+			<section class="image-with-text testimonials preserve-3d">
+
+				<div class="go-left side-image col-md-6 col-sm-4">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Susi Android" src="img/susi_android_a.png">
+					</div>
+				</div>
+
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
+							<div class="testimonials-slider">
+								<ul class="slides">
+									<li>
+										<h1>SUSI.AI Android App</h1>
+										<p class="lead">
+											The Android app project of SUSI.AI enables users to use the Open Source personal Assistant with Android phones.<br>
+											[Technologies used: Python, Javascript, HTML, CSS, JSON, Rest-APIs]<br>
+
+                          <div class="project-links">
+                              <a href="https://chat.susi.ai/overview" target="_self"  title="Website" class="fa fa-link"></a>
+                              <a href="https://groups.google.com/forum/#!forum/susiai" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                              <a href="https://gitter.im/fossasia/susi_android" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                              <a href="https://github.com/fossasia/susi_android" target="_self" title="Contribute" class="fa fa-github"></a>
+                              <a href="https://www.facebook.com/asksusiai/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                              <a href="https://twitter.com/susiai_" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                          </div>
+
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<a id="SUSI_iOS" class="in-page-link"></a>
+
+			<section class="image-with-text background-dark preserve-3d">
+
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<h1 class="text-white">SUSI.AI iOS</h1>
+							<p class="lead text-white">
+								The SUSI iOS app projects enables users to run SUSI.AI on their Apple smartphone.. At <a href="http://susi.ai" target="_self">SUSI.AI</a> we are using big data to provide a personal assistant for users. SUSI.ai can be used inside chat applications like messengers as well as mobile Android apps and iOS apps.<br>[Technologies used: NodeJS, ExpressJS, APIs, Facebook, Slack, Messenger Services, Javascript, HTML, CSS]<br>
+
+
+                <div class="project-links">
+                    <a href="https://susi.ai" target="_self" title="Website" class="fa fa-link"></a>
+                    <a href="https://groups.google.com/group/susiai" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                    <a href="https://github.com/fossasia?utf8=✓&q=susi" target="_self" title="Contribute" class="fa fa-github"></a>
+                    <a href="https://www.facebook.com/asksusiai/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/susiai_" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                </div>
+                <div class="project-links">
+                    <div style="padding: 0.5rem 1rem;">Chat Channels : </div>
+                    <a href="https://gitter.im/fossasia/susi_server" target="_self" title="Chat Channel - Server" class="fa fa-server"></a>
+                    <a href="https://gitter.im/fossasia/susi_android" target="_self" title="Chat Channel - Android" class="fa fa-android"></a>
+                    <a href="https://gitter.im/fossasia/susi_iOS" target="_self" title="Chat Channel - iOS" class="fa fa-apple"></a>
+                </div>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="go-right side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">
+						<img class="background-image" alt="FOSSASIA Wordpress Plugins" src="img/asksusi.png">
+					</div>
+				</div>
+			</section>
+
+	<a id="pocketscience" class="in-page-link"></a>
+			<section class="image-with-text testimonials preserve-3d">
+				<div class="go-left side-image col-md-6 col-sm-4">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Pocket Science" src="img/pocketscience.jpg">
+					</div>
+				</div>
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
+							<div class="testimonials-slider">
+								<ul class="slides">
+									<li>
+										<h1>Pocket Science Lab</h1>
+										<p class="lead">
+											Pocket Science Lab is a project to enable open source science experiments and data acquisition systems for physics education and research. We want to enable citizien scientists around the world and offer the software tools and hardware layouts to start finding answers for the most urgent problems of the planet.<br>
+											[Technologies used: Python, Javascript, HTML, CSS, JSON, Rest-APIs]<br>
+                 		         <div class="project-links">
+                              <a href="http://pslab.io" target="_self"  title="Website" class="fa fa-link"></a>
+                              <a href="https://groups.google.com/group/fossasia-pslab" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                              <a href="https://gitter.im/fossasia/pslab" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                              <a href="https://github.com/fossasia?utf8=✓&q=pslab" target="_self" title="Contribute" class="fa fa-github"></a>
+                              <a href="https://www.facebook.com/pslabapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                              <a href="https://twitter.com/pslabapp" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+               		           </div>
+
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<a id="pslab-hardware" class="in-page-link"></a>
+			<section class="image-with-text background-dark preserve-3d">
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<h1 class="text-white">PSLab Hardware</h1>
+							<p class="lead text-white">
+								In the PSLab hardware project engineers and developers collaborate to develop an Open Source Science device with a number of instruments to conduct scientific experiments.<br>[Technologies used: Python, Flask, Javascript, HTML, CSS, JSON, Rest-APIs, Swagger]<br>
+                				  <div class="project-links">
+                			      <a href="http://open-event-dev.herokuapp.com" target="_self" title="Test Site" class="fa fa-link"></a>
+      								<a href="https://groups.google.com/group/open-event" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+      								<a href="https://gitter.im/fossasia/open-event-server" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+      								<a href="https://github.com/fossasia/open-event-server" target="_self" title="Contribute" class="fa fa-github"></a>
+      								<a href="https://www.facebook.com/eventyay/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+      								<a href="https://twitter.com/eventyay" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+               				   </div>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="go-right side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">Facebook
+						<img class="background-image" alt="Open Event" src="img/open-event.jpg">
+					</div>
+				</div>
+			</section>
+
+			<section class="image-with-text testimonials preserve-3d">
+				<div class="go-left side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Open Event Organizer App" src="img/open-event-orga-app.png">
+					</div>
+				</div>
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-offset-7 col-sm-7 col-sm-offset-5 col-md-5">
+							<div class="testimonials-slider">
+								<ul class="slides">
+									<li>
+										<h1>Pocket Science Lab Android App</h1>
+										<p class="lead">
+											The goal of the app is to enable Android users to conduct experiments using the PSLab Hardware and their phone.<br>[Technologies used: Node.js, Ionic Framework v2, Angular 2, Apache Cordova,  Gulp]<br>
+                      <div class="project-links">
+                          <a href="https://github.com/fossasia/open-event-orga-app/raw/apk/test-android-debug.apk" target="_self" title="Test App" class="fa fa-android"></a>
+                          <a href="https://groups.google.com/group/open-event" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                          <a href="https://gitter.im/fossasia/open-event-orga-app" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                          <a href="https://github.com/fossasia/open-event-orga-app" target="_self" title="Contribute" class="fa fa-github"></a>
+                          <a href="https://www.facebook.com/eventyay/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                          <a href="https://twitter.com/eventyay" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                    		  </div>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+	<a id="neuroflight" class="in-page-link"></a>
+			<section class="image-with-text background-dark preserve-3d">
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<h1 class="text-white">Neuroflight</h1>
+							<p class="lead text-white">
+								Neuroflight is a software to read EEG data from a serial stream, do basic DSP, and then output interpreted data to OpenGL, audio, files, OSC and serial.<br>[Technologies used: Java]<br>
+                				  <div class="project-links">
+      								<a href="https://github.com/fossasia/neuroflight-android" target="_self" title="Contribute" class="fa fa-github"></a>
+               				   </div>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="go-right side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">Facebook
+						<img class="background-image" alt="Open Event" src="img/open-event.jpg">
+					</div>
+				</div>
+			</section>
+
+	<a id="neuro-pslab" class="in-page-link"></a>
+			<section class="image-with-text testimonials preserve-3d">
+				<div class="go-left side-image col-md-6 col-sm-4">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Pocket Science" src="img/pocketscience.jpg">
+					</div>
+				</div>
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
+							<div class="testimonials-slider">
+								<ul class="slides">
+									<li>
+										<h1>Neurolab</h1>
+										<p class="lead">
+											Neurolab Hardware is a project to enable open source science experiments and data acquisition systems for neuro scientists.<br>
+											[Technologies used: Python, Javascript, HTML, CSS, JSON, Rest-APIs]<br>
+                 		         <div class="project-links">
+                              <a href="https://github.com/fossasia/neurolab" target="_self" title="Contribute" class="fa fa-github"></a>
+                              <a href="https://www.facebook.com/pslabapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                              <a href="https://twitter.com/pslabapp" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+               		           </div>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<a id="open-event" class="in-page-link"></a>
+			<section class="image-with-text background-dark preserve-3d">
 				<div class="container vertical-align">
 					<div class="row">
 						<div class="col-md-5 col-sm-7">
@@ -382,15 +638,79 @@
       								<a href="https://github.com/fossasia/open-event-server" target="_self" title="Contribute" class="fa fa-github"></a>
       								<a href="https://www.facebook.com/eventyay/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
       								<a href="https://twitter.com/eventyay" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                  </div>
+                			  </div>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="go-right side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">Facebook
+						<img class="background-image" alt="Open Event" src="img/open-event.jpg">
+					</div>
+				</div>
+			</section>
+
+			<section class="image-with-text testimonials preserve-3d">
+				<div class="go-left side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Open Event Organizer App" src="img/open-event-orga-app.png">
+					</div>
+				</div>
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-offset-7 col-sm-7 col-sm-offset-5 col-md-5">
+							<div class="testimonials-slider">
+								<ul class="slides">
+									<li>
+										<h1>Open Event Organizer Android App</h1>
+										<p class="lead">
+											The main feature of the app is to check in attendees by scanning a QR code and to keep the ticket status in sync with the orga server data.<br>[Technologies used: Node.js, Ionic Framework v2, Angular 2, Apache Cordova,  Gulp]<br>
+
+                      <div class="project-links">
+                          <a href="https://github.com/fossasia/open-event-orga-app/raw/apk/test-android-debug.apk" target="_self" title="Test App" class="fa fa-android"></a>
+                          <a href="https://groups.google.com/group/open-event" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                          <a href="https://gitter.im/fossasia/open-event-orga-app" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                          <a href="https://github.com/fossasia/open-event-orga-app" target="_self" title="Contribute" class="fa fa-github"></a>
+                          <a href="https://www.facebook.com/eventyay/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                          <a href="https://twitter.com/eventyay" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                      </div>
+
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="image-with-text background-dark preserve-3d">
+
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<h1 class="text-white">Open Event Attendee App</h1>
+							<p class="lead text-white">
+								The Open Event Attendee App is a web application for attendees of events.<br>[Technologies used: Javascript, HTML, CSS, JSON, Rest-APIs, Scripts]<br>
+
+                    <div class="project-links">
+                        <a href="http://opev-webgen-dev.herokuapp.com/" target="_self" title="Test Site" class="fa fa-link"></a>
+                        <a href="https://groups.google.com/group/open-event" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                        <a href="https://gitter.im/fossasia/open-event-webapp" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                        <a href="https://github.com/fossasia/open-event-webapp" target="_self" title="Contribute" class="fa fa-github"></a>
+                        <a href="https://www.facebook.com/eventyay/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/eventyay" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                    </div>
+
 							</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="go-right side-image col-sm-4 col-md-6">
-					<div class="background-image-holder">Facebook
-						<img class="background-image" alt="Open Event" src="img/open-event.jpg">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Open Event" src="img/webapp.png">
 					</div>
 				</div>
 
@@ -430,8 +750,6 @@
 						</div>
 					</div>
 				</div>
-
-
 			</section>
 
 			<section class="image-with-text background-dark preserve-3d">
@@ -465,72 +783,27 @@
 
 			</section>
 
-			<section class="image-with-text testimonials preserve-3d">
-
-				<div class="go-left side-image col-sm-4 col-md-6">
-					<div class="background-image-holder">
-						<img class="background-image" alt="Open Event Organizer App" src="img/open-event-orga-app.png">
-					</div>
-				</div>
-
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-md-offset-7 col-sm-7 col-sm-offset-5 col-md-5">
-							<div class="testimonials-slider">
-								<ul class="slides">
 
 
-
-
-									<li>
-										<h1>Open Event Ticketing Android App</h1>
-										<p class="lead">
-											The main feature of the app is to check in attendees by scanning a QR code and to keep the ticket status in sync with the orga server data.<br>[Technologies used: Node.js, Ionic Framework v2, Angular 2, Apache Cordova,  Gulp]<br>
-
-                      <div class="project-links">
-                          <a href="https://github.com/fossasia/open-event-orga-app/raw/apk/test-android-debug.apk" target="_self" title="Test App" class="fa fa-android"></a>
-                          <a href="https://groups.google.com/group/open-event" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                          <a href="https://gitter.im/fossasia/open-event-orga-applink" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                          <a href="https://github.com/fossasia/open-event-orga-app" target="_self" title="Contribute" class="fa fa-github"></a>
-                          <a href="https://www.facebook.com/eventyay/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
-                          <a href="https://twitter.com/eventyay" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                      </div>
-
-										</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-<a id="data-machinelearning" class="in-page-link"></a>
+			<a id="badgeyay" class="in-page-link"></a>
 
 			<section class="image-with-text background-dark preserve-3d">
 
 				<div class="container vertical-align">
 					<div class="row">
 						<div class="col-md-5 col-sm-7">
-							<h1 class="text-white">SUSI.AI, Data Science and Machine Learning</h1>
+							<h1 class="text-white">Badgeyay</h1>
 							<p class="lead text-white">
-								We are implementing data science and machine learning capabilities in a number of projects. At <a href="http://susi.ai" target="_self">SUSI.AI</a> we are using big data to provide a personal assistant for users. SUSI.ai can be used inside chat applications like messengers as well as mobile Android apps and iOS apps.<br>[Technologies used: NodeJS, ExpressJS, APIs, Facebook, Slack, Messenger Services, Javascript, HTML, CSS]<br>
+								Badgeyay is a simple badge generator with a simple web UI to add data and generate printable badges in a zip. The user should be able to Choose size of badges, Choose background of badges and upload logo and background image and  should Upload a CSV file or manually enter CSV data as name, type of attendee, nick/handle, organization/project<br>[Technologies used: Flask, Bootstrap, Shell, Heroku, Travis, Github Release]<br>
 
-
-                <div class="project-links">
-                    <a href="https://susi.ai" target="_self" title="Website" class="fa fa-link"></a>
-                    <a href="https://groups.google.com/group/susiai" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                    <a href="https://github.com/fossasia?utf8=✓&q=susi" target="_self" title="Contribute" class="fa fa-github"></a>
-                    <a href="https://www.facebook.com/asksusiai/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/susiai_" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                </div>
-                <div class="project-links">
-                    <div style="padding: 0.5rem 1rem;">Chat Channels : </div>
-                    <a href="https://gitter.im/fossasia/susi_server" target="_self" title="Chat Channel - Server" class="fa fa-server"></a>
-                    <a href="https://gitter.im/fossasia/susi_android" target="_self" title="Chat Channel - Android" class="fa fa-android"></a>
-                    <a href="https://gitter.im/fossasia/susi_iOS" target="_self" title="Chat Channel - iOS" class="fa fa-apple"></a>
-                </div>
+                    <div class="project-links">
+                        <a href="https://badgeyay-dev.herokuapp.com/" target="_self"  title="Heroku App" class="fa fa-rocket"></a>
+                        <a href="https://groups.google.com/forum/#!forum/fossasia" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                        <a href="https://gitter.im/fossasia/badgeyay" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                        <a href="https://github.com/fossasia/badgeyay" target="_self" title="Contribute" class="fa fa-github"></a>
+                        <a href="https://www.facebook.com/pslabapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/pslabapp" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                    </div>
 
 							</p>
 						</div>
@@ -539,12 +812,49 @@
 
 				<div class="go-right side-image col-sm-4 col-md-6">
 					<div class="background-image-holder">
-						<img class="background-image" alt="FOSSASIA Wordpress Plugins" src="img/asksusi.png">
+						<img class="background-image" alt="query-server" src="img/Badgeyay.png">
+					</div>
+				</div>
+			</section>
+
+			<a id="phimpme" class="in-page-link"></a>
+
+			<section class="image-with-text testimonials preserve-3d">
+
+				<div class="go-left side-image col-md-6 col-sm-4">
+					<div class="background-image-holder">
+						<img class="background-image" alt="PhimpMe" src="img/phimpme.jpg">
 					</div>
 				</div>
 
-			</section>
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
+							<div class="testimonials-slider">
+								<ul class="slides">
+									<li>
+										<h1>phimp.me Android App</h1>
+										<p class="lead">
+											The idea of the phimp.me project is to enable users to easily enhance and upload their photos through the phimp.me Android app to any social media and open source web app like Wordpress, Drupal and Joomla. We develop the Android app and plugins for content management systems.<br>
+											[Technologies used: Web Technologies, PHP, Java, Android SDK, HTML, CSS, APIs]<br>
 
+                          <div class="project-links">
+                              <a href="http://phimp.me" target="_self"  title="Website" class="fa fa-link"></a>
+                              <a href="https://groups.google.com/group/phimpme" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                              <a href="https://gitter.im/fossasia/phimpme/" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                              <a href="https://github.com/fossasia?utf8=✓&q=phimpme" target="_self" title="Contribute" class="fa fa-github"></a>
+                              <a href="https://www.facebook.com/phimpmeapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                              <a href="https://twitter.com/phimpme" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                          </div>
+
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 <a id="loklak" class="in-page-link"></a>
 
 			<section class="image-with-text testimonials preserve-3d">
@@ -584,25 +894,22 @@
 				</div>
 			</section>
 
-
-<a id="wordpress" class="in-page-link"></a>
+			<a id="query-server" class="in-page-link"></a>
 
 			<section class="image-with-text background-dark preserve-3d">
-
 				<div class="container vertical-align">
 					<div class="row">
 						<div class="col-md-5 col-sm-7">
-							<h1 class="text-white">Wordpress Plugins</h1>
+							<h1 class="text-white">Query Server</h1>
 							<p class="lead text-white">
-								At FOSSASIA we develop a number of social search plugins and widgets for Wordpress.<br>
-								[Technologies used: PHP, MySQL/MariaDB, Javascript, HTML, CSS, JSON]<br>
+								Query server stores a query string on a server. The query string calls the search engine result scraper scraper.py that is based on the scraper at searss. This scraper takes search engine, presently Google, Bing, DuckDuckGo and Yahoo as additional input and searches on that search engine. The output from the scraper, which can be in XML or in JSON depending on the API parameters is returned, while the search query is stored into MongoDB database. <br>[Technologies used: Flask, MongoDB, PrismJS, BeautifulSoup]<br>
 
-                <div class="project-links">
-                    <a href="https://groups.google.com/group/fossasia" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                    <a href="https://fossasia.slack.com/messages/developers/" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                    <a href="http://fossasia-slack.herokuapp.com/" target="_self" title="Get Slack Invite" class="fa fa-slack"></a>
-                    <a href="https://github.com/fossasia?utf8=✓&q=wp" target="_self" title="Contribute" class="fa fa-github"></a>
-                </div>
+                    <div class="project-links">
+                        <a href="https://query-server.herokuapp.com" target="_self"  title="Heroku App" class="fa fa-rocket"></a>
+                        <a href="https://groups.google.com/forum/#!forum/fossasia" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                        <a href="https://gitter.im/fossasia/query-server" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                        <a href="https://github.com/fossasia/query-server" target="_self" title="Contribute" class="fa fa-github"></a>
+                    </div>
 
 							</p>
 						</div>
@@ -611,7 +918,7 @@
 
 				<div class="go-right side-image col-sm-4 col-md-6">
 					<div class="background-image-holder">
-						<img class="background-image" alt="FOSSASIA Wordpress Plugins" src="img/Wordpress.png">
+						<img class="background-image" alt="query-server" src="img/query-server.jpg">
 					</div>
 				</div>
 			</section>
@@ -654,6 +961,40 @@
 				</div>
 			</section>
 
+			<a id="linux" class="in-page-link"></a>
+
+			<section class="image-with-text background-dark preserve-3d">
+				<div class="container vertical-align">
+					<div class="row">
+						<div class="col-md-5 col-sm-7">
+							<h1 class="text-white">Meilix</h1>
+							<p class="lead text-white">
+                A beautiful and customizable Linux build for out of the box features for an Internet Kiosk.
+                You can use the Meilix Generator (Web app) to make a Linux for your own brand/event, also add apps and features you need pre-installed,
+                it will create an ISO Image of your Linux, which you can use as a live boot or install on PCs.
+
+
+                  <div class="project-links">
+                      <a href="https://groups.google.com/group/meilix" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                      <a href="https://gitter.im/fossasia/meilix" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                      <a href="https://github.com/fossasia?utf8=✓&q=meilix" target="_self" title="Contribute" class="fa fa-github"></a>
+                      <a href="https://www.facebook.com/meilixsystem/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
+                      <a href="https://twitter.com/meilix_" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
+                  </div>
+
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="go-right side-image col-sm-4 col-md-6">
+					<div class="background-image-holder">
+						<img class="background-image" alt="lubuntu" src="img/lubuntu-netbook.jpg">
+					</div>
+				</div>
+
+			</section>
+
 <a id="fashiontec" class="in-page-link"></a>
 
 			<section class="image-with-text background-dark preserve-3d">
@@ -685,47 +1026,6 @@
 				</div>
 
 			</section>
-
-<a id="pocketscience" class="in-page-link"></a>
-
-			<section class="image-with-text testimonials preserve-3d">
-
-				<div class="go-left side-image col-md-6 col-sm-4">
-					<div class="background-image-holder">
-						<img class="background-image" alt="Pocket Science" src="img/pocketscience.jpg">
-					</div>
-				</div>
-
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
-							<div class="testimonials-slider">
-								<ul class="slides">
-									<li>
-										<h1>Pocket Science Lab</h1>
-										<p class="lead">
-											Pocket Science Lab is a project to enable open source science experiments and data acquisition systems for physics education and research. We want to enable citizien scientists around the world and offer the software tools and hardware layouts to start finding answers for the most urgent problems of the planet.<br>
-											[Technologies used: Python, Javascript, HTML, CSS, JSON, Rest-APIs]<br>
-
-                          <div class="project-links">
-                              <a href="http://pslab.fossasia.org" target="_self"  title="Website" class="fa fa-link"></a>
-                              <a href="https://groups.google.com/group/fossasia-pslab" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                              <a href="https://gitter.im/fossasia/pslab" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                              <a href="https://github.com/fossasia?utf8=✓&q=pslab" target="_self" title="Contribute" class="fa fa-github"></a>
-                              <a href="https://www.facebook.com/pslabapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
-                              <a href="https://twitter.com/pslabapp" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                          </div>
-
-										</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
 
 <a id="engelsystem" class="in-page-link"></a>
 
@@ -830,24 +1130,25 @@
 				</div>
 			</section>
 
-			<a id="linux" class="in-page-link"></a>
+
+<a id="wordpress" class="in-page-link"></a>
 
 			<section class="image-with-text background-dark preserve-3d">
 
 				<div class="container vertical-align">
 					<div class="row">
 						<div class="col-md-5 col-sm-7">
-							<h1 class="text-white">Linux</h1>
+							<h1 class="text-white">Wordpress Plugins</h1>
 							<p class="lead text-white">
-								Linux is the operating system and foundation for many open source applications we use at FOSSASIA. We are involving in the community by adapting existing solutions and building distributions for users around the world. <br>[Technologies used: Linux, Build System, qt, GNOME, Scripts]<br>
+								At FOSSASIA we develop a number of social search plugins and widgets for Wordpress.<br>
+								[Technologies used: PHP, MySQL/MariaDB, Javascript, HTML, CSS, JSON]<br>
 
-                  <div class="project-links">
-                      <a href="https://groups.google.com/group/meilix" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                      <a href="https://gitter.im/fossasia/meilix" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                      <a href="https://github.com/fossasia?utf8=✓&q=meilix" target="_self" title="Contribute" class="fa fa-github"></a>
-                      <a href="https://www.facebook.com/meilixsystem/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
-                      <a href="https://twitter.com/meilix_" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                  </div>
+                <div class="project-links">
+                    <a href="https://groups.google.com/group/fossasia" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
+                    <a href="https://fossasia.slack.com/messages/developers/" target="_self" title="Chat Channel" class="fa fa-comments"></a>
+                    <a href="http://fossasia-slack.herokuapp.com/" target="_self" title="Get Slack Invite" class="fa fa-slack"></a>
+                    <a href="https://github.com/fossasia?utf8=✓&q=wp" target="_self" title="Contribute" class="fa fa-github"></a>
+                </div>
 
 							</p>
 						</div>
@@ -856,80 +1157,11 @@
 
 				<div class="go-right side-image col-sm-4 col-md-6">
 					<div class="background-image-holder">
-						<img class="background-image" alt="lubuntu" src="img/lubuntu-netbook.jpg">
-					</div>
-				</div>
-
-			</section>
-
-			<a id="phimpme" class="in-page-link"></a>
-
-			<section class="image-with-text testimonials preserve-3d">
-
-				<div class="go-left side-image col-md-6 col-sm-4">
-					<div class="background-image-holder">
-						<img class="background-image" alt="PhimpMe" src="img/phimpme.jpg">
-					</div>
-				</div>
-
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
-							<div class="testimonials-slider">
-								<ul class="slides">
-									<li>
-										<h1>PhimpMe</h1>
-										<p class="lead">
-											The idea of the PhimpMe project is to enable users to easily enhance and upload their photos through the PhimpMe Android app to any social media and open source web app like Wordpress, Drupal and Joomla. We develop the Android app and plugins for content management systems.<br>
-											[Technologies used: Web Technologies, PHP, Java, Android SDK, HTML, CSS, APIs]<br>
-
-                          <div class="project-links">
-                              <a href="http://phimp.me" target="_self"  title="Website" class="fa fa-link"></a>
-                              <a href="https://groups.google.com/group/phimpme" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                              <a href="https://gitter.im/fossasia/phimpme/" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                              <a href="https://github.com/fossasia?utf8=✓&q=phimpme" target="_self" title="Contribute" class="fa fa-github"></a>
-                              <a href="https://www.facebook.com/phimpmeapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
-                              <a href="https://twitter.com/phimpme" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                          </div>
-
-										</p>
-									</li>
-								</ul>
-							</div>
-						</div>
+						<img class="background-image" alt="FOSSASIA Wordpress Plugins" src="img/Wordpress.png">
 					</div>
 				</div>
 			</section>
 
-			<a id="query-server" class="in-page-link"></a>
-
-			<section class="image-with-text background-dark preserve-3d">
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-md-5 col-sm-7">
-							<h1 class="text-white">Query Server</h1>
-							<p class="lead text-white">
-								Query server stores a query string on a server. The query string calls the search engine result scraper scraper.py that is based on the scraper at searss. This scraper takes search engine, presently Google, Bing, DuckDuckGo and Yahoo as additional input and searches on that search engine. The output from the scraper, which can be in XML or in JSON depending on the API parameters is returned, while the search query is stored into MongoDB database. <br>[Technologies used: Flask, MongoDB, PrismJS, BeautifulSoup]<br>
-
-                    <div class="project-links">
-                        <a href="https://query-server.herokuapp.com" target="_self"  title="Heroku App" class="fa fa-rocket"></a>
-                        <a href="https://groups.google.com/forum/#!forum/fossasia" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                        <a href="https://gitter.im/fossasia/query-server" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                        <a href="https://github.com/fossasia/query-server" target="_self" title="Contribute" class="fa fa-github"></a>
-                    </div>
-
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="go-right side-image col-sm-4 col-md-6">
-					<div class="background-image-holder">
-						<img class="background-image" alt="query-server" src="img/query-server.jpg">
-					</div>
-				</div>
-
-			</section>
 
 			<a id="yaydoc" class="in-page-link"></a>
 
@@ -969,40 +1201,6 @@
 					</div>
 				</div>
 			</section>
-
-			<a id="badgeyay" class="in-page-link"></a>
-
-			<section class="image-with-text background-dark preserve-3d">
-
-				<div class="container vertical-align">
-					<div class="row">
-						<div class="col-md-5 col-sm-7">
-							<h1 class="text-white">Badgeyay</h1>
-							<p class="lead text-white">
-								Badgeyay is a simple badge generator with a simple web UI to add data and generate printable badges in a zip. The user should be able to Choose size of badges, Choose background of badges and upload logo and background image and  should Upload a CSV file or manually enter CSV data as name, type of attendee, nick/handle, organization/project<br>[Technologies used: Flask, Bootstrap, Shell, Heroku, Travis, Github Release]<br>
-
-                    <div class="project-links">
-                        <a href="https://badgeyay-dev.herokuapp.com/" target="_self"  title="Heroku App" class="fa fa-rocket"></a>
-                        <a href="https://groups.google.com/forum/#!forum/fossasia" target="_self"  title="Mailing List" class="fa fa-envelope"></a>
-                        <a href="https://gitter.im/fossasia/badgeyay" target="_self" title="Chat Channel" class="fa fa-comments"></a>
-                        <a href="https://github.com/fossasia/badgeyay" target="_self" title="Contribute" class="fa fa-github"></a>
-                        <a href="https://www.facebook.com/pslabapp/" target="_self" title="Facebook Profile" class="fa fa-facebook"></a>
-                        <a href="https://twitter.com/pslabapp" target="_self" title="Twitter Profile" class="fa fa-twitter"></a>
-                    </div>
-
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="go-right side-image col-sm-4 col-md-6">
-					<div class="background-image-holder">
-						<img class="background-image" alt="query-server" src="img/Badgeyay.png">
-					</div>
-				</div>
-
-			</section>
-
 
 			<a id="join" class="in-page-link"></a>
 
@@ -1077,13 +1275,13 @@
 
 					<div class="row ui-sortable">
 						<div class="col-sm-12 text-center">
-							<ul class="social-profiles">
+							<ul class="social-profiles text-center">
 								<li><a title="twitter" target="_self" href="http://twitter.com/fossasia"><i class="icon social_twitter"></i></a></li>
 								<li><a title="facebook" target="_self" href="http://facebook.com/fossasia"><i class="icon social_facebook"></i></a></li>
 								<li><a title="linkedin" target="_self" href="https://www.linkedin.com/groups/FOSSASIA-3762811"><i class="icon social_linkedin icon-large"></i></a></li>
 								<li><a title="youtube" target="_self" href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ"><i class="icon social_youtube icon-large"></i></a></li>
 								<li><a title="flickr" target="_self" href="https://www.flickr.com/photos/fossasia"><i class="icon social_flickr icon-large"></i></a></li>
-                						<li><a title="instagram" target="_self" href="https://www.instagram.com/explore/tags/fossasia/"><i class="icon social_instagram"></i></a></li>
+                                <li><a title="instagram" target="_self" href="https://www.instagram.com/explore/tags/fossasia/"><i class="icon social_instagram"></i></a></li>
 								<li><a title="github" target="_self" href="https://github.com/fossasia"><i class="fa fa-github fa-lg"></i></a></li>
 								<li><a title="fossasia" target="_self" href="https://www.fossasia.net"><i class="icon social_dribbble"></i></a></li>
 								<li><a title="vk" target="_self" href="https://www.vk.com/fossasia"><i class="fa fa-vk"></i></a></li>
