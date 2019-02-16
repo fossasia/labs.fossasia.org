@@ -41,7 +41,7 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-
+        
         <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -63,7 +63,7 @@
 			<div class="strip-3"></div>
 		</div>
 	</div>
-
+<button onclick="topFunc()" id="topbtn" title="Go to top">&#10148;</button>
 	<a id="top"></a>
 
 	<div class="nav-container">
@@ -1267,7 +1267,6 @@
 								<li><a target="_self" href="https://fossasia.org/about">About</a></li>
 								<li><a target="_self" href="https://blog.fossasia.org/contact">Contact</a></li>
 								<li><a target="_self" href="https://fossasia.org/donate/">Donate</a></li>
-								<li><a class="inner-link back-to-top" href="#top">Back To Top</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-7">
@@ -1317,5 +1316,23 @@
         <script src="js/twitterfetcher.min.js"></script>
         <script src="js/placeholders.min.js"></script>
         <script src="js/scripts.js"></script>
+<script>
+
+window.onscroll = function() {scrollFunc()};
+// When the user scrolls down 25px from the top display button
+function scrollFunc() {
+  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+    document.getElementById("topbtn").style.display = "block";
+  } else {
+    document.getElementById("topbtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button,go to top of the site
+function topFunc() {
+ $("html, body").animate({ scrollTop: 0 }, "slow");
+  
+}
+</script>
     </body>
 </html>
