@@ -1,25 +1,3 @@
-#topbtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 999;
-  font-size: 20px;
-  border: none;
-  width: 40px;
-  line-height: 40px;
-  overflow: hidden;
-  -moz-transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 3px;
-}
 .schedule a {
   color: #E12B00;
   border: none;
