@@ -14,7 +14,7 @@
   -o-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
-  background-color: red;
+  background-color: #848181;
   color: white;
   cursor: pointer;
   padding: 10px;
