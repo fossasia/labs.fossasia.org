@@ -1,4 +1,15 @@
-.schedule a {
+.dark-layer {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+  .schedule a {
   color: #E12B00;
   border: none;
 }
@@ -7,7 +18,7 @@
   color: #E12B00;
   text-decoration: underline;
   border: none;
-};
+}
 
 .schedule a:active {
   color: red;
@@ -72,16 +83,6 @@
 .social-profiles a i{
   transition: all .5s;
 }
-.social-profiles > *{
-  height: 48px;
-  width: 48px;
-  text-align: center;
-  margin-right: 0px !important;
-  display: inline-block;
-}
-.social-profiles i{
-  vertical-align: middle;
-}
 .social-profiles a:hover i{
   color: grey;
 }
@@ -97,6 +98,36 @@
   margin-top: 2px;
   margin-bottom: 2px;
 }
+.item .wp-post-image{
+  height: auto;
+}
+@media screen and (min-width: 350px) and (max-width: 440px)
+{
+  #DevPrograms{
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 350px)
+{
+  #DevPrograms{
+      height: 115vh;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 290px)
+{
+  #DevPrograms{
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 240px)
+{
+  #DevPrograms{
+    height: 180vh;
+  }
+}
+
 /*css classes for hiding and showing Donation and regular supporter parts in donate.html*/
 .appear{
   display: block;
@@ -107,34 +138,19 @@
 .baddition{
   margin-left:  600px;
 }
-
-div.copy-text {
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 12px;
+.background-image {
+  width: 100%;
 }
-
-.background-image-holder.parallax-background.skrollable.skrollable-between {
-  background-image: url(img/header-fossasia.jpg);
+@media screen and (max-width: 560px){
+  .price{
+    font-size: 10vw !important;
+  }
 }
-
-.project-links a
-{
-  text-decoration: none;
-   padding: 1rem;
-   font-size: 150%;
-   color: #e12b00;
-   border: 2px solid #e12b00;
-   border-radius: 100vw;
-   margin: 0.5rem;
-   width: 4.5rem;
-   height: 4.5rem;
-   text-align: center;
+nav{
+  -webkit-transition: top 0.7s ease-in-out !important;
+  transition: top 0.7s ease-in-out !important;
 }
-
-.project-links a:hover
-{
-    color: white;
-    background: #e12b00;
-    border-color: #e12b00;
+.mobile-menu-toggle{
+  position: absolute;
+  top: -7px;
 }
