@@ -616,7 +616,7 @@
 
 				if ($("#" + tag + "-issues").length <= 0) {
 
-					var a0 = $("<a>", {href: "#issue_link" + tag + "", id:"issue-tag", onClick: "desc"});
+					var a0 = $("<a>", {href: "#" + tag + "", id:"issue-tag", onClick: "desc"});
 					var li0 = $("<li>", {class: "tags"});
 					var ul = $("<ul>", {id: tag + "-issues"});
 					var wrapperDiv = $("<div>", {id: tag + ""});
