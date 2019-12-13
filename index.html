@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -37,7 +38,6 @@
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
      ga('create', 'UA-17146009-5', 'auto');
      ga('send', 'pageview');
     </script>
@@ -600,9 +600,7 @@
 			"https://api.github.com/repos/fossasia/labs.fossasia.org/issues?labels=project&state=open&per_page=100"
 		)
 		.done(function(data){
-
 			$('.loading').hide();
-
 			$.each(data, function(i, item) {
 				//List of Content
 				var tag, tempHeading;
@@ -613,15 +611,12 @@
             tag = label["name"].split(" ").join("-");
 					}
 				});
-
 				if ($("#" + tag + "-issues").length <= 0) {
-
 					var a0 = $("<a>", {href: "#" + tag + "", id:"issue-tag", onClick: "desc"});
 					var li0 = $("<li>", {class: "tags"});
 					var ul = $("<ul>", {id: tag + "-issues"});
 					var wrapperDiv = $("<div>", {id: tag + ""});
 					var h1 = $("<h1>", {id: tag + "-description"});
-
 					a0.html(tempHeading);
 					li0.html(a0);
 					li0.append(ul);
@@ -630,25 +625,19 @@
 					wrapperDiv.html(h1);
 					$('#results_projects').append(wrapperDiv);
 				}
-
 				var a = $("<a>", {href: "#" + item["id"], id:"issue-link", onClick:"desc()"});
 				var li = $("<li>");
-
 				a.html(item["title"] + "<br>");
 				li.html(a);
 				$('#' + tag + '-issues').append(li);
-
 				//Content Description
-
 				var div = $("<div>", {id: item["id"]});
 				var h4 = $("<h4>");
 				var p = $("<p>");
 				var bes = $("<a>",{href: item["html_url"], id: "issue-button"});
-
 				var converter = new showdown.Converter();
 				converter.setOption('simplifiedAutoLink', true);
 				var body = converter.makeHtml(item["body"]);
-
 				h4.html(item["title"]);
 				p.html(body);
 				bes.html("<p>"+"Read More on Github"+"</p>");
@@ -657,27 +646,22 @@
 				div.append(bes);
 				$('#'+tag+'-description').append(div);
 			});
-
 			$("#results_projects div img").parent().css("border", "none");
 			$("#results_projects div a").parent().css("list-style", "none");
 		});
-
 		function desc(){
 			document.getElementById("gsoc-proj").style.paddingTop="75rem";
 		};
-
 		// The function actually applying the offset
 		function offsetAnchor() {
-		    if(location.hash.length !== 0) {
+		    if(location.hash.length === 0) {
 		        window.scrollTo(window.scrollX, window.scrollY - 100);
 		    }
 		}
-
 		// This will capture hash changes while on the page
 		$(window).on("hashchange", function () {
 		    offsetAnchor();
 		});
-
 		// This is here so that when you enter the page with a hash,
 		// it can provide the offset in that case too. Having a timeout
 		// seems necessary to allow the browser to jump to the anchor first.
@@ -692,18 +676,15 @@
 #results_projects {
 	z-index:10;
 }
-
 #projects_holder{
 	 width: 100%;
 }
-
 @media screen and (min-width: 768px) {
     #projects_holder{
 		 width: 90%;
 		 margin-left: 5%;
 	}
 }
-
 #results_projects div{
 	background: #eee;
     text-align: left;
@@ -712,16 +693,13 @@
 	border: 1px solid;
 	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
-
 #results_projects div h4{
 	margin-bottom:5px;
 	font-weight:bold;
 }
-
 #results_projects div a{
 	color:#E12B00 !important;
 }
-
 #results_projects div ul{
 	list-style: inside;
 	padding-bottom: 20px;
@@ -737,47 +715,37 @@
 .tags ul{
 	margin-left: 30px;
 }
-
 .tags ul li {
 	margin: 5px 0px;
 	list-style: inside;
 }
-
 #table a{
 	color:#E12B00 !important;
 }
-
 #table a:hover{
 	color:#E12B00 !important;
 	text-decoration: underline;
 }
-
 #table #issue-tag{
 	font-size: 24px;
 }
-
 #table #issue-link{
 	font-size: 16px;
 }
-
 .call-to-action h1 {
     margin-top: 20px;
 }
-
 .call-to-action .btn{
 	margin: 20px 0 40px 0;
 }
-
 li.tags{
 	margin-top: 20px;
 }
-
 #issue-button {
 	color: #E12B00 !important;
 	border-bottom: 3px solid #E12B00;
 	padding-bottom: 2px;
 }
-
 #colbe:hover{
 	color:#000 !important;
 	cursor:_self;
