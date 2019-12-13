@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -625,7 +624,7 @@
 					wrapperDiv.html(h1);
 					$('#results_projects').append(wrapperDiv);
 				}
-				var a = $("<a>", {href: "#" + item["id"], id:"issue-link", onClick:"desc()"});
+				var a = $("<a>", {href: "#" + item["id"], id:"issue-link"});
 				var li = $("<li>");
 				a.html(item["title"] + "<br>");
 				li.html(a);
@@ -649,9 +648,6 @@
 			$("#results_projects div img").parent().css("border", "none");
 			$("#results_projects div a").parent().css("list-style", "none");
 		});
-		function desc(){
-			document.getElementById("gsoc-proj").style.paddingTop="75rem";
-		};
 		// The function actually applying the offset
 		function offsetAnchor() {
 		    if(location.hash.length === 0) {
