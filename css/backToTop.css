@@ -1,26 +1,48 @@
-html {
-    scroll-behavior: smooth;
-}
-i.scrollToTop {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-}
-#scrollToTopBtn {
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 1.7%;
+    transition: all .4s ease-in-out 0s;
+    background:  #E12B00;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
     display: none;
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    background-color: #b82300;
-    color: white; 
-    cursor: pointer; 
-    padding: 10px 16px;
 }
-  
-#scrollToTopBtn:hover {
-    background-color: #e12b00;
+#return-to-top span {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 32%;
+    top: 13px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background:  #E12B00;
+}
+#return-to-top:hover span {
+    color: #fff;
+    top: 5px;
+}
+.glyphicon{
+    position:relative;
+    top:1px;
+    display:inline-block;
+    font-family:'Glyphicons Halflings';
+    font-style:normal;
+    font-weight:400;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.glyphicon-chevron-up:before{
+    content:"\e113"
 }

@@ -18,7 +18,6 @@
         <meta name="twitter:image" content="https://fossasia.github.io/fossasia15/img/fossasia-dark.png">
 
 		<link rel=icon href="fossasia.ico">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
 		<link href="css/backToTop.css" rel="stylesheet" type="text/css"/>
         <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all"/>
@@ -375,7 +374,7 @@
 						<div class="row">
 							<div class="col-sm-12 text-center" id="gsoc-proj">
 								<h1>Project Ideas for Coding Programs and Google Summer of Code</h1>
-                                <div id="projects_holder">
+                                <div id="projects_holder" style="background-color: #eee;">
                                   <div class="loading">Loading. Please Wait..</div>
                                   <ul id="table"></ul>
                                   <div id="results_projects">
@@ -592,6 +591,7 @@
         <script src="js/twitterfetcher.min.js"></script>
         <script src="js/placeholders.min.js"></script>
         <script src="js/scripts.js"></script>
+		<script src="js/backToTop.js"></script>
 
 
 
@@ -672,20 +672,7 @@
 		    offsetAnchor();
 		}, 1);
 
-		// ===== Scroll to Top ==== 
-		$(window).scroll(function() {
-		    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-		        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-		    } else {
-		        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-		    }
-		});
-		$('#return-to-top').click(function() {      // When arrow is clicked
-		    $('body,html').animate({
-		        scrollTop : 0                       // Scroll to top of body
-		    }, 500);
-		});
-
+		
 		</script>
     </body>
 </html>
@@ -767,39 +754,5 @@ li.tags{
 #colbe:hover{
 	color:#000 !important;
 	cursor:_self;
-}
-#return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 1.7%;
-    transition: all .4s ease-in-out 0s;
-    background:  #E12B00;
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-}
-#return-to-top span {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 32%;
-    top: 13px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top:hover {
-    background:  #E12B00;
-}
-#return-to-top:hover span {
-    color: #fff;
-    top: 5px;
 }
 </style>
