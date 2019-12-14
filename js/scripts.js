@@ -338,5 +338,4 @@ $(window).load(function() {
     }, 10);
 
 
-}); 
-
+});  

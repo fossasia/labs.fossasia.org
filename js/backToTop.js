@@ -12,12 +12,12 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 var timer; 
-$('.no-loader').bind('mousemove touchmove tap swipeleft swipeup swipedown swiperight', function(e) { 
-    if ($(window).scrollTop() < 40) return;
+$('.no-loader').bind('scroll wheel mousemove touchmove tap swipeleft swipeup swipedown swiperight', function(e) { 
     var circle= $('#return-to-top');
-    if (timer) clearTimeout(timer);
+    if ($(window).scrollTop() < 50) return circle.fadeOut('slow');
     if (!circle.is(":visible")) {
-        circle.fadeIn('slow');
+        circle.fadeIn(20);
     }    
-    timer = setTimeout(function(){ circle.fadeOut('slow') }, 2000);
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(function(){ circle.fadeOut('slow') }, 4000);
 }); 
