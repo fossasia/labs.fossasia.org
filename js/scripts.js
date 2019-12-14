@@ -1,6 +1,6 @@
 $(document).ready(function() { 
 
-	"use strict";
+    "use strict";
 
     /************** Nav Scripts **************/
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
 
 $(window).load(function() { 
 
-	"use strict";
+    "use strict";
 
     var navHeight = $('nav').outerHeight();
     $('.inner-link').smoothScroll({
@@ -338,4 +338,4 @@ $(window).load(function() {
     }, 10);
 
 
-});  
+}); 
