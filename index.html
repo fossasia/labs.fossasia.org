@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>OpenTech Labs and Projects at FOSSASIA | Asia's Open Technology Organization for Open Hardware, Free Software, Open Design, Open Data</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="viewport" content="user-scalable=no,width=device-width"> <!--, initial-scale=-1">-->
         <meta name="description" content="FOSSASIA Open Tech Community - Open Source, Big Data, Design Thinking and Free Knowledge Tools with Asia's Premier Open Technology Organization">
         <meta name="keywords" content="Open Technology, Labs, Projects, FOSSASIA, FOSS, Free and Open Source Software, Asia">
         <meta name="author" content="FOSSASIA">
@@ -645,8 +645,12 @@
 </html>
 
 <style>
-#results_projects {
-	z-index:10;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+  position: relative
 }
 #projects_holder{
 	 width: 100%;
