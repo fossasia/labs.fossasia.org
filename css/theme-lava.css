@@ -243,6 +243,9 @@ nav {
 /*!
 // 5. Typography
 // --------------------------------------------------*/
+html {
+  scroll-behavior: smooth !important;
+}
 .text-white {
   color: #fff;
 }
