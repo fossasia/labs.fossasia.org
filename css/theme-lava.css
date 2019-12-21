@@ -310,6 +310,10 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+#projects_holder {
+  margin: 0px !important;
+  width: 100% !important;
+}
 @media all and (max-width: 767px) {
   h1 {
     font-size: 24px;
