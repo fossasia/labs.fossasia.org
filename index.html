@@ -593,11 +593,7 @@
 						</div>
 					</div>
 				</div>
-<<<<<<< HEAD
 			</footer>
-=======
-			</footer>	
->>>>>>> 82ba662acc2a3ce048fd3aa0539e875ce6591c97
 			 <a href="javascript:" id="return-to-top">
  				<span class="glyphicon glyphicon-chevron-up" style="font-size:20px"></span>
  			</a>
@@ -618,16 +614,10 @@
         <script src="js/scripts.js"></script>
         <script src="js/githubScripts.js"></script>
         <script src="js/backToTop.js"></script>
-	
 
-<<<<<<< HEAD
 
 
      		<!--End of original template content-->
-=======
-		
-		<!--End of original template content-->
->>>>>>> 82ba662acc2a3ce048fd3aa0539e875ce6591c97
 
 
         <script type="text/javascript">
@@ -649,8 +639,24 @@
 		// seems necessary to allow the browser to jump to the anchor first.
 		window.setTimeout(function() {
 		    offsetAnchor();
-		}, 1);
+		}, 500);
 		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
     </body>
 </html>
 
@@ -658,17 +664,12 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 body {
   position: relative
 }
 #projects_holder{
-<<<<<<< HEAD
 	 width: 100%;
-=======
-	 width: 100%;	 
->>>>>>> 82ba662acc2a3ce048fd3aa0539e875ce6591c97
 }
 @media screen and (min-width: 768px) {
     #projects_holder{
