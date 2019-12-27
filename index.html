@@ -639,8 +639,24 @@
 		// seems necessary to allow the browser to jump to the anchor first.
 		window.setTimeout(function() {
 		    offsetAnchor();
-		}, 1);
+		}, 800);
 		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
     </body>
 </html>
 
@@ -648,7 +664,6 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 body {
   position: relative
