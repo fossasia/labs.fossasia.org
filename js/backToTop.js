@@ -9,7 +9,7 @@
 $('#return-to-top').click(function() {      // When arrow is clicked
     $('body,html').animate({
         scrollTop : 0                       // Scroll to top of body
-    }, 200);
+    }, 500);
 });
 var timer; 
 $('.no-loader').bind('scroll wheel mousemove touchmove tap swipeleft swipeup swipedown swiperight', function(e) { 
