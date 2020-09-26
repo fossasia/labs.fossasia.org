@@ -52,7 +52,56 @@
      ga('send', 'pageview');
     </script>
     </head>
-
+	<style>
+		#returntotop {
+			position: fixed;
+			bottom: 20px;
+			right: 1.7%;
+			transition: all .4s ease-in-out 0s;
+			background:  #E12B00;
+			width: 50px;
+			height: 50px;
+			display: block;
+			text-decoration: none;
+			-webkit-border-radius: 35px;
+			-moz-border-radius: 35px;
+			border-radius: 35px;
+			display: none;
+		}
+		#returntotop span {
+			color: #fff;
+			margin: 0;
+			position: relative;
+			left: 32%;
+			top: 13px;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+		#returntotop:hover {
+			background:  #E12B00;
+		}
+		#returntotop:hover span {
+			color: #fff;
+			top: 5px;
+		}
+		.glyphicon{
+			position:relative;
+			top:1px;
+			display:inline-block;
+			font-family:'Glyphicons Halflings';
+			font-style:normal;
+			font-weight:400;
+			line-height:1;
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale
+		}
+		.glyphicon-chevron-up:before{
+			content:"\e113"
+		}
+			</style>
 
 	<body class="no-loader">
 
@@ -484,7 +533,7 @@
 
 				<div class="go-right side-image col-sm-4 col-md-6">
 					<div class="background-image-holder">
-						<img class="background-image" alt="SUSI.AI IOS " style="width="100%"; src="img/susi_ios.png">
+						<img class="background-image" alt="SUSI.AI IOS " style="display:none;" width="100%" src="img/susi_ios.png">
 					</div>
 				</div>
 			</section>
@@ -1296,8 +1345,19 @@
 					</div>
 				</div>
 			</footer>
+			<a href="javascript:" id="returntotop" style="display:inline;">
+				<span class="glyphicon glyphicon-chevron-up" style="font-size:20px">
+				</span>
+			</a>
 		</div>
-
+		<script>
+			const returntotop =document.querySelector("#returntotop");
+			returntotop.addEventListener("click",function(){
+					$("html,body").animate({scrollTop:0},"slow");
+			});
+			
+		</script>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.min.js"></script>
