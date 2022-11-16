@@ -640,7 +640,7 @@ nav .container {
   margin-right: 18px;
 }
 .sticky-nav {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1.0);
 }
 .sticky-nav .menu li a {
   color: #333333;
@@ -656,7 +656,7 @@ nav .container {
   color: #333333;
 }
 .sticky-nav .nav-dropdown {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1.0);
 }
 .sticky-nav .has-dropdown:before {
   color: #333333;
@@ -816,7 +816,7 @@ nav .container {
   nav {
     max-height: 67px;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.9) !important;
+    background: rgba(255, 255, 255, 1.0) !important;
   }
   nav .menu li {
     float: none;
